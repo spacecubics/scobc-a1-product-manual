@@ -1,0 +1,3 @@
+:sectnums:
+
+= SC-OBC Module A1 Product Manual
