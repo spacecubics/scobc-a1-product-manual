@@ -74,7 +74,7 @@ Although satellite systems may differ, systems sharing the same OBC Module can s
 
 The OBC Module and IO Board are connected via an 80-pin board-to-board connector.
 
-image::./images/BlockDiagram.png[scaledwidth=100%]
+image::BlockDiagram.png[scaledwidth=100%]
 
 == Electrical Specifications ==
 
@@ -135,7 +135,7 @@ The generated power output nodes are equipped with current and voltage monitors,
 VDD_3V3_IO is supplied externally through the IO board interface (CON1 pins 37 and 38) and includes overcurrent protection rated at 300 mA.
 
 
-image::./images/power_supply_circuit.png[scaledwidth=100%]
+image::power_supply_circuit.png[scaledwidth=100%]
 
 == Interface Specifications ==
 This section outlines the interface specifications for the Space Cubics OBC Module.
@@ -276,11 +276,11 @@ Applying voltage only when the VDD_3V3 signal from the OBC module is high ensure
 Please configure the circuit according to the following circuit diagram.
 This circuit example is for User IO Group 1. When applying it to User IO Group 2, please adjust the pin numbers and other relevant details accordingly.
 
-image::./images/user_io_vdd33.png[scaledwidth=100%]
+image::user_io_vdd33.png[scaledwidth=100%]
 
 When using User IO at 3.3 V or when the IO Board consumes less than 0.3 A, VDD_3V3 can serve as the power supply.
 
-image::./images/user_io_vdd16.png[scaledwidth=100%]
+image::user_io_vdd16.png[scaledwidth=100%]
 
 If User IO operates at 1.6 V or the IO Board’s current consumption is 0.3 A or more, use VDD_3V3 as the enable signal and provide power from the IO Board’s power supply.
 
@@ -327,7 +327,7 @@ Connect MPLAB PICKit4 to the following pins on the OBC Module.
 | 8: N.C. | unconnected
 |====
 
-image::./images/mplab_pickit4_connect.png[scaledwidth=100%]
+image::mplab_pickit4_connect.png[scaledwidth=100%]
 
 ===== Platform Cable USB II =====
 FPGA programming and in-circuit debugging can be performed using the Xilinx Platform Cable USB II.
@@ -347,7 +347,7 @@ Connect the USB II Platform Cable to the designated pins on the OBC module as sh
 | TMS | 56
 |====
 
-image::./images/platform_cable_connect.png[scaledwidth=100%]
+image::platform_cable_connect.png[scaledwidth=100%]
 
 == OBC System Specifications ==
 This section outlines the system specifications of the Space Cubics OBC.
@@ -363,7 +363,7 @@ The TRCH monitors power status and temperature using sensors on the OBC board. I
 When the FPGA is powered on, the TRCH uses the TRCH_CFG_MEM_SEL signal to select the memory for FPGA configuration.
 After power is applied, the FPGA reads data from the configuration memory selected by the TRCH and carries out its configuration.
 
-image::./images/power_on_timing.png[scaledwidth=100%]
+image::power_on_timing.png[scaledwidth=100%]
 
 === FPGA Status Monitoring via TRCH ===
 TRCH monitors the watchdog signal (FPGA_WATCHDOG) from the FPGA to detect issues with FPGA configuration or software operation.
@@ -373,7 +373,7 @@ Once configuration is complete, the Watchdog circuit within the System Monitor i
 The TRCH verifies that the OBC's FPGA system is functioning correctly by checking that the FPGA_WATCHDOG signal toggles at regular intervals [C].
 The System Monitor inside the FPGA detects that the Software Watchdog Timer has expired if the software fails to reset (kick) the timer within a set period (initially 128 seconds). When this happens, it stops toggling the FPGA_WATCHDOG signal [D].
 
-image::./images/watchdog_system.png[scaledwidth=100%]
+image::watchdog_system.png[scaledwidth=100%]
 
 === System Reboot ===
 TRCH monitors the Watchdog and Power Cycle Request signals from the FPGA, then initiates the FPGA system power cycle when necessary.
@@ -388,7 +388,7 @@ After the configuration memory is switched, the FPGA is powered on again to comp
 Changes to configuration memory occur both when a fault is detected by the watchdog and when the system is restarted in response to a power cycle request signal from the FPGA.
 When performing On the Fly rewriting of the configuration memory, if the new data causes a startup failure, the system will automatically restore the original configuration memory by rewriting it for the next startup and issuing a Power Cycle Request.
 
-image::./images/system_reboot.png[scaledwidth=100%]
+image::system_reboot.png[scaledwidth=100%]
 
 == Board Status Circuit ==
 The OBC Module has a function to monitor the OBC board status (power and temperature).
@@ -419,7 +419,7 @@ The temperature sensor IC uses a TEXAS INSTRUMENTS TMQ175-Q1, which communicates
 
 The mounting position and slave address for the temperature sensors are as follows.
 
-image::./images/temperature_sensor_layout.png[scaledwidth=100%]
+image::temperature_sensor_layout.png[scaledwidth=100%]
 
 [width="80%",options="header"]
 |====
@@ -433,4 +433,4 @@ image::./images/temperature_sensor_layout.png[scaledwidth=100%]
 == Board Layout Diagram ==
 
 === Space Cubics OBC Board Layout Diagram ===
-image:./images/sc-obc-layout.svg[]
+image:sc-obc-layout.svg[]

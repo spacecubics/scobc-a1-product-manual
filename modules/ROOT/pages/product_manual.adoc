@@ -74,7 +74,7 @@ Space Cubics OBCを使うユーザーは、衛星のシステムが変更にな�
 
 OBC Moduleと IO Boardは 80ピンの Board to Boardコネクタで接続します。
 
-image::./images/BlockDiagram.png[scaledwidth=100%]
+image::BlockDiagram.png[scaledwidth=100%]
 
 == 電気的仕様 ==
 
@@ -135,7 +135,7 @@ FPGA_PWR_EN によって、 各電源 IC が Enable され、 内部回路及び
 VDD_3V3_IOは IO Board インターフェース (CON1 37, 38) を経由して外部に供給されます。 VDD_3V3_IOには 300 mA の Over Current Protection が付加されています。
 
 
-image::./images/power_supply_circuit.png[scaledwidth=100%]
+image::power_supply_circuit.png[scaledwidth=100%]
 
 == インターフェース仕様 ==
 Space Cubics OBC Moduleのインターフェース仕様について説明します。
@@ -276,11 +276,11 @@ OBC Moduleが出力する VDD_3V3信号が Highになった時のみ電圧を印
 以下の回路構成例を参考に、回路を構成してください。
 回路例は User IO Group 1の場合の例のため、User Io Group 2に適用する場合、ピン番号などを読み替えてください。
 
-image::./images/user_io_vdd33.png[scaledwidth=100%]
+image::user_io_vdd33.png[scaledwidth=100%]
 
 User IOを 3.3 Vで使用する場合で、且つ IO Boardの回路の消費電流が 0.3 A未満の場合は、VDD_3V3を電源として使う事ができます。
 
-image::./images/user_io_vdd16.png[scaledwidth=100%]
+image::user_io_vdd16.png[scaledwidth=100%]
 
 User IOを 1.6 Vで使用する場合や、IO Boardの回路の消費電流が 0.3 A以上の場合は、VDD_3V3をイネーブル信号とし、IO Board上で生成した電源を供給してください。
 
@@ -327,7 +327,7 @@ MPLAB PICKit4は、OBC Moduleの以下のピンに接続してください。
 | 8: N.C.| 未接続
 |====
 
-image::./images/mplab_pickit4_connect.png[scaledwidth=100%]
+image::mplab_pickit4_connect.png[scaledwidth=100%]
 
 ===== Platform Cable USB II =====
 FPGAの書き込みや In Circuit Debugは Xilinx製 Platform cable USB IIにより行う事ができます。
@@ -347,7 +347,7 @@ Platform cable USB IIは、OBC Moduleの以下のピンに接続してくださ�
 | TMS| 56
 |====
 
-image::./images/platform_cable_connect.png[scaledwidth=100%]
+image::platform_cable_connect.png[scaledwidth=100%]
 
 == OBCシステム仕様 ==
 Space Cubics OBCのシステム仕様について説明します。
@@ -363,7 +363,7 @@ TRCHは OBCの基板に搭載されているセンサーから電源の状態と
 TRCHは FPGAの電源投入時に FPGAを Configurationさせるメモリを TRCH_CFG_MEM_SEL信号によって選択します。
 FPGAは電源投入後に、TRCHによって選択された Configurationメモリからデータを読み出し、Configurationを行います。
 
-image::./images/power_on_timing.png[scaledwidth=100%]
+image::power_on_timing.png[scaledwidth=100%]
 
 === TRCHによる FPGAの死活監視 ===
 TRCHは FPGAから出力される Watchdog信号 (FPGA_WATCHDOG)を監視する事によって FPGAの Configurationや ソフトウェアの動作に問題が起きた事を検知します。
@@ -374,7 +374,7 @@ TRCHは FPGA_WATCHDOG信号が定期的にトグルし続けている事を監�
 
 FPGAに実装されている System Monitorは、ソフトウェアによる Software Watchdog Timerのキックが一定期間(レジスタの初期値は 128秒)行われない時、Software Watchdog Timerが満了したと判断し、FPGA_WATCHDOG信号のトグルを停止します [D]。
 
-image::./images/watchdog_system.png[scaledwidth=100%]
+image::watchdog_system.png[scaledwidth=100%]
 
 === システムのリブート ===
 TRCHは FPGAから出力される Watchdog信号と Power Cycle Request信号を監視し、必要に応じ FPGAのシステムに Power Cycleを行います。
@@ -389,7 +389,7 @@ Configrationメモリの切り替え後、再度 FPGAの電源を投入する事
 Configurationメモリの変更は、Watchdog機能による障害の検知時のみではなく、FPGAからの Power Cycle Request信号による再起動時も同様に起こります。
 On the Flyでの Configurationメモリの書き換え時は、次に起動する Configurationメモリの書き換えを行い、Power Cycle Requestを発行する事で、新しいデータに問題があり起動に失敗した場合、自動的に元の Configurationメモリのデータで復旧します。
 
-image::./images/system_reboot.png[scaledwidth=100%]
+image::system_reboot.png[scaledwidth=100%]
 
 == ボードステータス回路 ==
 OBC Moduleには、OBCのボードステータス(電源状態、温度状態)を監視する機能を搭載しています。
@@ -420,7 +420,7 @@ OBC Moduleには、OBCの温度状態をモニタするため 3つの温度セ�
 
 温度センサーの搭載位置と Slave Addressは以下の通りです。
 
-image::./images/temperature_sensor_layout.png[scaledwidth=100%]
+image::temperature_sensor_layout.png[scaledwidth=100%]
 
 [width="80%",options="header"]
 |====
@@ -434,4 +434,4 @@ image::./images/temperature_sensor_layout.png[scaledwidth=100%]
 == 形状図 ==
 
 === Space Cubics OBC基板形状図 ===
-image:./images/sc-obc-layout.svg[]
+image:sc-obc-layout.svg[]
