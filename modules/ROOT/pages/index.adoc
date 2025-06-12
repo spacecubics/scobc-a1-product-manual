@@ -1,3 +1,6 @@
 :sectnums:
 
 = SC-OBC Module A1 Product Manual
+
+* xref:product_manual_en.adoc[English version]
+* xref:product_manual.adoc[日本語版]
