@@ -1,0 +1,437 @@
+= Space Cubics OBC製品マニュアル =
+Space Cubics
+June 14, 2023
+:toc:
+
+
+
+== はじめに ==
+Space Cubics OBCは、3U以上の CubeSatをターゲットとする On Board Computer(以下、OBC)です。
+
+Space Cubics OBCはメインプロセッサ用デバイスとして Xilinx製 Artix-7 FPGAを採用し、FPGAにインプリする ARM Cortex-M3を核としたシステムです。
+FPGAを採用する事で、インターフェースの種類や数を Cubesat毎に柔軟に変更する事ができます。
+また、ユーザーの専用IPを実装する事により、特殊な処理を CPUのリソースを使わずに行う事ができるため、システムのパフォーマンス向上が見込めます。
+
+Space Cubics OBCには、メインプロセッサとは別にシステム管理をおこなうためのサブマイコンとして PIC16LF877を搭載しています。
+このサブマイコンは Timing, Reset, Config & Health Controller(以下、TRCH)と呼ばれ、FPGA起動前のシステムの管理や、FPGA起動後の異常検知を行います。
+Space Cubics OBCは、TRCHによって異常発生時に自動復帰する機能を実現しています。
+
+== 製品概要 ==
+
+=== 仕様 ===
+[width="80%",options="header"]
+|====
+| Feature| Description
+
+| メインデバイス| Xilinx Artix-7 (XC7A200T-1FBG676I)
+| | - Logic Cell 215,360
+| | - CLB スライス数(4 LUT, 8 F/F) 33,650
+| | - CLB 最大分散RAM 2,888 Kb
+| | - DSP48E1スライス 740
+| | - BlockRAM 36 Kb x 365 (18 Kb x 730)
+| | - CMT 10
+| | - XADC 1 (for FPGA die temperature measurement)
+| | - I/O Bank 10
+| メインCPU| ARM Cortex-M3 Design Start FPGA Xilinx Edition r0p1
+| | - CPU Revision r2p1
+| | - ARMv7-M architecture profile
+| | - Maximum operation frequency up to 48 MHz (T.B.D.)
+| TRCH| PIC16LF877 8 bit RISC CPU
+| | - operation frequency 4 MHz
+| FPGA源発振クロック| 24 MHz
+| On Chip SRAM| 32 kByte of FPGA BlockRAM
+| On Borad SRAM| 4 MByte Asynchronouse Static RAM (CY7C1061GE)
+| | - ECC Memory Protection
+| | - Memory Scrubbing
+| Configuration Flash Memory| 32 MByte/Redundancy (NOR Flash: S25FL256L)
+| Data Store Flash Memory| 32 MByte/Redundancy (NOR Flash: S25FL256L)
+| FeRAM| 512 kByte x 2 (CY15B104QSN)
+| Control Area Network (CAN)| Conforms to the ISO 11898-1, CAN2.0A, and CAN2.0B standards Supports bit rates up to 1 Mb/s
+| Space Communication Bus (SCBus)| Compliant with the USB-based communication interface proposed by Space Cubics (T.B.D.)
+| | - Supports bit rates 12 Mbps (USB Full-Speed)
+| I2C Interface| Accessible from FPGA and TRCH x 1
+| Serial Interface| TRCH UART Interface x 1
+| | (ハードウェアオプションによって FPGAへの接続に変更可能)
+| FPGA User IO| User IO Group 1 x 16 pin (IO電圧可変)
+| | User IO Group 2 x 16 pin (IO電圧可変)
+| | User IO Group 4 x 6 pin, Cortex-M3 JTAG兼用 (3.3V固定)
+| TRCH User IO| User IO Group 3 x 3 pin (3.3V固定)
+| | (ハードウェアオプションによって FPGAへの接続に変更可能)
+| 電源電圧| DC 5.0V ± 10%
+| 消費電力| 2.0 W (Max)
+| 使用温度範囲| -40 〜 80 ℃
+| 外形サイズ| 70 mm x 70 mm
+|====
+
+=== Block Diagram ===
+Space Cubics OBCは、FPGAを採用することによる高い柔軟性を維持するために、OBC Moduleと IO Boardの 2枚の基板で構成されます。
+
+OBC Moduleには、Space Cubics OBCを採用するシステムのインターフェース構成が変わっても影響しない再利用性の高い機能が実装されています。
+一方、IO Boardにはインターフェースの電気的特性を満たすために必要な Transceiver ICや プロトコルコンバータ ICなど、システム構成に影響を受ける機能を実装します。
+
+Space Cubics OBCを使うユーザーは、衛星のシステムが変更になっても IO Boardを再設計する事で、新しい衛星に適合させる事ができます。
+衛星のシステムが異なっても、同じ OBC Moduleを採用するシステムでは多くのソフトウェア資産を流用する事ができます。
+
+OBC Moduleと IO Boardは 80ピンの Board to Boardコネクタで接続します。
+
+image::./images/BlockDiagram.png[scaledwidth=100%]
+
+== 電気的仕様 ==
+
+=== 絶対最大定格 ===
+[width="80%",options="header"]
+|====
+| 項目| 記号| 最小| 最大| 単位| 条件等
+
+| 電源電圧| VIN_A, VIN_B| -0.3| 10.0| V| 
+| FPGA I/Oバンク電源電圧| VDD_UIO1, VDD_UIO2| -0.5| 3.6| V| 
+| 入出力電圧 (ULPI, CAN, ICSP_MCLR_B信号を除く)| VI, VO| -0.3| OVDD + 0.3| V| OVDD= VDD_3V3_SYS, VDD_3V3_IO, VDD_UIO1, VDD_UIO2
+| 入力電圧 (ULPI_DP, ULPI_DM信号)| VI_ULPI| -0.3| 5.25| V| 
+| 入力電圧 (CANH, CANL信号)| VI_CAN| -7| 16| V| 
+| 入力電圧 (ICSP_MCLR_B信号)| VI_ICSP_MCLR_B| 0| 14| V| 
+| FPGAジャンクション温度| Tj_FPGA| | 125| ℃| 
+| 動作温度| Topr| -40| 85| ℃| 結露なきこと
+| 保存温度| Tstg| -40| 85| ℃| 
+|====
+
+絶対最大定格は、あらゆる使用条件や試験状況において、瞬時でも超えてはならない値です。
+絶対最大定格を超える条件下では、デバイスが恒久的に破損する可能性があります。
+上記の値に対して余裕をもってご使用ください。
+
+=== 推奨動作条件 ===
+[width="80%",options="header"]
+|====
+| 項目| 記号| 最小| 標準| 最大| 単位| 条件等
+
+| 電源電圧| VIN_A, VIN_B| 4.5| 5.0| 5.5| V| 
+| FPGA I/Oバンク電源電圧| VDD_UIO1, VDD_UIO2| 1.14| | 3.465| V| 電源投入・切断は、VDD_3V3_IOと同一タイミング、または VDD_3V3_IOが 3.3Vを出力している状態で実施してください
+| 動作温度| Topr| -40| 25| 80| ℃| 結露なきこと
+|====
+
+=== 電気的特性 ===
+[width="80%",options="header"]
+|====
+| 項目| 記号| 最小| 標準| 最大| 単位| 条件等
+
+| 過電圧保護(OVP)しきい値電圧| Vovp_th| | 6.0| | V| 
+| 低電圧誤動作防止(UVLO)しきい値電圧| Vuvlo_th_h| | 4.1| | V| VIN_A, VIN_B上昇時
+| | Vuvlo_th_l| | 3.6| | V| VIN_A, VIN_B下降時
+| 過電流検出電流| Iocp_th_VIN_A| 1.3| 1.6| 1.9| A| VIN_A
+| | Iocp_th_VIN_B| 1.3| 1.6| 1.9| A| VIN_B
+| | Iocp_th_VDD_3V3_SYS| N/A| N/A| N/A| A| VDD_3V3_SYS
+| | Iocp_th_VDD_3V3_IO| 0.42| 0.57| 0.73| A| VDD_3V3_IO
+| I/O電源電圧| VDD_3V3_SYS| 2.97| 3.3| 3.465| V| Iout_max = 100mA
+| | VDD_3V3_IO| 2.97| 3.3| 3.465| V| Iout_max = 300mA
+|====
+
+=== 電源回路の構成 ===
+OBC Moduleの電源回路の構成は次のとおりです。
+電源入力 VIN_A (CON1 1, 2, 3)と VIN_B (CON1 78, 79, 80)は冗長化されており、別々の回路で VDD_3V3_SYS_A および VDD_3V3_SYS_Bを生成します。これらふたつの電源は、 理想ダイオードにより VDD_3V3_SYS に統合され、 TRCH などに供給されます。また、同じ VDD_3V3_SYS が IO Board インターフェース (CON1 32) を経由して外部に供給されます。VDD_3V3_SYS は内部回路と共有で使われるため、最大 100 mA 以下で使用してください。
+
+FPGA_PWR_EN によって、 各電源 IC が Enable され、 内部回路及び外部出力端子に必要な電源を供給します。
+
+生成された電源出力ノードには Current and Voltage Monitorが付加されており、TRCHおよびFPGAから電源の状態を監視する事ができます (M1-1, M1-2, M1-3, M2-1, M2-2, M2-3)。
+
+VDD_3V3_IOは IO Board インターフェース (CON1 37, 38) を経由して外部に供給されます。 VDD_3V3_IOには 300 mA の Over Current Protection が付加されています。
+
+
+image::./images/power_supply_circuit.png[scaledwidth=100%]
+
+== インターフェース仕様 ==
+Space Cubics OBC Moduleのインターフェース仕様について説明します。
+
+=== CON1 (IO Boardインターフェース) ===
+IO Boardインターフェースは、OBC Moduleと IO Boardを接続するためのインターフェースです。
+このインターフェースには Panasonic製の 0.5 mmピッチ 80ピンコネクタ(型番: AXK6S80547YG)が実装されています。
+嵌合相手となる IO Boardには、嵌合の高さ 5mm, 5.5mm, 8mmのいずれかのソケットで接続してください。
+
+コネクタの位置については、形状図を参照してください。
+
+[width="80%",options="header"]
+|====
+| ピン番号| ピン名| I/O| 電源ドメイン| 説明
+
+| 1| VIN_A| Power| -| 電源(VIN_A)
+| 2| VIN_A| Power| -| 電源(VIN_A)
+| 3| VIN_A| Power| -| 電源(VIN_A)
+| 4| ULPI_DP| Inout| -| SC Bus D+信号
+| 5| ULPI_DM| Inout| -| SC Bus D-信号
+| 6| GND| Power| -| 電源(GND)
+| 7| UIO1_00| Inout| VDD_UIO1| User IO1 Bit 0信号、FPGAの IO_L13P_T2_MRCC_34 (pin: R3)に接続
+| 8| UIO1_01| Inout| VDD_UIO1| User IO1 Bit 1信号、FPGAの IO_L13N_T2_MRCC_34 (pin: P3)に接続
+| 9| UIO1_02| Inout| VDD_UIO1| User IO1 Bit 2信号、FPGAの IO_L14P_T2_SRCC_34 (pin: P4)に接続
+| 10| UIO1_03| Inout| VDD_UIO1| User IO1 Bit 3信号、FPGAの IO_L14N_T2_SRCC_34 (pin: N4)に接続
+| 11| UIO1_04| Inout| VDD_UIO1| User IO1 Bit 4信号、FPGAの IO_L11P_T1_SRCC_34 (pin: M2)に接続
+| 12| UIO1_05| Inout| VDD_UIO1| User IO1 Bit 5信号、FPGAの IO_L11N_T1_SRCC_34 (pin: L2)に接続
+| 13| UIO1_06| Inout| VDD_UIO1| User IO1 Bit 6信号、FPGAの IO_L10P_T1_34 (pin: H2)に接続
+| 14| UIO1_07| Inout| VDD_UIO1| User IO1 Bit 7信号、FPGAの IO_L10N_T1_34 (pin: H1)に接続
+| 15| GND| Power| -| 電源(GND)
+| 16| UIO1_08| Inout| VDD_UIO1| User IO1 Bit 8信号、FPGAの IO_L7P_T1_34 (pin: K1)に接続
+| 17| UIO1_09| Inout| VDD_UIO1| User IO1 Bit 9信号、FPGAの IO_L7N_T1_34 (pin: J1)に接続
+| 18| UIO1_10| Inout| VDD_UIO1| User IO1 Bit 10信号、FPGAの IO_L9P_T1_DQS_34 (pin: N1)に接続
+| 19| UIO1_11| Inout| VDD_UIO1| User IO1 Bit 11信号、FPGAの IO_L9N_T1_DQS_34 (pin: M1)に接続
+| 20| UIO1_12| Inout| VDD_UIO1| User IO1 Bit 12信号、FPGAの IO_L18P_T2_34 (pin: U2)に接続
+| 21| UIO1_13| Inout| VDD_UIO1| User IO1 Bit 13信号、FPGAの IO_L18N_T2_34 (pin: U1)に接続
+| 22| UIO1_14| Inout| VDD_UIO1| User IO1 Bit 14信号、FPGAの IO_L1P_T0_34 (pin: K3)に接続
+| 23| UIO1_15| Inout| VDD_UIO1| User IO1 Bit 15信号、FPGAの IO_L1N_T0_34 (pin: J3)に接続
+| 24| GND| Power| -| 電源(GND)
+| 25| UIO3_00| Inout| VDD_3V3_SYS / VDD_3V3_IOfootnoteref:[1, ハードウェアオプションによって電源ドメインが異なる。fuzzy:*ハードウェアオプションと IOの接続関係[fuzzy:*ハードウェアオプションと IOの接続関係]参照]| User IO3 Bit 0信号、PIC16LF877の RD4/PSP4に接続。ハードウェアオプションで FPGAの IO_L23P_T3_12 (pin: Y15)に接続を変更する事が可能
+| 26| UIO3_01| Inout| VDD_3V3_SYS / VDD_3V3_IOfootnoteref:[1]| User IO3 Bit 1信号、PIC16LF877の RD5/PSP5に接続。ハードウェアオプションで FPGAの IO_L23N_T3_12 (pin: AA15)に接続を変更する事が可能
+| 27| UIO3_02| Inout| VDD_3V3_SYS / VDD_3V3_IOfootnoteref:[1]| User IO3 Bit 2信号、PIC16LF877の RD6/PSP6に接続。ハードウェアオプションで FPGAの IO_L24P_T3_12 (pin: W14)に接続を変更する事が可能
+| 28| UIO4_00| Input| VDD_3V3_IO| User IO4 Bit 0信号、FPGAの IO_L22P_T3_12 (pin: AB16)に接続
+| 29| GND| Power| -| 電源(GND)
+| 30| TRCH_UART_TX| Output| VDD_3V3_SYS / VDD_3V3_IOfootnoteref:[1]| TRCH UART TX信号、PIC16LF877の RC6/TX/CKに接続。ハードウェアオプションで FPGAの IO_L24N_T3_12 (pin: W15)に接続を変更する事が可能
+|====
+
+[width="80%",options="header"]
+|====
+| ピン番号| ピン名| I/O| 電源ドメイン| 説明
+
+| 31| TRCH_UART_RX| Input| VDD_3V3_SYS / VDD_3V3_IOfootnoteref:[1]| TRCH UART RX信号、PIC16LF877の RC7/RX/DTに接続。ハードウェアオプションで FPGAの IO_L1N_T0_12 (pin: AE26)に接続を変更する事が可能
+| 32| VDD_3V3_SYS| Power| -| 電源(VDD_3V3_SYS)出力
+| 33| GND| Power| -| 電源(GND)
+| 34| I2C_EXT_SCL| Output| VDD_3V3_SYS| I2C SCL信号、PIC16LF877の RD2/PSP2、FPGAの IO_L9P_T1_DQS_12 (pin: AE22)に接続。4.7 kΩ でプルアップされている
+| 35| I2C_EXT_SDA| Inout| VDD_3V3_SYS| I2C SDA信号、PIC16LF877の RD3/PSP3、FPGAの IO_L9N_T1_DQS_12 (pin: AF22)に接続。4.7 kΩ でプルアップされている
+| 36| WDOG_OUT| Output| VDD_3V3_SYS / VDD_3V3_IOfootnoteref:[1]| Watchdog出力信号、PIC16LF877の RE0/AN5/RDに接続。ハードウェアオプションで FPGAの IO_L16N_T2_12 (pin: AF18)に接続を変更する事が可能
+| 37| VDD_3V3_IO| Power| -| 電源(VDD_3V3_IO)出力
+| 38| VDD_3V3_IO| Power| -| 電源(VDD_3V3_IO)出力
+| 39| VDD_UIO1| Power| -| 電源(VDD_UIO1)
+| 40| VDD_UIO1| Power| -| 電源(VDD_UIO1)
+| 41| VDD_UIO2| Power| -| 電源(VDD_UIO2)
+| 42| VDD_UIO2| Power| -| 電源(VDD_UIO2)
+| 43| UIO4_05| Inout| VDD_3V3_IO| User IO4 Bit 5/CM3 NTRST信号、FPGAの IO_0_13 (pin: U24)に接続
+| 44| UIO4_04| Inout| VDD_3V3_IO| User IO4 Bit 4/CM3 TDO,SWO信号、FPGAの IO_L16P_T2_13 (pin: W20)に接続
+| 45| UIO4_03| Inout| VDD_3V3_IO| User IO4 Bit 3/CM3 TDI信号、FPGAの IO_L16N_T2_13 (pin: Y20)に接続
+| 46| UIO4_02| Inout| VDD_3V3_IO| User IO4 Bit 2/CM3 TMS,SWDIO信号、FPGAの IO_L14N_T2_SRCC_13 (pin: Y21)に接続
+| 47| UIO4_01| Inout| VDD_3V3_IO| User IO4 Bit 1/CM3 TCK,SWCLK信号、FPGAの IO_L14P_T2_SRCC_13 (pin: W21)に接続
+| 48| GND| Power| -| 電源(GND)
+| 49| ICSP_PGD| Inout| VDD_3V3_SYS| PIC PGD信号、PIC16LF877の RB7/PGDに接続
+| 50| ICSP_PGC| Inout| VDD_3V3_SYS| PIC PGC信号、PIC16LF877の RB6/PGCに接続
+| 51| ICSP_MCLR_B| Input| VDD_3V3_SYS| PIC MCLR_B信号、PIC16LF877の MCLR/VPPに接続
+| 52| GND| Power| -| 電源(GND)
+| 53| FPGA_TCK| Input| VDD_3V3_IO| FPGA JTAG TCK信号、FPGAの TCK_0 (pin: H12)に接続
+| 54| FPGA_TDO| Output| VDD_3V3_IO| FPGA JTAG TDO信号、FPGAの TDO_0 (pin: J10)に接続
+| 55| FPGA_TDI| Input| VDD_3V3_IO| FPGA JTAG TDI信号、FPGAの TDI_0 (pin: H10)に接続
+| 56| FPGA_TMS| Input| VDD_3V3_IO| FPGA JTAG TMS信号、FPGAの TMS_0 (pin: H11)に接続
+| 57| GND| Power| -| 電源(GND)
+| 58| UIO2_15| Inout| VDD_UIO2| User IO2 Bit 15信号、FPGAの IO_L16N_T2_35 (pin: A4)に接続
+| 59| UIO2_14| Inout| VDD_UIO2| User IO2 Bit 14信号、FPGAの IO_L16P_T2_35 (pin: B4)に接続
+| 60| UIO2_13| Inout| VDD_UIO2| User IO2 Bit 13信号、FPGAの IO_L20N_T3_35 (pin: A2)に接続
+| 61| UIO2_12| Inout| VDD_UIO2| User IO2 Bit 12信号、FPGAの IO_L20P_T3_35 (pin: A3)に接続
+| 62| UIO2_11| Inout| VDD_UIO2| User IO2 Bit 11信号、FPGAの IO_L24N_T3_35 (pin: G1)に接続
+| 63| UIO2_10| Inout| VDD_UIO2| User IO2 Bit 10信号、FPGAの IO_L24P_T3_35 (pin: G2)に接続
+| 64| UIO2_09| Inout| VDD_UIO2| User IO2 Bit 9信号、FPGAの IO_L23N_T3_35 (pin: D1)に接続
+| 65| UIO2_08| Inout| VDD_UIO2| User IO2 Bit 8信号、FPGAの IO_L23P_T3_35 (pin: E1)に接続
+| 66| GND| Power| -| 電源(GND)
+| 67| UIO2_07| Inout| VDD_UIO2| User IO2 Bit 7信号、FPGAの IO_L21N_T3_DQS_35 (pin: B1)に接続
+| 68| UIO2_06| Inout| VDD_UIO2| User IO2 Bit 6信号、FPGAの IO_L21P_T3_DQS_35 (pin: C1)に接続
+| 69| UIO2_05| Inout| VDD_UIO2| User IO2 Bit 5信号、FPGAの IO_L14N_T2_SRCC_35 (pin: C4)に接続
+| 70| UIO2_04| Inout| VDD_UIO2| User IO2 Bit 4信号、FPGAの IO_L14P_T2_SRCC_35 (pin: D4)に接続
+|====
+
+[width="80%",options="header"]
+|====
+| ピン番号| ピン名| I/O| 電源ドメイン| 説明
+
+| 71| UIO2_03| Inout| VDD_UIO2| User IO2 Bit 3信号、FPGAの IO_L11N_T1_SRCC_35 (pin: F4)に接続
+| 72| UIO2_02| Inout| VDD_UIO2| User IO2 Bit 2信号、FPGAの IO_L11P_T1_SRCC_35 (pin: G4)に接続
+| 73| UIO2_01| Inout| VDD_UIO2| User IO2 Bit 1信号、FPGAの IO_L13N_T2_MRCC_35 (pin: D5)に接続
+| 74| UIO2_00| Inout| VDD_UIO2| User IO2 Bit 0信号、FPGAの IO_L13P_T2_MRCC_35 (pin: E5)に接続
+| 75| GND| Power| -| 電源(GND)
+| 76| CANL| Inout| -| SC OBC CAN L信号
+| 77| CANH| Inout| -| SC OBC CAN H信号
+| 78| VIN_B| Power| -| 電源(VIN_B)
+| 79| VIN_B| Power| -| 電源(VIN_B)
+| 80| VIN_B| Power| -| 電源(VIN_B)
+|====
+
+[fn:hwopt] ハードウェアオプションによって電源ドメインが異なる。fuzzy:*ハードウェアオプションと IOの接続関係[fuzzy:*ハードウェアオプションと IOの接続関係]参照
+
+==== 電源入力 ====
+OBCへの電源は VIN_A, VIN_Bから入力します。
+
+電源電圧の入力範囲は 5.0V±10%です。
+
+VIN_Aと VIN_Bは、冗長化の目的で OBC内部で別々の電源回路にて、OBC内部の電源を生成しています。
+OBCに入力する電源が 1系統しか無い場合、VIN_Aと VIN_Bにはすべて同じ電源を接続して構いません。
+
+==== User IO Group 1, 2 ====
+User IO Group 1, 2は、FPGAに接続され、ユーザーが自由に使用できる信号です。
+User IO Group 1は FPGAの Bank 34、User IO Group 2は FPGAの Bank 35を専有しています。
+
+[width="80%",options="header"]
+|====
+| User IO| 信号名規則| IO本数| FPGA Bank| 対応するIO電源ピン
+
+| Group 1| UIO1_(Number)| 16本| Bank 34| VDD_UIO1
+| Group 2| UIO2_(Number)| 16本| Bank 35| VDD_UIO2
+|====
+
+User IO Groupは VDD_UIO1, VDD_UIO02に任意の IO電圧を印加して使用する事ができます。
+FPGAで使用したいIOに合ったIO電圧を印加してください。
+
+FPGAの IO電源 (VCCO)は、FPGAの電源投入シーケンスに従い投入する必要があります。
+OBC Moduleが出力する VDD_3V3信号が Highになった時のみ電圧を印加する事で、FPGAの電源シーケンスを守る事ができます。
+
+以下の回路構成例を参考に、回路を構成してください。
+回路例は User IO Group 1の場合の例のため、User Io Group 2に適用する場合、ピン番号などを読み替えてください。
+
+image::./images/user_io_vdd33.png[scaledwidth=100%]
+
+User IOを 3.3 Vで使用する場合で、且つ IO Boardの回路の消費電流が 0.3 A未満の場合は、VDD_3V3を電源として使う事ができます。
+
+image::./images/user_io_vdd16.png[scaledwidth=100%]
+
+User IOを 1.6 Vで使用する場合や、IO Boardの回路の消費電流が 0.3 A以上の場合は、VDD_3V3をイネーブル信号とし、IO Board上で生成した電源を供給してください。
+
+==== ハードウェアオプションと IOの接続関係 ====
+User IO Group 3 及び WDOG_OUT信号は、ハードウェアオプションによって TRCHと接続するか FPGAと接続するか選択する事ができる信号です。
+接続状態は Space Cubicsからの出荷時に確定し、ソフトウェアで変更する事はできません。
+
+接続先が TRCHと FPGAで変わる事で、信号の電源ドメインも変わるため、IO Boardを設計する際は注意してください。
+
+[width="80%",options="header"]
+|====
+| User IO| TRCH選択時の接続先| FPGA選択時の接続先
+
+| UIO3_00| PIC16LF877 RD4/PSP4| FPGA IO_L23P_T3_12 (pin: Y15)
+| UIO3_01| PIC16LF877 RD5/PSP5| FPGA IO_L23N_T3_12 (pin: AA15)
+| UIO3_02| PIC16LF877 RD6/PSP6| FPGA IO_L24P_T3_12 (pin: W14)
+| TRCH_UART_TX| PIC16LF877 RC6/TX/CK| FPGA IO_L24N_T3_12 (pin: W15)
+| TRCH_UART_RX| PIC16LF877 RC7/RX/DT| FPGA IO_L1N_T0_12 (pin: AE26)
+| WDOG_OUT| PIC16LF877 RE0/AN5/RD| FPGA IO_L16N_T2_12 (pin: AF18)
+|====
+
+* 電源ドメイン
+** TRCH選択時: `VDD_3V3_SYS`
+** FPGA選択時: `VDD_3V3_IO`
+
+==== デバッガ接続 ====
+
+===== MPLAB PICkit4 =====
+TRCHの ソフトウェアの書き込みは Microchip製 MPLAB PICKit4により行う事ができます。
+
+MPLAB PICKit4は、OBC Moduleの以下のピンに接続してください。
+
+[width="80%",options="header"]
+|====
+| MPLAB PICKit4| OBC Module CON1 Pin No.
+
+| 1: MCLR| 51
+| 2: VDD| 32
+| 3: Ground| 6, 15, 24, 29, 33, 48, 52, 57, 66, 75
+| 4: PGD| 49
+| 5: PGC| 50
+| 6: N.C.| 未接続
+| 7: N.C.| 未接続
+| 8: N.C.| 未接続
+|====
+
+image::./images/mplab_pickit4_connect.png[scaledwidth=100%]
+
+===== Platform Cable USB II =====
+FPGAの書き込みや In Circuit Debugは Xilinx製 Platform cable USB IIにより行う事ができます。
+
+Platform cable USB IIは、OBC Moduleの以下のピンに接続してください。
+
+[width="80%",options="header"]
+|====
+| Platform cable USB II| OBC Module CON1 Pin No.
+
+| VREF| OBC電源信号 (37, 38など)
+| GND| 6, 15, 24, 29, 33, 48, 52, 57, 66, 75
+| TCK| 53
+| HALT| 未接続
+| TDO| 54
+| TDI| 55
+| TMS| 56
+|====
+
+image::./images/platform_cable_connect.png[scaledwidth=100%]
+
+== OBCシステム仕様 ==
+Space Cubics OBCのシステム仕様について説明します。
+
+Space Cubics OBCは、基板上に搭載されるメインプロセッサとなる FPGAと、システムを管理する TRCHが協調して動作します。
+ユーザーは、FPGAに実装されるシステムのプログラムだけでなく、TRCHのプログラムを変更する事で任意のシステムを構築する事もできます。
+
+=== 電源投入時の動作 ===
+OBCに電源が投入されると、最初にTRCHのみが起動します。
+
+TRCHは OBCの基板に搭載されているセンサーから電源の状態と温度を取得し、FPGAが動作可能な条件である場合 FPGA_PWR_EN を HIGH にして、FPGAの電源を投入します。
+
+TRCHは FPGAの電源投入時に FPGAを Configurationさせるメモリを TRCH_CFG_MEM_SEL信号によって選択します。
+FPGAは電源投入後に、TRCHによって選択された Configurationメモリからデータを読み出し、Configurationを行います。
+
+image::./images/power_on_timing.png[scaledwidth=100%]
+
+=== TRCHによる FPGAの死活監視 ===
+TRCHは FPGAから出力される Watchdog信号 (FPGA_WATCHDOG)を監視する事によって FPGAの Configurationや ソフトウェアの動作に問題が起きた事を検知します。
+
+TRCHが FPGAに電源を投入すると、FPGAはただちに Configurationを開始します [A]。
+Configurationが完了すると、FPGAに実装されている System Monitorの Watchdog回路により、ソフトウェアの動作に関わらず TRCHに接続される FPGA_WATCHDOG信号のトグルを開始します [B]。
+TRCHは FPGA_WATCHDOG信号が定期的にトグルし続けている事を監視する事によって、OBCの FPGAシステムが健全に動作していると判断します [C]。
+
+FPGAに実装されている System Monitorは、ソフトウェアによる Software Watchdog Timerのキックが一定期間(レジスタの初期値は 128秒)行われない時、Software Watchdog Timerが満了したと判断し、FPGA_WATCHDOG信号のトグルを停止します [D]。
+
+image::./images/watchdog_system.png[scaledwidth=100%]
+
+=== システムのリブート ===
+TRCHは FPGAから出力される Watchdog信号と Power Cycle Request信号を監視し、必要に応じ FPGAのシステムに Power Cycleを行います。
+
+FPGAのシステムに何らかの問題が起こり、FPGAのソフトウェアによる Software Watchdog Timerが一定期間キックされない時、Software Watchdog Timerの満了後に、FPGA_WATCHDOG信号のトグル動作が停止します。
+TRCHは FPGA_WATCHDOG信号の停止を検出すると、FPGAの電源をOFFします [A]。
+
+TRCHは FPGAの電源を再度ONする前に、FPGAを Configurationさせるメモリを変更します [B]。
+この機能により、FPGAが再起動する時は別の Configurationメモリのデータで起動します。
+Configrationメモリの切り替え後、再度 FPGAの電源を投入する事により Power Cycleを完了します [C]。
+
+Configurationメモリの変更は、Watchdog機能による障害の検知時のみではなく、FPGAからの Power Cycle Request信号による再起動時も同様に起こります。
+On the Flyでの Configurationメモリの書き換え時は、次に起動する Configurationメモリの書き換えを行い、Power Cycle Requestを発行する事で、新しいデータに問題があり起動に失敗した場合、自動的に元の Configurationメモリのデータで復旧します。
+
+image::./images/system_reboot.png[scaledwidth=100%]
+
+== ボードステータス回路 ==
+OBC Moduleには、OBCのボードステータス(電源状態、温度状態)を監視する機能を搭載しています。
+
+=== 電源状態監視 ===
+OBC Moduleで生成された電源のノードには、Current and Voltage Monitorが付加されています。
+Current and Voltage Monitor ICには、TEXAS INSTRUMENTSの INA3221-Q1が採用されており、I2C Interfaceによって TRCHと FPGAからデータを読み出す事ができます。
+
+Current and Voltage Monitorの監視ノードは以下の通りです。
+
+[width="80%",options="header"]
+|====
+| Current/Voltage Monitor No.| Slave Address| Channel| Node
+
+| 1| 0x40| 1| VDD_1V0
+| | | 2| VDD_1V8
+| | | 3| VDD_3V3
+| 2| 0x41| 1| VDD_3V3_SYS_A
+| | | 2| VDD_3V3_SYS_B
+| | | 3| VDD_3V3_IO
+|====
+
+Current and Voltage Monitorのアクセス方法は INA3221-Q1のデータシートを参照してください。
+
+=== 温度状態監視 ===
+OBC Moduleには、OBCの温度状態をモニタするため 3つの温度センサーを搭載しています。
+温度センサー ICには、TEXAS INSTRUMENTSの TMQ175-Q1が採用されており、I2C Interfaceによって TRCHと FPGAからデータを読み出す事ができます。
+
+温度センサーの搭載位置と Slave Addressは以下の通りです。
+
+image::./images/temperature_sensor_layout.png[scaledwidth=100%]
+
+[width="80%",options="header"]
+|====
+| IC No.| Slave Address
+
+| IC16| 0x4C
+| IC17| 0x4D
+| IC20| 0x4E
+|====
+
+== 形状図 ==
+
+=== Space Cubics OBC基板形状図 ===
+image:./images/sc-obc-layout.svg[]
