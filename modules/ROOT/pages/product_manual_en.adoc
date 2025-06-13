@@ -175,24 +175,24 @@ Refer to the Board Layout Diagram for connector locations.
 | 22 | UIO1_14 | Inout | VDD_UIO1 | User IO1 Bit 14 signal is connected to FPGA pin IO_L1P_T0_34 (pin: K3).
 | 23 | UIO1_15 | Inout | VDD_UIO1 | User IO1 Bit 15 signal is connected to FPGA pin IO_L1N_T0_34 (pin: J3).
 | 24 | GND | Power | - | power supply (GND)
-| 25 | UIO3_00 | Inout | VDD_3V3_SYS / VDD_3V3_IOfootnoteref:[1] | Power domains differ depending on hardware options. See “Hardware options and IO connections” [fuzzy:*Hardware options and IO connections]. User IO3 Bit 0 signal is connected to RD4/PSP4 of the PIC16LF877. This can be reassigned to FPGA pin IO_L23P_T3_12 (pin: Y15) via hardware configuration options.
-| 26 | UIO3_01 | Inout | VDD_3V3_SYS / VDD_3V3_IOfootnoteref:[1] | User IO3 Bit 1 signal is connected to RD5/PSP5 of the PIC16LF877. This can be reassigned to FPGA pin IO_L23N_T3_12 (pin: AA15) via hardware configuration options.
-| 27 | UIO3_02 | Inout | VDD_3V3_SYS / VDD_3V3_IOfootnoteref:[1] | User IO3 Bit 2 signal is connected to RD6/PSP6 of the PIC16LF877. This can be reassigned to FPGA pin IO_L24P_T3_12 (pin: W14) via hardware configuration options.
+| 25 | UIO3_00 | Inout | VDD_3V3_SYS / VDD_3V3_IOfootnote:hwopt[The power domain varies based on the hardware configuration. See <<hwopt,Hardware Options and IO Connections>>.] | Power domains differ depending on hardware options. See “Hardware options and IO connections” [fuzzy:*Hardware options and IO connections]. User IO3 Bit 0 signal is connected to RD4/PSP4 of the PIC16LF877. This can be reassigned to FPGA pin IO_L23P_T3_12 (pin: Y15) via hardware configuration options.
+| 26 | UIO3_01 | Inout | VDD_3V3_SYS / VDD_3V3_IOfootnote:hwopt[] | User IO3 Bit 1 signal is connected to RD5/PSP5 of the PIC16LF877. This can be reassigned to FPGA pin IO_L23N_T3_12 (pin: AA15) via hardware configuration options.
+| 27 | UIO3_02 | Inout | VDD_3V3_SYS / VDD_3V3_IOfootnote:hwopt[] | User IO3 Bit 2 signal is connected to RD6/PSP6 of the PIC16LF877. This can be reassigned to FPGA pin IO_L24P_T3_12 (pin: W14) via hardware configuration options.
 | 28 | UIO4_00 | Input | VDD_3V3_IO| User IO4 Bit 0 signal is connected to FPGA pin IO_L22P_T3_12 (pin: AB16).
 | 29 | GND | Power | - | power supply (GND)
-| 30 | TRCH_UART_TX | Output | VDD_3V3_SYS / VDD_3V3_IOfootnoteref:[1] | TRCH UART TX signal is connected to RC6/TX/CK of the PIC16LF877. This can be reassigned to FPGA pin IO_L24N_T3_12 (pin: W15) via hardware configuration options.
+| 30 | TRCH_UART_TX | Output | VDD_3V3_SYS / VDD_3V3_IOfootnote:hwopt[] | TRCH UART TX signal is connected to RC6/TX/CK of the PIC16LF877. This can be reassigned to FPGA pin IO_L24N_T3_12 (pin: W15) via hardware configuration options.
 |====
 
 [width="80%",options="header"]
 |====
 | Pin Number | Pin Name | I/O Type | Power Domain | Description 
 
-| 31 | TRCH_UART_RX | Input | VDD_3V3_SYS / VDD_3V3_IOfootnoteref:[1] | TRCH UART RX signal is connected to RC7/RX/DT of the PIC16LF877. Using hardware options, it can be reassigned to FPGA IO_L1N_T0_12 (pin: AE26).
+| 31 | TRCH_UART_RX | Input | VDD_3V3_SYS / VDD_3V3_IOfootnote:hwopt[] | TRCH UART RX signal is connected to RC7/RX/DT of the PIC16LF877. Using hardware options, it can be reassigned to FPGA IO_L1N_T0_12 (pin: AE26).
 | 32 | VDD_3V3_SYS | Power | - | power supply (VDD_3V3_SYS) output
 | 33 | GND| Power | - | power supply (GND)
 | 34 | I2C_EXT_SCL | Output | VDD_3V3_SYS | I2C SCL signal connects the PIC16LF877 RD2 PSP2 pin to the FPGA IO_L9P_T1_DQS_12 pin at AE22. It is pulled up with a 4.7 kΩ resistor.
 | 35 | I2C_EXT_SDA | Inout | VDD_3V3_SYS | I2C SDA signal connects the PIC16LF877 RD3 PSP3 pin to the FPGA IO_L9N_T1_DQS_12 pin at AF22. It is pulled up with a 4.7 kΩ resistor.
-| 36 | WDOG_OUT | Output | VDD_3V3_SYS / VDD_3V3_IOfootnoteref:[1] | Watchdog output signal is connected to RE0/AN5/RD of the PIC16LF877. It can be switched to FPGA IO_L16N_T2_12 (pin: AF18) via hardware options.
+| 36 | WDOG_OUT | Output | VDD_3V3_SYS / VDD_3V3_IOfootnote:hwopt[] | Watchdog output signal is connected to RE0/AN5/RD of the PIC16LF877. It can be switched to FPGA IO_L16N_T2_12 (pin: AF18) via hardware options.
 | 37 | VDD_3V3_IO | Power | - | power supply (VDD_3V3_IO) output
 | 38 | VDD_3V3_IO | Power | - | power supply (VDD_3V3_IO) output
 | 39 | VDD_UIO1 | Power | - | power supply (VDD_UIO1)
@@ -245,8 +245,6 @@ Refer to the Board Layout Diagram for connector locations.
 | 80 | VIN_B | Power | - | power supply (VIN_B)
 |====
 
-[fn:hwopt] The power domain varies based on the hardware configuration. See “Hardware options and IO connections” [fuzzy:*Hardware options and IO connections].
-
 ==== Power Input ====
 Power is supplied to the OBC from VIN_A and VIN_B.
 
@@ -284,6 +282,7 @@ image::user_io_vdd16.png[scaledwidth=100%]
 
 If User IO operates at 1.6 V or the IO Board’s current consumption is 0.3 A or more, use VDD_3V3 as the enable signal and provide power from the IO Board’s power supply.
 
+[[hwopt]]
 ==== Hardware Options and IO Connections ====
 User IO Group 3 and WDOG_OUT signals can be routed to either TRCH or the FPGA, depending on hardware configuration.
 The connection configuration is fixed at shipment from Space Cubics and cannot be modified via software.
