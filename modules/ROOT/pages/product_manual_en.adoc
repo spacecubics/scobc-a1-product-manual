@@ -1,17 +1,17 @@
 :sectnums:
 
-= Space Cubics OBC Product Manual =
+= SC-OBC Module A1 Product Manual =
 
 == Introduction ==
-The Space Cubics OBC is an On-Board Computer (OBC) designed for use in CubeSats that are 3U in size or larger.
+The SC-OBC Module A1 is an On-Board Computer (OBC) designed for use in CubeSats that are 3U in size or larger.
 
-The Space Cubics OBC is a system that uses a Xilinx Artix-7 FPGA as its primary processing unit, featuring an embedded ARM Cortex-M3 core implemented within the FPGA.
+The SC-OBC Module A1 is a system that uses a Xilinx Artix-7 FPGA as its primary processing unit, featuring an embedded ARM Cortex-M3 core implemented within the FPGA.
 By using an FPGA, the type and number of interfaces can be flexibly customized for each CubeSat.
 In addition, implementing user-defined IP enables specialized processing without utilizing CPU resources, which can enhance overall system performance.
 
-The Space Cubics OBC includes a PIC16LF877 sub-microcontroller as a secondary system management unit, operating independently from the main processor.
+The SC-OBC Module A1 includes a PIC16LF877 sub-microcontroller as a secondary system management unit, operating independently from the main processor.
 This sub-microcomputer, known as the Timing, Reset, Config & Health Controller (TRCH), manages the system prior to FPGA startup and monitors for anomalies after the FPGA has started.
-The Space Cubics OBC features an automatic recovery mechanism that utilizes TRCH to restore the system in the event of an abnormality.
+The SC-OBC Module A1 features an automatic recovery mechanism that utilizes TRCH to restore the system in the event of an abnormality.
 
 == Product Overview ==
 
@@ -61,12 +61,12 @@ The Space Cubics OBC features an automatic recovery mechanism that utilizes TRCH
 |====
 
 === Block Diagram ===
-The Space Cubics OBC is composed of two boards—an OBC module and an IO board—providing high flexibility by leveraging the capabilities of the FPGA.
+The SC-OBC Module A1 is composed of two boards—an OBC module and an IO board—providing high flexibility by leveraging the capabilities of the FPGA.
 
-The OBC Module provides versatile functionality that remains consistent regardless of interface changes in systems using the Space Cubics OBC.
+The OBC Module provides versatile functionality that remains consistent regardless of interface changes in systems using the SC-OBC Module A1.
 The IO Board, on the other hand, handles functions that directly impact system configuration—such as transceiver ICs and protocol converter ICs—ensuring compliance with the electrical requirements of the interface.
 
-Users of the Space Cubics OBC can accommodate new satellites by redesigning the IO Board, allowing flexibility even when the satellite system changes.
+Users of the SC-OBC Module A1 can accommodate new satellites by redesigning the IO Board, allowing flexibility even when the satellite system changes.
 Although satellite systems may differ, systems sharing the same OBC Module can still reuse much of their software assets.
 
 The OBC Module and IO Board are connected via an 80-pin board-to-board connector.
@@ -135,7 +135,7 @@ VDD_3V3_IO is supplied externally through the IO board interface (CON1 pins 37 a
 image::power_supply_circuit.png[scaledwidth=100%]
 
 == Interface Specifications ==
-This section outlines the interface specifications for the Space Cubics OBC Module.
+This section outlines the interface specifications for the SC-OBC Module A1 Module.
 
 === CON1 (IO Board Interface) ===
 The IO Board interface connects the OBC Module and the IO Board.
@@ -346,9 +346,9 @@ Connect the USB II Platform Cable to the designated pins on the OBC module as sh
 image::platform_cable_connect.png[scaledwidth=100%]
 
 == OBC System Specifications ==
-This section outlines the system specifications of the Space Cubics OBC.
+This section outlines the system specifications of the SC-OBC Module A1.
 
-The Space Cubics OBC is composed of an FPGA, functioning as the main processor on the board, and a TRCH, which manages the system and operates in coordination with the FPGA.
+The SC-OBC Module A1 is composed of an FPGA, functioning as the main processor on the board, and a TRCH, which manages the system and operates in coordination with the FPGA.
 Users can customize the system freely by modifying both the FPGA logic and the TRCH program.
 
 === Power-on Operation ===
@@ -428,5 +428,5 @@ image::temperature_sensor_layout.png[scaledwidth=100%]
 
 == Board Layout Diagram ==
 
-=== Space Cubics OBC Board Layout Diagram ===
+=== SC-OBC Module A1 Board Layout Diagram ===
 image:sc-obc-layout.svg[]

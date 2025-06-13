@@ -1,17 +1,17 @@
 :sectnums:
 
-= Space Cubics OBC製品マニュアル =
+= SC-OBC Module A1 製品マニュアル =
 
 == はじめに ==
-Space Cubics OBCは、3U以上の CubeSatをターゲットとする On Board Computer(以下、OBC)です。
+SC-OBC Module A1は、3U以上の CubeSatをターゲットとする On Board Computer(以下、OBC)です。
 
-Space Cubics OBCはメインプロセッサ用デバイスとして Xilinx製 Artix-7 FPGAを採用し、FPGAにインプリする ARM Cortex-M3を核としたシステムです。
+SC-OBC Module A1はメインプロセッサ用デバイスとして Xilinx製 Artix-7 FPGAを採用し、FPGAにインプリする ARM Cortex-M3を核としたシステムです。
 FPGAを採用する事で、インターフェースの種類や数を Cubesat毎に柔軟に変更する事ができます。
 また、ユーザーの専用IPを実装する事により、特殊な処理を CPUのリソースを使わずに行う事ができるため、システムのパフォーマンス向上が見込めます。
 
-Space Cubics OBCには、メインプロセッサとは別にシステム管理をおこなうためのサブマイコンとして PIC16LF877を搭載しています。
+SC-OBC Module A1には、メインプロセッサとは別にシステム管理をおこなうためのサブマイコンとして PIC16LF877を搭載しています。
 このサブマイコンは Timing, Reset, Config & Health Controller(以下、TRCH)と呼ばれ、FPGA起動前のシステムの管理や、FPGA起動後の異常検知を行います。
-Space Cubics OBCは、TRCHによって異常発生時に自動復帰する機能を実現しています。
+SC-OBC Module A1は、TRCHによって異常発生時に自動復帰する機能を実現しています。
 
 == 製品概要 ==
 
@@ -61,12 +61,12 @@ Space Cubics OBCは、TRCHによって異常発生時に自動復帰する機能
 |====
 
 === Block Diagram ===
-Space Cubics OBCは、FPGAを採用することによる高い柔軟性を維持するために、OBC Moduleと IO Boardの 2枚の基板で構成されます。
+SC-OBC Module A1は、FPGAを採用することによる高い柔軟性を維持するために、OBC Moduleと IO Boardの 2枚の基板で構成されます。
 
-OBC Moduleには、Space Cubics OBCを採用するシステムのインターフェース構成が変わっても影響しない再利用性の高い機能が実装されています。
+OBC Moduleには、SC-OBC Module A1を採用するシステムのインターフェース構成が変わっても影響しない再利用性の高い機能が実装されています。
 一方、IO Boardにはインターフェースの電気的特性を満たすために必要な Transceiver ICや プロトコルコンバータ ICなど、システム構成に影響を受ける機能を実装します。
 
-Space Cubics OBCを使うユーザーは、衛星のシステムが変更になっても IO Boardを再設計する事で、新しい衛星に適合させる事ができます。
+SC-OBC Module A1を使うユーザーは、衛星のシステムが変更になっても IO Boardを再設計する事で、新しい衛星に適合させる事ができます。
 衛星のシステムが異なっても、同じ OBC Moduleを採用するシステムでは多くのソフトウェア資産を流用する事ができます。
 
 OBC Moduleと IO Boardは 80ピンの Board to Boardコネクタで接続します。
@@ -135,7 +135,7 @@ VDD_3V3_IOは IO Board インターフェース (CON1 37, 38) を経由して外
 image::power_supply_circuit.png[scaledwidth=100%]
 
 == インターフェース仕様 ==
-Space Cubics OBC Moduleのインターフェース仕様について説明します。
+SC-OBC Module A1 Moduleのインターフェース仕様について説明します。
 
 === CON1 (IO Boardインターフェース) ===
 IO Boardインターフェースは、OBC Moduleと IO Boardを接続するためのインターフェースです。
@@ -346,9 +346,9 @@ Platform cable USB IIは、OBC Moduleの以下のピンに接続してくださ�
 image::platform_cable_connect.png[scaledwidth=100%]
 
 == OBCシステム仕様 ==
-Space Cubics OBCのシステム仕様について説明します。
+SC-OBC Module A1のシステム仕様について説明します。
 
-Space Cubics OBCは、基板上に搭載されるメインプロセッサとなる FPGAと、システムを管理する TRCHが協調して動作します。
+SC-OBC Module A1は、基板上に搭載されるメインプロセッサとなる FPGAと、システムを管理する TRCHが協調して動作します。
 ユーザーは、FPGAに実装されるシステムのプログラムだけでなく、TRCHのプログラムを変更する事で任意のシステムを構築する事もできます。
 
 === 電源投入時の動作 ===
@@ -429,5 +429,5 @@ image::temperature_sensor_layout.png[scaledwidth=100%]
 
 == 形状図 ==
 
-=== Space Cubics OBC基板形状図 ===
+=== SC-OBC Module A1基板形状図 ===
 image:sc-obc-layout.svg[]
