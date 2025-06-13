@@ -1,9 +1,4 @@
 = Space Cubics OBC Product Manual =
-Space Cubics
-May 15, 2025
-:toc:
-
-
 
 == Introduction ==
 The Space Cubics OBC is an On-Board Computer (OBC) designed for use in CubeSats that are 3U in size or larger.

@@ -1,9 +1,4 @@
 = Space Cubics OBC製品マニュアル =
-Space Cubics
-June 14, 2023
-:toc:
-
-
 
 == はじめに ==
 Space Cubics OBCは、3U以上の CubeSatをターゲットとする On Board Computer(以下、OBC)です。
