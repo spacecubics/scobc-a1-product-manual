@@ -1,3 +1,5 @@
+:sectnums:
+
 = Space Cubics OBC Product Manual =
 
 == Introduction ==
