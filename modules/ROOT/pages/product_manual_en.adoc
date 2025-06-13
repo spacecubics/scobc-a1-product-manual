@@ -3,6 +3,9 @@
 = SC-OBC Module A1 Product Manual =
 
 == Introduction ==
+
+image::scobc-a1.jpg[align="center"]
+
 The SC-OBC Module A1 is an On-Board Computer (OBC) designed for use in CubeSats that are 3U in size or larger.
 
 The SC-OBC Module A1 is a system that uses a Xilinx Artix-7 FPGA as its primary processing unit, featuring an embedded ARM Cortex-M3 core implemented within the FPGA.

@@ -3,6 +3,9 @@
 = SC-OBC Module A1 製品マニュアル =
 
 == はじめに ==
+
+image::scobc-a1.jpg[align="center"]
+
 SC-OBC Module A1は、3U以上の CubeSatをターゲットとする On Board Computer(以下、OBC)です。
 
 SC-OBC Module A1はメインプロセッサ用デバイスとして Xilinx製 Artix-7 FPGAを採用し、FPGAにインプリする ARM Cortex-M3を核としたシステムです。
