@@ -1,0 +1,8 @@
+= SC-OBC Module A1 Product Manual
+
+
+The Space Cubics OBC is an on-board computer designed for CubeSats of
+3U size and larger. The Space Cubics OBC Product Manual is the
+hardware manual provided to users.
+
+Document Number: SC-ESP-00050

@@ -1,7 +1,0 @@
-* Space Cubics OBC Product Manual
-
-Space Cubics OBCは、3U以上の CubeSatをターゲットとする On Board Computerです。
-
-Space Cubics OBC Product Manualはユーザー向けに提供するハードウェアに関するマニュアルです。
-
-Document Number: SC-ESP-00050
