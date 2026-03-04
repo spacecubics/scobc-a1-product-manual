@@ -396,7 +396,7 @@ FT4232HのChannelの割り当ては以下の通りです。
 |===
 
 DEBUGインタフェースをVivadoがインストールされている PCに接続することでFPGAの書き込みを行うことができます。
-そのためPlatform cable USB IIは別途準備していただく必要はありません。
+そのため Platform cable USB IIなどの JTAG ケーブルを別途準備していただく必要はありません。
 
 これらの機能は、後述するユーザースイッチ (SW1)によって機能の有効/無効を切り替が必要ものがあります。詳細はユーザースイッチ (SW1)を参照してください。
 
@@ -415,16 +415,12 @@ DEBUGインタフェースをVivadoがインストールされている PCに接
 ---
 === FPGA JTAG インタフェース（CON3）
 
-CON3はJTAGインタフェースであり、OBCのJTAGポートへ接続されています。 +
-以下を接続する場合に使用することができます。
+CON3はJTAGインタフェースであり、OBCのJTAGポートへ接続されています。 CON2 の Channel A と同じ信号線 (FPGA_TMSなど) を使用するため、 CON2との同時使用はできません。 CON3は、IC2 を使用せずに直接 JTAG 信号を扱いたい場合にご利用ください。
+
+以下の JTAGケーブルを接続する際に使用できます。
 
 * AMD（旧 Xilinx）社製 Platform cable USB II Flying Wire Adapter
 * Digilent社製 JTAG-HS2 Programming Cable
-
-[NOTE]
-====
-DEBUGインタフェース（CON2）を用いないでFPGA JTAGにアクセスする場合に使用します。CON3を使用する場合は、DEBUGインタフェースにUSBケーブルを接続しないでください。
-====
 
 搭載可能コネクタ：TSW-106-07-L-S（Samtec）
 
