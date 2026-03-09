@@ -1,0 +1,13 @@
+= はじめに
+
+image::scobc-a1.jpg[align="center"]
+
+SC-OBC Module A1は、3U以上の CubeSatをターゲットとする On Board Computer(以下、OBC)です。
+
+SC-OBC Module A1はメインプロセッサ用デバイスとして Xilinx製 Artix-7 FPGAを採用し、FPGAにインプリする ARM Cortex-M3を核としたシステムです。
+FPGAを採用する事で、インターフェースの種類や数を Cubesat毎に柔軟に変更する事ができます。
+また、ユーザーの専用IPを実装する事により、特殊な処理を CPUのリソースを使わずに行う事ができるため、システムのパフォーマンス向上が見込めます。
+
+SC-OBC Module A1には、メインプロセッサとは別にシステム管理をおこなうためのサブマイコンとして PIC16LF877を搭載しています。
+このサブマイコンは Timing, Reset, Config & Health Controller(以下、TRCH)と呼ばれ、FPGA起動前のシステムの管理や、FPGA起動後の異常検知を行います。
+SC-OBC Module A1は、TRCHによって異常発生時に自動復帰する機能を実現しています。
