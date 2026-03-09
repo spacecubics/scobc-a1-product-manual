@@ -1,0 +1,40 @@
+= OBC System Specifications
+This section outlines the system specifications of the SC-OBC Module A1.
+
+The SC-OBC Module A1 is composed of an FPGA, functioning as the main processor on the board, and a TRCH, which manages the system and operates in coordination with the FPGA.
+Users can customize the system freely by modifying both the FPGA logic and the TRCH program.
+
+== Power-on Operation
+When power is applied to the OBC, the TRCH initializes first.
+
+The TRCH monitors power status and temperature using sensors on the OBC board. If the conditions for FPGA operation are met, it sets FPGA_PWR_EN to HIGH to enable power to the FPGA.
+
+When the FPGA is powered on, the TRCH uses the TRCH_CFG_MEM_SEL signal to select the memory for FPGA configuration.
+After power is applied, the FPGA reads data from the configuration memory selected by the TRCH and carries out its configuration.
+
+image::power_on_timing.png[scaledwidth=100%]
+
+== FPGA Status Monitoring via TRCH
+TRCH monitors the watchdog signal (FPGA_WATCHDOG) from the FPGA to detect issues with FPGA configuration or software operation.
+
+When the TRCH powers up the FPGA, configuration begins immediately [A].
+Once configuration is complete, the Watchdog circuit within the System Monitor implemented in the FPGA begins toggling the FPGA_WATCHDOG signal connected to the TRCH, independent of software operation [B].
+The TRCH verifies that the OBC's FPGA system is functioning correctly by checking that the FPGA_WATCHDOG signal toggles at regular intervals [C].
+The System Monitor inside the FPGA detects that the Software Watchdog Timer has expired if the software fails to reset (kick) the timer within a set period (initially 128 seconds). When this happens, it stops toggling the FPGA_WATCHDOG signal [D].
+
+image::watchdog_system.png[scaledwidth=100%]
+
+== System Reboot
+TRCH monitors the Watchdog and Power Cycle Request signals from the FPGA, then initiates the FPGA system power cycle when necessary.
+
+If the FPGA software fails to trigger the Software Watchdog Timer within a specified time due to a problem in the FPGA system, the FPGA_WATCHDOG signal stops toggling after a set period.
+When TRCH detects that the FPGA_WATCHDOG signal has stopped, it switches off the FPGA power [A].
+
+Before turning the FPGA power back on, the TRCH changes the configuration memory used by the FPGA [B].
+This feature enables the FPGA to boot using data from a different configuration memory upon restart.
+After the configuration memory is switched, the FPGA is powered on again to complete the power cycle [C].
+
+Changes to configuration memory occur both when a fault is detected by the watchdog and when the system is restarted in response to a power cycle request signal from the FPGA.
+When performing On the Fly rewriting of the configuration memory, if the new data causes a startup failure, the system will automatically restore the original configuration memory by rewriting it for the next startup and issuing a Power Cycle Request.
+
+image::system_reboot.png[scaledwidth=100%]

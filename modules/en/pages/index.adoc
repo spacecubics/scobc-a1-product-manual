@@ -1,0 +1,3 @@
+= SC-OBC Module A1 Product Manual
+
+include::en:introduction.adoc[leveloffset=+1]

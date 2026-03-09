@@ -1,0 +1,60 @@
+= Electrical Specifications
+
+== Absolute Maximum Ratings
+[width="80%",options="header"]
+|====
+| Item | Symbol | Minimum | Maximum | Unit | Conditions / Notes
+
+| Power supply voltage | VIN_A, VIN_B | -0.3 | 10.0 | V | 
+| FPGA I/O bank power supply voltage | VDD_UIO1, VDD_UIO2 | -0.5 | 3.6 | V | 
+| Input/output voltage (excluding ULPI, CAN, and ICSP_MCLR_B signals) | VI, VO | -0.3 | OVDD + 0.3 | V | OVDD = VDD_3V3_SYS, VDD_3V3_IO, VDD_UIO1, and VDD_UIO2
+| Input voltage (ULPI_DP and ULPI_DM signals) | VI_ULPI | -0.3 | 5.25 | V | 
+| Input voltage (CANH and CANL signals) | VI_CAN | -7 | 16 | V | 
+| Input voltage (ICSP_MCLR_B signals) | VI_ICSP_MCLR_B | 0 | 14 | V | 
+| FPGA junction temperature | Tj_FPGA | | 125 | ℃ | 
+| Operating temperature | Topr | -40 | 85 | ℃ | no condensation
+| Storage temperature | Tstg | -40 | 85 | ℃ | 
+|====
+
+Absolute maximum rating defines the value that must not be exceeded, even momentarily, during any operating or testing condition.
+Exceeding absolute maximum ratings can cause permanent damage to the device.
+Please operate with a sufficient safety margin below the specified values.
+
+== Recommended Operating Conditions
+[width="80%",options="header"]
+|====
+| Item | Symbol | Minimum | Standard | Maximum | Unit | Conditions / Notes
+
+| Power supply voltage | VIN_A, VIN_B | 4.5 | 5.0 | 5.5 | V | 
+| FPGA I/O bank supply voltage | VDD_UIO1, VDD_UIO2 | 1.14 | | 3.465 | V | Power should be switched on and off simultaneously with VDD_3V3_IO, or only when VDD_3V3_IO is supplying 3.3V.
+| Operating temperature | Topr | -40 | 25 | 80 | ℃ | no condensation
+|====
+
+== Electrical Properties
+[width="80%",options="header"]
+|====
+| Item | Symbol | Minimum | Standard | Maximum | Unit | Conditions / Notes
+
+| Over-voltage protection (OVP) threshold voltage | Vovp_th | | 6.0 | | V | 
+| Under-voltage lockout (UVLO) threshold voltage | Vuvlo_th_h | | 4.1 | | V | When VIN_A and/or VIN_B rise
+| | Vuvlo_th_l | | 3.6 | | V | when VIN_A and/or VIN_B drop
+| Over-current detection | Iocp_th_VIN_A | 1.3 | 1.6 | 1.9 | A | VIN_A
+| | Iocp_th_VIN_B | 1.3 | 1.6 | 1.9 | A | VIN_B
+| | Iocp_th_VDD_3V3_SYS | N/A | N/A | N/A | A | VDD_3V3_SYS
+| | Iocp_th_VDD_3V3_IO | 0.42 | 0.57 | 0.73 | A | VDD_3V3_IO
+| I/O power supply voltage | VDD_3V3_SYS | 2.97 | 3.3 | 3.465 | V | Iout_max = 100mA
+| | VDD_3V3_IO | 2.97 | 3.3 | 3.465 | V | Iout_max = 300mA
+|====
+
+== Power Circuit Configuration
+The power supply circuit configuration of the OBC module is shown below.
+Power supply inputs VIN_A (CON1 pins 1, 2, 3) and VIN_B (CON1 pins 78, 79, 80) operate redundantly, generating VDD_3V3_SYS_A and VDD_3V3_SYS_B independently. These two power lines are combined into VDD_3V3_SYS through ideal diodes and supply power to the TRCH and other components. Additionally, VDD_3V3_SYS is also provided externally via the IO board interface (CON1 pin 32). Since VDD_3V3_SYS is shared with internal circuits, its maximum current usage should not exceed 100 mA.
+
+FPGA_PWR_EN activates each power IC, supplying power to internal circuits and external output pins as needed.
+
+The generated power output nodes are equipped with current and voltage monitors, enabling power status monitoring from both TRCH and FPGA (M1-1, M1-2, M1-3, M2-1, M2-2, M2-3).
+
+VDD_3V3_IO is supplied externally through the IO board interface (CON1 pins 37 and 38) and includes overcurrent protection rated at 300 mA.
+
+
+image::power_supply_circuit.png[scaledwidth=100%]

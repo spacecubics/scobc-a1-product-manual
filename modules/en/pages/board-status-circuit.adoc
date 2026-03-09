@@ -1,0 +1,39 @@
+= Board Status Circuit
+The OBC Module has a function to monitor the OBC board status (power and temperature).
+
+== Power Status Monitoring
+A Current and Voltage Monitor is integrated into the power supply nodes provided by the OBC Module.
+The Current and Voltage Monitor IC uses a TEXAS INSTRUMENTS INA3221-Q1 to communicate with both the TRCH and FPGA through an I2C interface, providing power data readings.
+
+The monitoring nodes for the Current and Voltage Monitor are specified as follows.
+
+[width="80%",options="header"]
+|====
+| Current/Voltage Monitor No. | Slave Address | Channel | Node
+
+| 1 | 0x40 | 1 | VDD_1V0
+| | | 2 | VDD_1V8
+| | | 3 | VDD_3V3
+| 2 | 0x41 | 1 | VDD_3V3_SYS_A
+| | | 2 | VDD_3V3_SYS_B
+| | | 3 | VDD_3V3_IO
+|====
+
+For details on accessing the Current and Voltage Monitor, please consult the INA3221-Q1 datasheet.
+
+== Temperature Monitoring
+The OBC Module includes three temperature sensors to monitor temperature.
+The temperature sensor IC uses a TEXAS INSTRUMENTS TMQ175-Q1, which communicates with both the TRCH and FPGA via an I2C interface.
+
+The mounting position and slave address for the temperature sensors are as follows.
+
+image::temperature_sensor_layout.png[scaledwidth=100%]
+
+[width="80%",options="header"]
+|====
+| IC No. | Slave Address
+
+| IC16 | 0x4C
+| IC17 | 0x4D
+| IC20 | 0x4E
+|====

@@ -1,0 +1,59 @@
+= Product Overview
+
+== Specifications
+[width="80%",options="header"]
+|====
+| Features | Description
+
+| Main Device | Xilinx Artix-7 (XC7A200T-1FBG676I)
+| | - Logic Cells: 215,360
+| | - CLB slice count (4 LUT, 8 F/F): 33,650
+| | - Maximum Distributed RAM in CLBs: 2,888 Kb
+| | - DSP48E1 slices: 740
+| | - Block RAM: 36 Kb x 365 (18 Kb x 730)
+| | - CMTs: 10
+| | - XADC: 1 (for FPGA die temperature measurement)
+| | - I/O Banks: 10
+| Main CPU | ARM Cortex-M3 Design Start FPGA Xilinx Edition r0p1
+| | - CPU Revision r2p1
+| | - ARMv7-M architecture profile
+| | - Maximum operation frequency up to 48 MHz (T.B.D.)
+| TRCH | PIC16LF877 8 bit RISC CPU
+| | - operation frequency: 4 MHz
+| FPGA Source Clock | 24 MHz
+| On Chip SRAM | 32 kByte of FPGA BlockRAM
+| On Borad SRAM | 4 MByte Asynchronous Static RAM (CY7C1061GE)
+| | - ECC Memory Protection
+| | - Memory Scrubbing
+| Configuration Flash Memory | 32 MByte/Redundancy (NOR Flash: S25FL256L)
+| Data Store Flash Memory | 32 MByte/Redundancy (NOR Flash: S25FL256L)
+| FeRAM | 512 kByte x 2 (CY15B104QSN)
+| Control Area Network (CAN) | Conforms to the ISO 11898-1, CAN2.0A, and CAN2.0B standards. Supports bit rates up to 1 Mb/s.
+| Space Communication Bus (SCBus) | Compliant with the USB-based communication interface proposed by Space Cubics (T.B.D.)
+| | - Supports bit rates up to 12 Mbps (USB Full-Speed)
+| I2C Interface | Accessible from FPGA and TRCH x 1
+| Serial Interface | TRCH UART Interface x 1
+| | (Connection to the FPGA can be configured based on the selected hardware options.)
+| FPGA User IO| User IO Group 1 x 16 pin (variable IO voltage)
+| | User IO Group 2 x 16 pin (variable IO voltage)
+| | User IO Group 4 x 6 pin, Cortex-M3 JTAG compatible (3.3V fixed)
+| TRCH User IO| User IO Group 3 x 3 pin (3.3V fixed)
+| | (Connection to the FPGA can be configured based on the selected hardware options.)
+| Power Supply Voltage | DC 5.0V ± 10%
+| Power Consumption | 2.0 W (Max)
+| Operating temperature range | -40℃ to +80℃
+| External Dimensions | 70 mm x 70 mm
+|====
+
+== Block Diagram
+The SC-OBC Module A1 is composed of two boards—an OBC module and an IO board—providing high flexibility by leveraging the capabilities of the FPGA.
+
+The OBC Module provides versatile functionality that remains consistent regardless of interface changes in systems using the SC-OBC Module A1.
+The IO Board, on the other hand, handles functions that directly impact system configuration—such as transceiver ICs and protocol converter ICs—ensuring compliance with the electrical requirements of the interface.
+
+Users of the SC-OBC Module A1 can accommodate new satellites by redesigning the IO Board, allowing flexibility even when the satellite system changes.
+Although satellite systems may differ, systems sharing the same OBC Module can still reuse much of their software assets.
+
+The OBC Module and IO Board are connected via an 80-pin board-to-board connector.
+
+image::BlockDiagram.png[scaledwidth=100%]
