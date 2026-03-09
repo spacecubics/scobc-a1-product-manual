@@ -1,6 +1,7 @@
-name: scobc-a1-product-manual
+name: scobc-a1
 title: SC-OBC Module A1
 version: "latest"
 start_page: index.adoc
 nav:
   - modules/ROOT/nav.adoc
+  - modules/dev-board/nav.adoc
