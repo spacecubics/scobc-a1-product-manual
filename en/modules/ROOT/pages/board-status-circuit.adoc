@@ -27,7 +27,7 @@ The temperature sensor IC uses a TEXAS INSTRUMENTS TMQ175-Q1, which communicates
 
 The mounting position and slave address for the temperature sensors are as follows.
 
-image::temperature_sensor_layout.png[scaledwidth=100%]
+image::scobc-a1-jp:ROOT:temperature_sensor_layout.png[scaledwidth=100%]
 
 [width="80%",options="header"]
 |====

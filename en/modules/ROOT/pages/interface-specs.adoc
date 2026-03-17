@@ -135,11 +135,11 @@ Applying voltage only when the VDD_3V3 signal from the OBC module is high ensure
 Please configure the circuit according to the following circuit diagram.
 This circuit example is for User IO Group 1. When applying it to User IO Group 2, please adjust the pin numbers and other relevant details accordingly.
 
-image::user_io_vdd33.png[scaledwidth=100%]
+image::scobc-a1-jp:ROOT:user_io_vdd33.png[scaledwidth=100%]
 
 When using User IO at 3.3 V or when the IO Board consumes less than 0.3 A, VDD_3V3 can serve as the power supply.
 
-image::user_io_vdd16.png[scaledwidth=100%]
+image::scobc-a1-jp:ROOT:user_io_vdd16.png[scaledwidth=100%]
 
 If User IO operates at 1.6 V or the IO Board’s current consumption is 0.3 A or more, use VDD_3V3 as the enable signal and provide power from the IO Board’s power supply.
 
@@ -187,7 +187,7 @@ Connect MPLAB PICKit4 to the following pins on the OBC Module.
 | 8: N.C. | unconnected
 |====
 
-image::mplab_pickit4_connect.png[scaledwidth=100%]
+image::scobc-a1-jp:ROOT:mplab_pickit4_connect.png[scaledwidth=100%]
 
 ==== Platform Cable USB II
 FPGA programming and in-circuit debugging can be performed using the Xilinx Platform Cable USB II.
@@ -207,4 +207,4 @@ Connect the USB II Platform Cable to the designated pins on the OBC module as sh
 | TMS | 56
 |====
 
-image::platform_cable_connect.png[scaledwidth=100%]
+image::scobc-a1-jp:ROOT:platform_cable_connect.png[scaledwidth=100%]
