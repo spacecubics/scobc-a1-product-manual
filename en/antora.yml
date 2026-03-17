@@ -1,0 +1,7 @@
+name: scobc-a1-en
+title: SC-OBC Module A1 (EN)
+version: "latest"
+start_page: index.adoc
+nav:
+  - modules/ROOT/nav.adoc
+  - modules/dev-board/nav.adoc
