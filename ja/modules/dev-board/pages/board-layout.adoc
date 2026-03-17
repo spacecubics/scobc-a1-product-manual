@@ -1,0 +1,3 @@
+= 基板形状図
+
+image::Board_Dimensions.svg[Board_Dimensions.svg]

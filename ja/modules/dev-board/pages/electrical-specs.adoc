@@ -1,0 +1,42 @@
+= 電気的仕様
+
+== 絶対最大定格
+
+[width="100%",cols="3,3,2,1,1,1",options="header",]
+|===
+|項目 |記号 |条件 |最小 |最大 |単位
+|電源電圧 |5V, VIN_A_TRM, VIN_B_TRM | |-0.3 |12 |V
+|FPGA I/O バンク電源電圧 |VDD_UIO1_TRM, VDD_UIO2_TRM |OBC搭載時 |-0.3 |3.6 |V
+|動作温度 |T~opr~ |結露なきこと |-20 |70 |℃
+|===
+
+絶対最大定格は、あらゆる使用条件や試験状況において瞬時でも超えてはならない値です。 +
+絶対最大定格を超える条件下では、デバイスが恒久的に破損する可能性があります。 +
+上記の値に対して余裕をもってご使用ください。
+
+== 推奨動作範囲
+
+[width="100%",cols="3,3,2,1,1,1,1",options="header",]
+|===
+|項目 |記号 |条件 |最小 |標準 |最大 |単位
+|電源電圧 |5V, VIN_A_TRM, VIN_B_TRM | |4.75 |5.0 |5.25 |V
+|FPGA I/Oバンク電源電圧 |VDD_UIO1_TRM, VDD_UIO2_TRM |OBC搭載時 |1.14 | |3.465 |V
+|動作温度 |T~opr~ |結露なきこと |10 |25 |40 |℃
+|===
+
+== 電気的特性
+
+:fn-disclaimer: footnote:disclaimer[試験未実施（設計保証）]
+
+[width="100%",cols="3,1,2,1,1,1,1",options="header",]
+|===
+|項目 |記号 |条件 |最小 |標準 |最大 |単位
+|過電圧保護(OVP)しきい値電圧 |V~ocp_th~ |VIN_A, VIN_B{fn-disclaimer}| |5.6 | |V
+|過電流保護(OCP)しきい値電流 |I~ocp_th~ |VIN_A{fn-disclaimer} |3.2 | | |A
+| | |VIN_B{fn-disclaimer} |1.2 | | |A
+| | |VDD_3V3_SYS{fn-disclaimer} |100 | | |mA
+| | |VBUS_A{fn-disclaimer} |1.0 | | |A
+|SC Bus Host 出力電圧 |VBUS_A | | |5.0 | |V
+|降圧DC/DCコンバータ出力電圧 |VDD_3V3_DCDC |I~dcdc~ = 2A |3.135 |3.3 |3.465 |V
+|降圧DC/DCコンバータ出力電流 |I~dcdc~ | | | |2 |A
+|===

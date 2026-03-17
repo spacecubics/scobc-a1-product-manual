@@ -1,0 +1,63 @@
+= 製品概要
+
+== 仕様
+
+[width="100%",cols="1,3",options="header",]
+|===
+|Feature |Description
+|Interface |OBC Interface x1
+| |TRCH ICSP Interface x1
+| |DEBUG Interface x1 (FPGA JTAG, CPU JTAG, FPGA Console, TRCH Console)
+| |FPGA JTAG Interface x1
+| |UIO Interface x4 (UIO1 16pin、UIO2 16pin、UIO3 8pin、UIO4 6pin)
+| |CAN Interface x1
+| |SC Bus Interface x2
+| |Main Power Supply x3 (DC Jack x1, Block Terminal x2)
+| |UIO Power Supply x2 (Block Terminal x2)
+| |Power Output x4 (VDD_UIO1, VDD_UIO2, VDD_3V3_SYS, VDD_3V3_IO)
+|Switch |Slide Switch for Main Power Supply x1, User Switch x1
+|LED |Power LED x8, User LED x1
+|Temperature Sensor |User Temperature Sensor x1 (TI製 TMP175)
+|Power Supply |DC 5V +/-5%
+|Operation Temperature |10~40℃
+|Protection |Main Power Supply OVP (Over Voltage Protection) x2
+| |VDD_3V3_SYS OCP (Over Current Protection) x1
+| |SC Bus VBUS OCP (Over Current Protection) x1
+| |ESD Protection (Each Terminal)
+|Board Size |200 x 130 mm
+|===
+
+== 外観
+Dev Boardの外観を以下に示します。
+
+image::Appearance.svg[Appearance.svg]
+
+[width="100%",cols="1,2,6",options="header",]
+|===
+|番号 |名称 |説明
+|1 |主電源コネクタ |ACアダプタを接続します。
+|2 |電源スイッチ |主電源のON/OFFが可能です。
+|3 |PowerLED インジケータ |各種電源の出力状況の判別ができます。
+|4 |電源セレクタ |主電源およびUIO電源の入力先の切り替えができます。
+|5 |OBC |SC-OBC Module A1を搭載できます。
+|6 |ユーザースイッチ |ユーザーが自由に機能を設定できるDIPスイッチです。
+|7 |ユーザーLED |ユーザーが自由に使用できる黄緑色LEDです。
+|8 |CANコネクタ |CAN通信用のケーブルを接続できる端子台です。
+|9 |USBコネクタ |USB Micro-Bプラグを接続できます。FPGA JTAG, CPU JTAG, FPGA UART(Console), TRCH UARTで使用できます。
+|10 |ユーザー温度センサ |ユーザーが自由に使用できる温度センサです。
+|11 |PICkitコネクタ |Microchip製のPICkitを接続できます。
+|12 |Universal Area |ユーザーが自由に使用できる領域です。
+|13 |USBコネクタ |表面にUSB Type-Aプラグ、裏面にMicro-Bプラグを接続できます。SC Bus通信の用途で使用できます。
+|14 |UIO電源コネクタ |ユーザーがUIO電源を任意の電圧で供給できる端子台です。
+|15 |主電源コネクタ |ユーザーがACアダプタ以外で主電源を供給できる端子台です。
+|===
+
+== ブロック図
+Dev Boardのブロック図を以下に示します。 +
+電源に関する詳細なブロック図は別途示します。
+
+image::Function_Block_diagram.svg[Function_Block_diagram.svg]
+
+電源のブロック図を以下に示します。
+
+image::Power_Block_diagram.svg[Power_Block_diagram.svg]

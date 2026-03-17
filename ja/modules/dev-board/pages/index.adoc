@@ -2,4 +2,4 @@
 
 = SC-OBC Module A1 Development Board Product Manual
 
-include::manual.adoc[]
+include::intro.adoc[leveloffset=+1]

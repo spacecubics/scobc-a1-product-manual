@@ -1,0 +1,12 @@
+= はじめに
+
+image::dev-board-rev-b.webp[A1 Dev Board]
+
+このたびは SC-OBC Module A1 Development Board をご利用いただき、ありがとうございます。 +
+SC-OBC Module A1 Development Board は、SC-OBC Module A1の初期の開発を円滑に行えることを目的としており、ソフトウェアやFPGAの開発に必要な以下の各種インタフェースが搭載されています。
+
+* DCジャックを始めとする柔軟性の高い電源インタフェース
+* FPGA JTAG、PIC ICSP、Zephyer ConsoleなどのDEBUGインタフェース
+* CAN、User IOなどの通信インタフェース
+
+また、User IOを用いて構築する回路を容易に実装する事を目的とした Universal Areaを備え、初期のシステム検討や BBM開発を手助けします。

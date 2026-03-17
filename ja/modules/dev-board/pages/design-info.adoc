@@ -1,0 +1,27 @@
+= 設計情報
+
+== 回路図
+
+* xref:attachment$SC-MPN-0056B_Dev_Board_Schematic_Rev1.pdf[SC-MPN-0056B_Dev_Board_Schematic_Rev1.pdf]
+
+=== Revision History
+[width="100%",cols="1,2,1,4",options="header",]
+|===
+|Date |Board No. |Rev. |Description
+|2025/6/16 |SC-MPN-0054A |1.0 |Initial Release
+|2025/9/24 |SC-MPN-0054B |1.0 |Initial Release
+|===
+
+== 部品配置図
+
+////
+* xref:attachment$SC-MPN-0056A_Layout_Rev1.pdf[SC-MPN-0056A_Layout_Rev1.pdf]
+
+=== Revision History
+[width="100%",cols="1,1,4",options="header",]
+|===
+|Date |Rev. |Description
+|2025/6/16 |1.0 |Initial Release
+|===
+////
+TBD
