@@ -1,0 +1,7 @@
+name: scobc-a1-jp
+title: SC-OBC Module A1 (JP)
+version: "latest"
+start_page: index.adoc
+nav:
+  - modules/ROOT/nav.adoc
+  - modules/dev-board/nav.adoc
