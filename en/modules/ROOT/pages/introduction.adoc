@@ -1,6 +1,6 @@
 = Introduction
 
-image::scobc-a1-ja:ROOT:scobc-a1.jpg[align="center"]
+image::scobc-a1:ROOT:scobc-a1.jpg[align="center"]
 
 The SC-OBC Module A1 is an On-Board Computer (OBC) designed for use in CubeSats that are 3U in size or larger.
 

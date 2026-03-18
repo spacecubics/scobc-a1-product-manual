@@ -56,4 +56,4 @@ Although satellite systems may differ, systems sharing the same OBC Module can s
 
 The OBC Module and IO Board are connected via an 80-pin board-to-board connector.
 
-image::scobc-a1-ja:ROOT:BlockDiagram.png[scaledwidth=100%]
+image::scobc-a1:ROOT:BlockDiagram.png[scaledwidth=100%]

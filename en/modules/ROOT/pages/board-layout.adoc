@@ -1,4 +1,4 @@
 = Board Layout Diagram
 
 == SC-OBC Module A1 Board Layout Diagram
-image::scobc-a1-ja:ROOT:sc-obc-layout.svg[]
+image::scobc-a1:ROOT:sc-obc-layout.svg[]

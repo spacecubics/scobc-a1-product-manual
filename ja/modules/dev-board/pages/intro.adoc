@@ -1,6 +1,6 @@
 = はじめに
 
-image::dev-board-rev-b.webp[A1 Dev Board]
+image::scobc-a1:dev-board:dev-board-rev-b.webp[A1 Dev Board]
 
 このたびは SC-OBC Module A1 Development Board をご利用いただき、ありがとうございます。 +
 SC-OBC Module A1 Development Board は、SC-OBC Module A1の初期の開発を円滑に行えることを目的としており、ソフトウェアやFPGAの開発に必要な以下の各種インタフェースが搭載されています。

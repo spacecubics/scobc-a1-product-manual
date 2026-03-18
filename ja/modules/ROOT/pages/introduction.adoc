@@ -1,6 +1,6 @@
 = はじめに
 
-image::scobc-a1.jpg[align="center"]
+image::scobc-a1:ROOT:scobc-a1.jpg[align="center"]
 
 SC-OBC Module A1は、3U以上の CubeSatをターゲットとする On Board Computer(以下、OBC)です。
 

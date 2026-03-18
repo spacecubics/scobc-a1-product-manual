@@ -57,4 +57,4 @@ The generated power output nodes are equipped with current and voltage monitors,
 VDD_3V3_IO is supplied externally through the IO board interface (CON1 pins 37 and 38) and includes overcurrent protection rated at 300 mA.
 
 
-image::scobc-a1-ja:ROOT:power_supply_circuit.png[scaledwidth=100%]
+image::scobc-a1:ROOT:power_supply_circuit.png[scaledwidth=100%]

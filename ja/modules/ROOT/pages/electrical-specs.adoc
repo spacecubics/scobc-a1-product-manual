@@ -57,4 +57,4 @@ FPGA_PWR_EN によって、 各電源 IC が Enable され、 内部回路及び
 VDD_3V3_IOは IO Board インターフェース (CON1 37, 38) を経由して外部に供給されます。 VDD_3V3_IOには 300 mA の Over Current Protection が付加されています。
 
 
-image::power_supply_circuit.png[scaledwidth=100%]
+image::scobc-a1:ROOT:power_supply_circuit.png[scaledwidth=100%]

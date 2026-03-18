@@ -1,4 +1,4 @@
 = 形状図
 
 == SC-OBC Module A1基板形状図
-image:sc-obc-layout.svg[]
+image::scobc-a1:ROOT:sc-obc-layout.svg[]

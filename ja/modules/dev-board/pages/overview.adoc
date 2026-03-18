@@ -30,7 +30,7 @@
 == 外観
 Dev Boardの外観を以下に示します。
 
-image::Appearance.svg[Appearance.svg]
+image::scobc-a1:dev-board:Appearance.svg[Appearance.svg]
 
 [width="100%",cols="1,2,6",options="header",]
 |===
@@ -56,8 +56,8 @@ image::Appearance.svg[Appearance.svg]
 Dev Boardのブロック図を以下に示します。 +
 電源に関する詳細なブロック図は別途示します。
 
-image::Function_Block_diagram.svg[Function_Block_diagram.svg]
+image::scobc-a1:dev-board:Function_Block_diagram.svg[Function_Block_diagram.svg]
 
 電源のブロック図を以下に示します。
 
-image::Power_Block_diagram.svg[Power_Block_diagram.svg]
+image::scobc-a1:dev-board:Power_Block_diagram.svg[Power_Block_diagram.svg]
