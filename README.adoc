@@ -1,4 +1,0 @@
-= SC-OBC Module A1 Development Board Product Manual
-
-This is a git repo for SC-OBC module A1 development board manual. You
-can read the doc at https://spacecubics.github.io/sc-docs/.
