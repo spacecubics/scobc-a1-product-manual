@@ -1,5 +1,5 @@
-name: scobc-a1-en
-title: SC-OBC Module A1 (EN)
+name: scobc-a1
+title: SC-OBC Module A1 (en)
 version: "latest"
 start_page: index.adoc
 nav:
