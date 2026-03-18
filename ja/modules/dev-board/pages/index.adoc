@@ -1,0 +1,5 @@
+:sectnums:
+
+= SC-OBC Module A1 Development Board Product Manual
+
+include::manual.adoc[]
