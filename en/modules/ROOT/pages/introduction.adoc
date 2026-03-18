@@ -1,6 +1,6 @@
 = Introduction
 
-image::scobc-a1-jp:ROOT:scobc-a1.jpg[align="center"]
+image::scobc-a1-ja:ROOT:scobc-a1.jpg[align="center"]
 
 The SC-OBC Module A1 is an On-Board Computer (OBC) designed for use in CubeSats that are 3U in size or larger.
 
@@ -11,4 +11,3 @@ In addition, implementing user-defined IP enables specialized processing without
 The SC-OBC Module A1 includes a PIC16LF877 sub-microcontroller as a secondary system management unit, operating independently from the main processor.
 This sub-microcomputer, known as the Timing, Reset, Config & Health Controller (TRCH), manages the system prior to FPGA startup and monitors for anomalies after the FPGA has started.
 The SC-OBC Module A1 features an automatic recovery mechanism that utilizes TRCH to restore the system in the event of an abnormality.
-

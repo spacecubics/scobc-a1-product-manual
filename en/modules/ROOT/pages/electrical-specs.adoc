@@ -5,15 +5,15 @@
 |====
 | Item | Symbol | Minimum | Maximum | Unit | Conditions / Notes
 
-| Power supply voltage | VIN_A, VIN_B | -0.3 | 10.0 | V | 
-| FPGA I/O bank power supply voltage | VDD_UIO1, VDD_UIO2 | -0.5 | 3.6 | V | 
+| Power supply voltage | VIN_A, VIN_B | -0.3 | 10.0 | V |
+| FPGA I/O bank power supply voltage | VDD_UIO1, VDD_UIO2 | -0.5 | 3.6 | V |
 | Input/output voltage (excluding ULPI, CAN, and ICSP_MCLR_B signals) | VI, VO | -0.3 | OVDD + 0.3 | V | OVDD = VDD_3V3_SYS, VDD_3V3_IO, VDD_UIO1, and VDD_UIO2
-| Input voltage (ULPI_DP and ULPI_DM signals) | VI_ULPI | -0.3 | 5.25 | V | 
-| Input voltage (CANH and CANL signals) | VI_CAN | -7 | 16 | V | 
-| Input voltage (ICSP_MCLR_B signals) | VI_ICSP_MCLR_B | 0 | 14 | V | 
-| FPGA junction temperature | Tj_FPGA | | 125 | ℃ | 
+| Input voltage (ULPI_DP and ULPI_DM signals) | VI_ULPI | -0.3 | 5.25 | V |
+| Input voltage (CANH and CANL signals) | VI_CAN | -7 | 16 | V |
+| Input voltage (ICSP_MCLR_B signals) | VI_ICSP_MCLR_B | 0 | 14 | V |
+| FPGA junction temperature | Tj_FPGA | | 125 | ℃ |
 | Operating temperature | Topr | -40 | 85 | ℃ | no condensation
-| Storage temperature | Tstg | -40 | 85 | ℃ | 
+| Storage temperature | Tstg | -40 | 85 | ℃ |
 |====
 
 Absolute maximum rating defines the value that must not be exceeded, even momentarily, during any operating or testing condition.
@@ -25,7 +25,7 @@ Please operate with a sufficient safety margin below the specified values.
 |====
 | Item | Symbol | Minimum | Standard | Maximum | Unit | Conditions / Notes
 
-| Power supply voltage | VIN_A, VIN_B | 4.5 | 5.0 | 5.5 | V | 
+| Power supply voltage | VIN_A, VIN_B | 4.5 | 5.0 | 5.5 | V |
 | FPGA I/O bank supply voltage | VDD_UIO1, VDD_UIO2 | 1.14 | | 3.465 | V | Power should be switched on and off simultaneously with VDD_3V3_IO, or only when VDD_3V3_IO is supplying 3.3V.
 | Operating temperature | Topr | -40 | 25 | 80 | ℃ | no condensation
 |====
@@ -35,7 +35,7 @@ Please operate with a sufficient safety margin below the specified values.
 |====
 | Item | Symbol | Minimum | Standard | Maximum | Unit | Conditions / Notes
 
-| Over-voltage protection (OVP) threshold voltage | Vovp_th | | 6.0 | | V | 
+| Over-voltage protection (OVP) threshold voltage | Vovp_th | | 6.0 | | V |
 | Under-voltage lockout (UVLO) threshold voltage | Vuvlo_th_h | | 4.1 | | V | When VIN_A and/or VIN_B rise
 | | Vuvlo_th_l | | 3.6 | | V | when VIN_A and/or VIN_B drop
 | Over-current detection | Iocp_th_VIN_A | 1.3 | 1.6 | 1.9 | A | VIN_A
@@ -57,4 +57,4 @@ The generated power output nodes are equipped with current and voltage monitors,
 VDD_3V3_IO is supplied externally through the IO board interface (CON1 pins 37 and 38) and includes overcurrent protection rated at 300 mA.
 
 
-image::scobc-a1-jp:ROOT:power_supply_circuit.png[scaledwidth=100%]
+image::scobc-a1-ja:ROOT:power_supply_circuit.png[scaledwidth=100%]
