@@ -6,3 +6,4 @@ nav:
   - modules/ROOT/nav.adoc
   - modules/dev-board/nav.adoc
   - modules/software/nav.adoc
+  - modules/fpga/nav.adoc
