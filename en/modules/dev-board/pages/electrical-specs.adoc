@@ -1,0 +1,42 @@
+= Electrical Specifications
+
+== Absolute Maximum Ratings
+
+[width="100%",cols="3,3,2,1,1,1",options="header",]
+|===
+|Item |Symbol |Condition |Minimum |Maximum |Unit
+|Supply Voltage |5V, VIN_A_TRM, VIN_B_TRM | |-0.3 |12 |V
+|FPGA I/O Bank Supply Voltage |VDD_UIO1_TRM, VDD_UIO2_TRM |When OBC is installed |-0.3 |3.6 |V
+|Operating Temperature |T~opr~ |No condensation |-20 |70 |℃
+|===
+
+Absolute maximum ratings are values that must not be exceeded even momentarily under any operating or test conditions. +
+Exceeding absolute maximum ratings may cause permanent damage to the device. +
+Please use the device with a margin relative to the above values.
+
+== Recommended Operating Range
+
+[width="100%",cols="3,3,2,1,1,1,1",options="header",]
+|===
+|Item |Symbol |Condition |Minimum |Typical |Maximum |Unit
+|Supply Voltage |5V, VIN_A_TRM, VIN_B_TRM | |4.75 |5.0 |5.25 |V
+|FPGA I/O Bank Supply Voltage |VDD_UIO1_TRM, VDD_UIO2_TRM |When OBC is installed |1.14 | |3.465 |V
+|Operating Temperature |T~opr~ |No condensation |10 |25 |40 |℃
+|===
+
+== Electrical Characteristics
+
+:fn-disclaimer: footnote:disclaimer[Not tested (design assurance)]
+
+[width="100%",cols="3,1,2,1,1,1,1",options="header",]
+|===
+|Item |Symbol |Condition |Minimum |Typical |Maximum |Unit
+|Overvoltage Protection (OVP) Threshold Voltage |V~ocp_th~ |VIN_A, VIN_B{fn-disclaimer}| |5.6 | |V
+|Overcurrent Protection (OCP) Threshold Current |I~ocp_th~ |VIN_A{fn-disclaimer} |3.2 | | |A
+| | |VIN_B{fn-disclaimer} |1.2 | | |A
+| | |VDD_3V3_SYS{fn-disclaimer} |100 | | |mA
+| | |VBUS_A{fn-disclaimer} |1.0 | | |A
+|SC Bus Host Output Voltage |VBUS_A | | |5.0 | |V
+|Step-Down DC/DC Converter Output Voltage |VDD_3V3_DCDC |I~dcdc~ = 2A |3.135 |3.3 |3.465 |V
+|Step-Down DC/DC Converter Output Current |I~dcdc~ | | | |2 |A
+|===

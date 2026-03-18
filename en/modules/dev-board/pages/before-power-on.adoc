@@ -1,0 +1,52 @@
+= Before Powering On
+
+== Required Items
+Before using the Dev Board, prepare the following items as needed:
+
+[width="100%",cols="1,3",]
+|===
+|Work PC |A PC running Linux or Windows with at least one USB port.
+|USB Cable |Used for FPGA programming and a serial communication (e.g., the Zephyr serial console). A Micro-USB cable is required.
+|MPLAB PICkit |A Microchip debugger. Used to write software for the TRCH.
+|===
+
+== Assembly
+The connection method for included parts like screws is shown below.
+
+image::Assembly.svg[Assembly.svg]
+
+[width="80%",cols="1,6",options="header",]
+|===
+|Number |Name
+|1 |Pan head screw (M3, L=4mm)
+|2 |Hex single-head stud standoff socket spacer (M3, L=5mm)
+|3 |Hex nut (M3, Type 2)
+|4 |Hex male-to-female spacer (M3, L=10mm)
+|===
+
+=== Precautions When Inserting/Removing the OBC Connection Interface (CON1)
+To prevent connector damage, contact buckling, or deformation, insert the connector perpendicular to the board. Avoid the following insertion mistakes:
+
+* Avoid forcing the connector into place when the socket and header mating surfaces are misaligned (A)
+* Avoid forcing the connector into place by sliding it while applying pressure when the mating surfaces are misaligned (B)
+* Avoid inserting the connector at an angle (C)
+
+image::CON1_Insertion.svg[CON1_Insertion.svg]
+
+Similarly, when removing the connector, do so perpendicular to the board. +
+For the OBC connection interface (CON1), refer to the interface specifications described later.
+
+== Connection Method
+Connection examples between the Dev Board and peripheral devices are shown below.
+
+image::Connection_Diagram.svg[Connection_Diagram.svg]
+
+[width="50%",cols="1,3",options="header",]
+|===
+|Number |Name
+|1 |OBC + Dev Board
+|2 |AC Adapter (5V/3.0A PL03B)
+|3 |Work PC
+|4 |USB Cable (Type-A to Micro-B)
+|5 |MPLAB PICkit
+|===
