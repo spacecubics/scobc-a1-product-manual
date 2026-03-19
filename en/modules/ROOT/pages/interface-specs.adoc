@@ -12,9 +12,9 @@ Refer to the Board Layout Diagram for connector locations.
 |====
 | Pin Number | Pin Name | I/O | Power Domain | Description
 
-| 1 | VIN_A | Power | - | power supply (VIN_A)
-| 2 | VIN_A | Power | - | power supply (VIN_A)
-| 3 | VIN_A | Power | - | power supply (VIN_A)
+| 1 | VIN_A | Power | - | Power supply (VIN_A)
+| 2 | VIN_A | Power | - | Power supply (VIN_A)
+| 3 | VIN_A | Power | - | Power supply (VIN_A)
 | 4 | ULPI_DP | Inout | - | SC Bus D + signal
 | 5 | ULPI_DM | Inout | - | SC Bus D - signal
 | 6 | GND | Power | - | Ground
@@ -43,23 +43,23 @@ Refer to the Board Layout Diagram for connector locations.
 | 29 | GND | Power | - | Ground
 | 30 | TRCH_UART_TX | Output | VDD_3V3_SYS / VDD_3V3_IOfootnote:hwopt[] | TRCH UART TX signal is connected to RC6/TX/CK of the PIC16LF877. This can be reassigned to FPGA pin IO_L24N_T3_12 (pin: W15) via hardware configuration options.
 | 31 | TRCH_UART_RX | Input | VDD_3V3_SYS / VDD_3V3_IOfootnote:hwopt[] | TRCH UART RX signal is connected to RC7/RX/DT of the PIC16LF877. Using hardware options, it can be reassigned to FPGA IO_L1N_T0_12 (pin: AE26).
-| 32 | VDD_3V3_SYS | Power | - | power supply (VDD_3V3_SYS) output
+| 32 | VDD_3V3_SYS | Power | - | Power supply (VDD_3V3_SYS) output
 | 33 | GND| Power | - | Ground
 | 34 | I2C_EXT_SCL | Output | VDD_3V3_SYS | I2C SCL signal connects the PIC16LF877 RD2 PSP2 pin to the FPGA IO_L9P_T1_DQS_12 pin at AE22. It is pulled up with a 4.7 kΩ resistor.
 | 35 | I2C_EXT_SDA | Inout | VDD_3V3_SYS | I2C SDA signal connects the PIC16LF877 RD3 PSP3 pin to the FPGA IO_L9N_T1_DQS_12 pin at AF22. It is pulled up with a 4.7 kΩ resistor.
 | 36 | WDOG_OUT | Output | VDD_3V3_SYS / VDD_3V3_IOfootnote:hwopt[] | Watchdog output signal is connected to RE0/AN5/RD of the PIC16LF877. It can be switched to FPGA IO_L16N_T2_12 (pin: AF18) via hardware options.
-| 37 | VDD_3V3_IO | Power | - | power supply (VDD_3V3_IO) output
-| 38 | VDD_3V3_IO | Power | - | power supply (VDD_3V3_IO) output
-| 39 | VDD_UIO1 | Power | - | power supply (VDD_UIO1)
-| 40 | VDD_UIO1 | Power | - | power supply (VDD_UIO1)
+| 37 | VDD_3V3_IO | Power | - | Power supply (VDD_3V3_IO) output
+| 38 | VDD_3V3_IO | Power | - | Power supply (VDD_3V3_IO) output
+| 39 | VDD_UIO1 | Power | - | Power supply (VDD_UIO1)
+| 40 | VDD_UIO1 | Power | - | Power supply (VDD_UIO1)
 |====
 
 [width="80%",options="header"]
 |====
 | Pin Number | Pin Name | I/O Type | Power Domain | Description
 
-| 41 | VDD_UIO2 | Power | - | power supply (VDD_UIO2)
-| 42 | VDD_UIO2 | Power | - | power supply (VDD_UIO2)
+| 41 | VDD_UIO2 | Power | - | Power supply (VDD_UIO2)
+| 42 | VDD_UIO2 | Power | - | Power supply (VDD_UIO2)
 | 43 | UIO4_05 | Inout | VDD_3V3_IO | User IO4 Bit 5 / CM3 NTRST signal is connected to FPGA IO_0_13 (pin: U24).
 | 44 | UIO4_04 | Inout | VDD_3V3_IO | User IO4 Bit 4 / CM3 TDO and SWO signals are connected to FPGA IO_L16P_T2_13 (pin: W20).
 | 45 | UIO4_03 | Inout | VDD_3V3_IO | User IO4 Bit 3 / CM3 TDI signal is connected to FPGA IO_L16N_T2_13 (pin: Y20).
@@ -95,9 +95,9 @@ Refer to the Board Layout Diagram for connector locations.
 | 75 | GND | Power | - | Ground
 | 76 | CANL | Inout | - | SC OBC CAN L signal
 | 77 | CANH | Inout | - | SC OBC CAN H signal
-| 78 | VIN_B | Power | - | power supply (VIN_B)
-| 79 | VIN_B | Power | - | power supply (VIN_B)
-| 80 | VIN_B | Power | - | power supply (VIN_B)
+| 78 | VIN_B | Power | - | Power supply (VIN_B)
+| 79 | VIN_B | Power | - | Power supply (VIN_B)
+| 80 | VIN_B | Power | - | Power supply (VIN_B)
 |====
 
 === Power Input
