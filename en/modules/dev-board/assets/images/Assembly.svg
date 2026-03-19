@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<!-- Microsoft Visio、SVG Export により生成 Assembly_revB.svg ページ - 1 -->
+<!-- Microsoft Visio、SVG Export により生成 Assembly.svg ページ - 1 -->
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
-		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="9.85912in" height="12.9229in"
-		viewBox="0 0 709.857 930.449" xml:space="preserve" color-interpolation-filters="sRGB" class="st27">
-	<v:documentProperties v:langID="1041"/>
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="9.45922in" height="12.9333in"
+		viewBox="0 0 681.064 931.197" xml:space="preserve" color-interpolation-filters="sRGB" class="st27">
+	<v:documentProperties v:langID="1041" v:metric="true" v:viewMarkup="false"/>
 
 	<style type="text/css">
 	<![CDATA[
 		.st1 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
 		.st2 {fill:#ff0000;fill-opacity:0.5;stroke:#c00000;stroke-width:2.99999}
 		.st3 {fill:#5b9bd5;fill-opacity:0.5;stroke:#0070c0;stroke-width:2.99999}
-		.st4 {fill:none;stroke:none;stroke-width:0.999999}
-		.st5 {fill:none}
-		.st6 {stroke:#ff0000;stroke-dasharray:4.5,4.5;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5}
-		.st7 {fill:#ff0000;stroke:#c00000;stroke-width:2}
-		.st8 {fill:none;stroke:none;stroke-width:0.249999}
-		.st9 {fill:#ff0000;font-family:Calibri;font-size:1.99999em}
-		.st10 {stroke:#4672c4;stroke-dasharray:4.5,4.5;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5}
-		.st11 {fill:#5b9bd5;stroke:#0070c0;stroke-width:2}
-		.st12 {fill:#4672c4;font-family:Calibri;font-size:1.99999em}
-		.st13 {stroke:#000000;stroke-dasharray:2.99999,2.99999;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.999997}
-		.st14 {fill:#ffffff;stroke:#000000;stroke-width:1.5}
-		.st15 {fill:#000000;font-family:Calibri;font-size:1.16666em}
-		.st16 {fill:#70ad47;stroke:#000000;stroke-width:1.5}
-		.st17 {fill:#feffff;font-family:Calibri;font-size:1.16666em}
-		.st18 {fill:#d8d8d8;stroke:#000000;stroke-width:1.5}
-		.st19 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5}
-		.st20 {stroke:#000000;stroke-linecap:butt;stroke-width:3.74999}
-		.st21 {fill:#000000;font-family:ＭＳ Ｐゴシック;font-size:1.5em;font-weight:bold}
-		.st22 {stroke:#ff0000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.999997}
-		.st23 {fill:#000000;font-family:ＭＳ Ｐゴシック;font-size:1.5em}
-		.st24 {font-family:Calibri;font-size:1em}
+		.st4 {fill:none;stroke:none;stroke-width:0.999998}
+		.st5 {fill:none;stroke:none;stroke-width:0.999999}
+		.st6 {fill:none}
+		.st7 {stroke:#ff0000;stroke-dasharray:4.5,4.5;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5}
+		.st8 {fill:#ff0000;stroke:#c00000;stroke-width:2}
+		.st9 {fill:none;stroke:none;stroke-width:0.249999}
+		.st10 {fill:#ff0000;font-family:Calibri;font-size:1.99999em}
+		.st11 {stroke:#4672c4;stroke-dasharray:4.5,4.5;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5}
+		.st12 {fill:#5b9bd5;stroke:#0070c0;stroke-width:2}
+		.st13 {fill:#4672c4;font-family:Calibri;font-size:1.99999em}
+		.st14 {stroke:#000000;stroke-dasharray:2.99999,2.99999;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.999996}
+		.st15 {fill:#ffffff;stroke:#000000;stroke-width:1.5}
+		.st16 {fill:#000000;font-family:Calibri;font-size:1.16666em}
+		.st17 {fill:#70ad47;stroke:#000000;stroke-width:1.5}
+		.st18 {fill:#feffff;font-family:Calibri;font-size:1.16666em}
+		.st19 {fill:#d8d8d8;stroke:#000000;stroke-width:1.5}
+		.st20 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5}
+		.st21 {stroke:#000000;stroke-linecap:butt;stroke-width:3.74999}
+		.st22 {fill:#000000;font-family:ＭＳ Ｐゴシック;font-size:1.5em;font-weight:bold}
+		.st23 {stroke:#ff0000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.999996}
+		.st24 {fill:#000000;font-family:ＭＳ Ｐゴシック;font-size:1.5em}
 		.st25 {fill:#fec000;fill-opacity:0.5;stroke:#000000;stroke-dasharray:0.01,6;stroke-width:2}
 		.st26 {fill:#000000;font-family:Calibri;font-size:0.833336em}
 		.st27 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
@@ -42,13 +42,13 @@
 		<title>ページ - 1</title>
 		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="8.50392"
 				v:shadowOffsetY="-8.50392"/>
-		<g id="shape1-1" v:mID="1" v:groupContext="shape" transform="translate(680.315,946.903) rotate(180)">
+		<g id="shape1-1" v:mID="1" v:groupContext="shape" transform="translate(680.314,947.901) rotate(180)">
 			<title>シート.123</title>
-			<rect v:rectContext="foreign" x="0" y="504.013" width="629.001" height="426.436" class="st1"/>
+			<rect v:rectContext="foreign" x="0" y="504.761" width="629.001" height="426.436" class="st1"/>
 			<clipPath id="clip-path3" clipPathUnits="userSpaceOnUse">
-				<rect x="0" y="504.013" width="629.001" height="426.436"/>
+				<rect x="0" y="504.761" width="629.001" height="426.436"/>
 			</clipPath>
-			<image x="-15.3116" y="494.348" width="653.296" height="445.094" preserveAspectRatio="none"
+			<image x="-15.3116" y="495.096" width="653.296" height="445.094" preserveAspectRatio="none"
 					clip-path="url(#clip-path3)" overflow="hidden" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABLA
 						AAAM9CAYAAACMqIpHAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAP+lSURBVHhe7P138CX
 						Jdd8LSrFSrPQUb//YECRQz6xA0IgSKdE7ceX4KImiINGLBAiAkEjRggAIEN5j4AiPwQAzgwEwbabHdo/r6emZ7vHeT3vvvbvz9u2+3Yi
@@ -3477,1085 +3477,1410 @@
 						xYsWKFStWrFixYsWKFStWrFixYsWKFStWrFixYsWKFStWrFixYsWKFStWrFixYsWKFStWrFixYsWKFStWrFixYsWKFStWrFixYsWKFSt
 						WrFixYsWKFStWrFixYsWKFStWrFixYsWKFStWrFixYsWKFStWrFixYsWKFStWrFixYsWKFStWrFixYsWKlUlU/j/xAwOkXPDKDAAAAAB
 						JRU5ErkJggg=="/>
-			<rect v:rectContext="foreign" x="0" y="504.013" width="629.001" height="426.436" class="st1"/>
+			<rect v:rectContext="foreign" x="0" y="504.761" width="629.001" height="426.436" class="st1"/>
 		</g>
-		<g id="shape2-5" v:mID="2" v:groupContext="shape" transform="translate(83.1866,-799.368)">
+		<g id="shape2-5" v:mID="2" v:groupContext="shape" transform="translate(83.1859,-799.864)">
 			<title>円</title>
 			<v:userDefs>
 				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
 			</v:userDefs>
-			<path d="M0 918.1 A12.2653 12.2653 0 0 1 24.53 918.1 A12.2653 12.2653 0 1 1 0 918.1 Z" class="st2"/>
+			<path d="M0 918.85 A12.2653 12.2653 0 0 1 24.53 918.85 A12.2653 12.2653 0 1 1 0 918.85 Z" class="st2"/>
 		</g>
-		<g id="shape3-7" v:mID="3" v:groupContext="shape" transform="translate(283.465,-800.349)">
+		<g id="shape3-7" v:mID="3" v:groupContext="shape" transform="translate(283.464,-800.845)">
 			<title>円.3</title>
 			<v:userDefs>
 				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
 			</v:userDefs>
-			<path d="M0 918.1 A12.2653 12.2653 0 0 1 24.53 918.1 A12.2653 12.2653 0 1 1 -0 918.1 Z" class="st2"/>
+			<path d="M0 918.85 A12.2653 12.2653 0 0 1 24.53 918.85 A12.2653 12.2653 0 1 1 -0 918.85 Z" class="st2"/>
 		</g>
-		<g id="shape4-9" v:mID="4" v:groupContext="shape" transform="translate(83.1866,-601.924)">
+		<g id="shape4-9" v:mID="4" v:groupContext="shape" transform="translate(83.1859,-602.42)">
 			<title>円.4</title>
 			<v:userDefs>
 				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
 			</v:userDefs>
-			<path d="M0 918.1 A12.2653 12.2653 0 0 1 24.53 918.1 A12.2653 12.2653 0 1 1 0 918.1 Z" class="st2"/>
+			<path d="M0 918.85 A12.2653 12.2653 0 0 1 24.53 918.85 A12.2653 12.2653 0 1 1 0 918.85 Z" class="st2"/>
 		</g>
-		<g id="shape5-11" v:mID="5" v:groupContext="shape" transform="translate(283.465,-601.924)">
+		<g id="shape5-11" v:mID="5" v:groupContext="shape" transform="translate(283.464,-602.42)">
 			<title>円.5</title>
 			<v:userDefs>
 				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
 			</v:userDefs>
-			<path d="M0 918.1 A12.2653 12.2653 0 0 1 24.53 918.1 A12.2653 12.2653 0 1 1 -0 918.1 Z" class="st2"/>
+			<path d="M0 918.85 A12.2653 12.2653 0 0 1 24.53 918.85 A12.2653 12.2653 0 1 1 -0 918.85 Z" class="st2"/>
 		</g>
-		<g id="shape6-13" v:mID="6" v:groupContext="shape" transform="translate(51.5146,-889.962)">
+		<g id="shape6-13" v:mID="6" v:groupContext="shape" transform="translate(51.5139,-890.458)">
 			<title>円.6</title>
 			<v:userDefs>
 				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
 			</v:userDefs>
-			<path d="M0 918.1 A12.2653 12.2653 0 0 1 24.53 918.1 A12.2653 12.2653 0 1 1 0 918.1 Z" class="st3"/>
+			<path d="M0 918.85 A12.2653 12.2653 0 0 1 24.53 918.85 A12.2653 12.2653 0 1 1 0 918.85 Z" class="st3"/>
 		</g>
-		<g id="shape7-15" v:mID="7" v:groupContext="shape" transform="translate(51.5146,-505.056)">
+		<g id="shape7-15" v:mID="7" v:groupContext="shape" transform="translate(51.5139,-505.553)">
 			<title>円.7</title>
 			<v:userDefs>
 				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
 			</v:userDefs>
-			<path d="M0 918.1 A12.2653 12.2653 0 0 1 24.53 918.1 A12.2653 12.2653 0 1 1 0 918.1 Z" class="st3"/>
+			<path d="M0 918.85 A12.2653 12.2653 0 0 1 24.53 918.85 A12.2653 12.2653 0 1 1 0 918.85 Z" class="st3"/>
 		</g>
-		<g id="shape8-17" v:mID="8" v:groupContext="shape" transform="translate(496.063,-505.056)">
+		<g id="shape8-17" v:mID="8" v:groupContext="shape" transform="translate(496.062,-505.553)">
 			<title>円.9</title>
 			<v:userDefs>
 				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
 			</v:userDefs>
-			<path d="M0 918.1 A12.2653 12.2653 0 0 1 24.53 918.1 A12.2653 12.2653 0 1 1 -0 918.1 Z" class="st3"/>
+			<path d="M0 918.85 A12.2653 12.2653 0 0 1 24.53 918.85 A12.2653 12.2653 0 1 1 -0 918.85 Z" class="st3"/>
 		</g>
-		<g id="shape9-19" v:mID="9" v:groupContext="shape" transform="translate(651.968,-505.056)">
+		<g id="shape9-19" v:mID="9" v:groupContext="shape" transform="translate(651.967,-505.553)">
 			<title>円.10</title>
 			<v:userDefs>
 				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
 			</v:userDefs>
-			<path d="M0 918.1 A12.2653 12.2653 0 0 1 24.53 918.1 A12.2653 12.2653 0 1 1 -0 918.1 Z" class="st3"/>
+			<path d="M0 918.85 A12.2653 12.2653 0 0 1 24.53 918.85 A12.2653 12.2653 0 1 1 -0 918.85 Z" class="st3"/>
 		</g>
-		<g id="shape10-21" v:mID="10" v:groupContext="shape" transform="translate(496.063,-889.641)">
+		<g id="shape10-21" v:mID="10" v:groupContext="shape" transform="translate(496.062,-890.137)">
 			<title>円.11</title>
 			<v:userDefs>
 				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
 			</v:userDefs>
-			<path d="M0 918.1 A12.2653 12.2653 0 0 1 24.53 918.1 A12.2653 12.2653 0 1 1 -0 918.1 Z" class="st3"/>
+			<path d="M0 918.85 A12.2653 12.2653 0 0 1 24.53 918.85 A12.2653 12.2653 0 1 1 -0 918.85 Z" class="st3"/>
 		</g>
-		<g id="shape11-23" v:mID="11" v:groupContext="shape" transform="translate(651.968,-889.962)">
+		<g id="shape11-23" v:mID="11" v:groupContext="shape" transform="translate(651.967,-890.458)">
 			<title>円.12</title>
 			<v:userDefs>
 				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
 			</v:userDefs>
-			<path d="M0 918.1 A12.2653 12.2653 0 0 1 24.53 918.1 A12.2653 12.2653 0 1 1 -0 918.1 Z" class="st3"/>
+			<path d="M0 918.85 A12.2653 12.2653 0 0 1 24.53 918.85 A12.2653 12.2653 0 1 1 -0 918.85 Z" class="st3"/>
 		</g>
-		<g id="group12-25" transform="translate(1226.67,89.9765) rotate(90)" v:mID="12" v:groupContext="group">
+		<g id="group12-25" transform="translate(1227.42,90.2263) rotate(90)" v:mID="12" v:groupContext="group">
 			<v:userDefs>
 				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(17):26"/>
 			</v:userDefs>
 			<title>直線</title>
 			<g id="shape13-26" v:mID="13" v:groupContext="shape">
 				<title>シート.13</title>
-				<path d="M0 930.45 L252.28 930.45 L0 930.45 Z" class="st4"/>
+				<path d="M0 931.2 L252.28 931.2 L0 931.2 Z" class="st4"/>
 			</g>
-			<g id="shape14-28" v:mID="14" v:groupContext="shape">
+			<g id="group14-28" v:mID="14" v:groupContext="group">
 				<title>シート.14</title>
-				<path d="M0 930.45 L252.28 930.45 L0 930.45 Z" class="st5"/>
-				<path d="M0 930.45 L252.28 930.45" class="st6"/>
+				<g id="shape15-29" v:mID="15" v:groupContext="shape">
+					<title>シート.15</title>
+					<path d="M0 931.2 L252.28 931.2 L0 931.2 Z" class="st5"/>
+				</g>
+				<g id="shape16-31" v:mID="16" v:groupContext="shape">
+					<title>シート.16</title>
+					<path d="M0 931.2 L252.28 931.2 L0 931.2 Z" class="st6"/>
+					<path d="M0 931.2 L252.28 931.2" class="st7"/>
+				</g>
 			</g>
 		</g>
-		<g id="shape15-31" v:mID="15" v:groupContext="shape" transform="translate(293.235,1133.81) rotate(180)">
+		<g id="shape17-34" v:mID="17" v:groupContext="shape" transform="translate(293.234,1134.81) rotate(180)">
 			<title>シンプルな矢印</title>
 			<v:userDefs>
 				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
 				<v:ud v:nameU="ArrowType" v:prompt="" v:val="VT0(2):26"/>
 			</v:userDefs>
-			<path d="M0 919.11 L11.34 907.77 L11.34 913.44 L19.54 913.44 L19.54 919.11 L19.54 924.78 L11.34 924.78 L11.34 930.45
-						 L0 919.11 Z" class="st7"/>
+			<path d="M0 919.86 L11.34 908.52 L11.34 914.19 L19.54 914.19 L19.54 919.86 L19.54 925.53 L11.34 925.53 L11.34 931.2 L0
+						 919.86 Z" class="st8"/>
 		</g>
-		<g id="shape16-33" v:mID="16" v:groupContext="shape" transform="translate(250.08,-715.748)">
+		<g id="shape18-36" v:mID="18" v:groupContext="shape" transform="translate(250.079,-716.247)">
 			<title>シート.15</title>
 			<desc>A</desc>
 			<v:userDefs/>
 			<v:textBlock v:margins="rect(3.99999,3.99999,3.99999,3.99999)" v:tabSpace="42.5196"/>
-			<v:textRect cx="17.9689" cy="914.395" width="35.94" height="32.1079"/>
-			<rect x="0" y="898.341" width="35.9392" height="32.1079" class="st8"/>
-			<text x="11.03" y="921.6" class="st9" v:langID="1041"><v:paragraph v:horizAlign="1"/><v:tabList/>A</text>		</g>
-		<g id="group17-36" transform="translate(1594.56,0.750134) rotate(90)" v:mID="17" v:groupContext="group">
+			<v:textRect cx="17.9689" cy="915.143" width="35.94" height="32.1079"/>
+			<rect x="0" y="899.089" width="35.9392" height="32.1079" class="st9"/>
+			<text x="11.03" y="922.34" class="st10" v:langID="1041"><v:paragraph v:horizAlign="1"/><v:tabList/>A</text>		</g>
+		<g id="group19-39" transform="translate(1595.31,0.999999) rotate(90)" v:mID="19" v:groupContext="group">
 			<v:userDefs>
 				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(17):26"/>
 			</v:userDefs>
 			<title>直線.16</title>
-			<g id="shape18-37" v:mID="18" v:groupContext="shape">
+			<g id="shape20-40" v:mID="20" v:groupContext="shape">
 				<title>シート.18</title>
-				<path d="M0 930.45 L433.64 930.45 L0 930.45 Z" class="st4"/>
+				<path d="M0 931.2 L433.64 931.2 L0 931.2 Z" class="st4"/>
 			</g>
-			<g id="shape19-39" v:mID="19" v:groupContext="shape">
+			<g id="group21-42" v:mID="21" v:groupContext="group">
 				<title>シート.19</title>
-				<path d="M0 930.45 L433.64 930.45 L0 930.45 Z" class="st5"/>
-				<path d="M0 930.45 L433.64 930.45" class="st10"/>
+				<g id="shape22-43" v:mID="22" v:groupContext="shape">
+					<title>シート.22</title>
+					<path d="M0 931.2 L433.64 931.2 L0 931.2 Z" class="st5"/>
+				</g>
+				<g id="shape23-45" v:mID="23" v:groupContext="shape">
+					<title>シート.23</title>
+					<path d="M0 931.2 L433.64 931.2 L0 931.2 Z" class="st6"/>
+					<path d="M0 931.2 L433.64 931.2" class="st11"/>
+				</g>
 			</g>
 		</g>
-		<g id="shape20-42" v:mID="20" v:groupContext="shape" transform="translate(653.285,1131.96) rotate(180)">
+		<g id="shape24-48" v:mID="24" v:groupContext="shape" transform="translate(653.284,1132.96) rotate(180)">
 			<title>シンプルな矢印.17</title>
 			<v:userDefs>
 				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
 				<v:ud v:nameU="ArrowType" v:prompt="" v:val="VT0(2):26"/>
 			</v:userDefs>
-			<path d="M0 919.11 L11.34 907.77 L11.34 913.44 L19.54 913.44 L19.54 919.11 L19.54 924.78 L11.34 924.78 L11.34 930.45
-						 L0 919.11 Z" class="st11"/>
+			<path d="M0 919.86 L11.34 908.52 L11.34 914.19 L19.54 914.19 L19.54 919.86 L19.54 925.53 L11.34 925.53 L11.34 931.2 L0
+						 919.86 Z" class="st12"/>
 		</g>
-		<g id="shape21-44" v:mID="21" v:groupContext="shape" transform="translate(602.362,-717.101)">
+		<g id="shape25-50" v:mID="25" v:groupContext="shape" transform="translate(602.361,-717.6)">
 			<title>シート.18</title>
 			<desc>B</desc>
 			<v:userDefs/>
 			<v:textBlock v:margins="rect(3.99999,3.99999,3.99999,3.99999)" v:tabSpace="42.5196"/>
-			<v:textRect cx="17.9689" cy="914.395" width="35.94" height="32.1079"/>
-			<rect x="0" y="898.341" width="35.9392" height="32.1079" class="st8"/>
-			<text x="11.44" y="921.6" class="st12" v:langID="1041"><v:paragraph v:horizAlign="1"/><v:tabList/>B</text>		</g>
-		<g id="group22-47" transform="translate(165.21,-226.639)" v:mID="22" v:groupContext="group">
+			<v:textRect cx="17.9689" cy="915.143" width="35.94" height="32.1079"/>
+			<rect x="0" y="899.089" width="35.9392" height="32.1079" class="st9"/>
+			<text x="11.44" y="922.34" class="st13" v:langID="1041"><v:paragraph v:horizAlign="1"/><v:tabList/>B</text>		</g>
+		<g id="group26-53" transform="translate(165.209,-227.138)" v:mID="26" v:groupContext="group">
 			<title>シート.138</title>
-			<g id="group23-48" transform="translate(1297.13,733.419) rotate(90)" v:mID="23" v:groupContext="group">
+			<g id="group27-54" transform="translate(1297.88,734.167) rotate(90)" v:mID="27" v:groupContext="group">
 				<v:userDefs>
 					<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(17):26"/>
 				</v:userDefs>
 				<title>直線.94</title>
-				<g id="shape24-49" v:mID="24" v:groupContext="shape">
+				<g id="shape28-55" v:mID="28" v:groupContext="shape">
 					<title>シート.24</title>
-					<path d="M0 930.45 L197.03 930.45 L0 930.45 Z" class="st4"/>
+					<path d="M0 931.2 L197.03 931.2 L0 931.2 Z" class="st4"/>
 				</g>
-				<g id="shape25-51" v:mID="25" v:groupContext="shape">
+				<g id="group29-57" v:mID="29" v:groupContext="group">
 					<title>シート.25</title>
-					<path d="M0 930.45 L197.03 930.45 L0 930.45 Z" class="st5"/>
-					<path d="M0 930.45 L197.03 930.45" class="st13"/>
+					<g id="shape30-58" v:mID="30" v:groupContext="shape">
+						<title>シート.30</title>
+						<path d="M0 931.2 L197.03 931.2 L0 931.2 Z" class="st5"/>
+					</g>
+					<g id="shape31-60" v:mID="31" v:groupContext="shape">
+						<title>シート.31</title>
+						<path d="M0 931.2 L197.03 931.2 L0 931.2 Z" class="st6"/>
+						<path d="M0 931.2 L197.03 931.2" class="st14"/>
+					</g>
 				</g>
 			</g>
-			<g id="group26-54" transform="translate(991.662,733.419) rotate(90)" v:mID="26" v:groupContext="group">
+			<g id="group32-63" transform="translate(992.409,734.167) rotate(90)" v:mID="32" v:groupContext="group">
 				<v:userDefs>
 					<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(17):26"/>
 				</v:userDefs>
 				<title>直線</title>
-				<g id="shape27-55" v:mID="27" v:groupContext="shape">
+				<g id="shape33-64" v:mID="33" v:groupContext="shape">
 					<title>シート.27</title>
-					<path d="M0 930.45 L197.03 930.45 L0 930.45 Z" class="st4"/>
+					<path d="M0 931.2 L197.03 931.2 L0 931.2 Z" class="st4"/>
 				</g>
-				<g id="shape28-57" v:mID="28" v:groupContext="shape">
+				<g id="group34-66" v:mID="34" v:groupContext="group">
 					<title>シート.28</title>
-					<path d="M0 930.45 L197.03 930.45 L0 930.45 Z" class="st5"/>
-					<path d="M0 930.45 L197.03 930.45" class="st13"/>
+					<g id="shape35-67" v:mID="35" v:groupContext="shape">
+						<title>シート.35</title>
+						<path d="M0 931.2 L197.03 931.2 L0 931.2 Z" class="st5"/>
+					</g>
+					<g id="shape36-69" v:mID="36" v:groupContext="shape">
+						<title>シート.36</title>
+						<path d="M0 931.2 L197.03 931.2 L0 931.2 Z" class="st6"/>
+						<path d="M0 931.2 L197.03 931.2" class="st14"/>
+					</g>
 				</g>
 			</g>
-			<g id="shape29-60" v:mID="29" v:groupContext="shape" transform="translate(2.23821E-13,-31.3864)">
+			<g id="shape37-72" v:mID="37" v:groupContext="shape" transform="translate(0,-31.3862)">
 				<title>長方形</title>
 				<desc>Dev Board</desc>
 				<v:userDefs>
 					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
 				</v:userDefs>
 				<v:textBlock v:margins="rect(3.99999,3.99999,3.99999,3.99999)" v:tabSpace="42.5196"/>
-				<v:textRect cx="213.947" cy="923.361" width="427.9" height="14.1732"/>
-				<rect x="0" y="916.276" width="427.896" height="14.1732" class="st14"/>
-				<text x="184.44" y="927.56" class="st15" v:langID="1041"><v:paragraph v:horizAlign="1"/><v:tabList/>Dev Board</text>			</g>
-			<g id="shape30-63" v:mID="30" v:groupContext="shape" transform="translate(38.2676,-126.51)">
+				<v:textRect cx="213.947" cy="924.109" width="427.9" height="14.1732"/>
+				<rect x="0" y="917.024" width="427.896" height="14.1732" class="st15"/>
+				<text x="184.44" y="928.31" class="st16" v:langID="1041"><v:paragraph v:horizAlign="1"/><v:tabList/>Dev Board</text>			</g>
+			<g id="shape38-75" v:mID="38" v:groupContext="shape" transform="translate(38.2676,-126.51)">
 				<title>長方形.21</title>
 				<desc>OBC</desc>
 				<v:userDefs>
 					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
 				</v:userDefs>
 				<v:textBlock v:margins="rect(3.99999,3.99999,3.99999,3.99999)" v:tabSpace="42.5196"/>
-				<v:textRect cx="175.68" cy="923.361" width="351.37" height="14.1732"/>
-				<rect x="0" y="916.276" width="351.36" height="14.1732" class="st16"/>
-				<text x="163.51" y="927.56" class="st17" v:langID="1041"><v:paragraph v:horizAlign="1"/><v:tabList/>OBC</text>			</g>
-			<g id="group31-66" transform="translate(46.7822,-11.5871)" v:mID="31" v:groupContext="group">
+				<v:textRect cx="175.68" cy="924.109" width="351.37" height="14.1732"/>
+				<rect x="0" y="917.024" width="351.36" height="14.1732" class="st17"/>
+				<text x="163.51" y="928.31" class="st18" v:langID="1041"><v:paragraph v:horizAlign="1"/><v:tabList/>OBC</text>			</g>
+			<g id="group39-78" transform="translate(46.7822,-11.5871)" v:mID="39" v:groupContext="group">
 				<title>シート.64</title>
-				<g id="group32-67" v:mID="32" v:groupContext="group">
+				<g id="group40-79" v:mID="40" v:groupContext="group">
 					<title>シート.32</title>
-					<g id="shape33-68" v:mID="33" v:groupContext="shape">
+					<g id="shape41-80" v:mID="41" v:groupContext="shape">
 						<title>長方形.22</title>
 						<v:userDefs>
 							<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
 						</v:userDefs>
-						<rect x="0" y="919.08" width="28.8627" height="11.369" class="st18"/>
+						<rect x="0" y="919.828" width="28.8627" height="11.369" class="st19"/>
 					</g>
-					<g id="group34-70" transform="translate(7.2087,-0.0811514)" v:mID="34" v:groupContext="group">
+					<g id="group42-82" transform="translate(7.2077,-0.0811514)" v:mID="42" v:groupContext="group">
 						<title>シート.34</title>
-						<g id="group35-71" transform="translate(930.449,919.309) rotate(90)" v:mID="35" v:groupContext="group">
+						<g id="group43-83" transform="translate(931.197,920.057) rotate(90)" v:mID="43" v:groupContext="group">
 							<v:userDefs>
 								<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(17):26"/>
 							</v:userDefs>
 							<title>直線</title>
-							<g id="shape36-72" v:mID="36" v:groupContext="shape">
+							<g id="shape44-84" v:mID="44" v:groupContext="shape">
 								<title>シート.36</title>
-								<path d="M0 930.45 L11.14 930.45 L0 930.45 Z" class="st4"/>
+								<path d="M0 931.2 L11.14 931.2 L0 931.2 Z" class="st4"/>
 							</g>
-							<g id="shape37-74" v:mID="37" v:groupContext="shape">
+							<g id="group45-86" v:mID="45" v:groupContext="group">
 								<title>シート.37</title>
-								<path d="M0 930.45 L11.14 930.45 L0 930.45 Z" class="st5"/>
-								<path d="M0 930.45 L11.14 930.45" class="st19"/>
+								<g id="shape46-87" v:mID="46" v:groupContext="shape">
+									<title>シート.46</title>
+									<path d="M0 931.2 L11.14 931.2 L0 931.2 Z" class="st5"/>
+								</g>
+								<g id="shape47-89" v:mID="47" v:groupContext="shape">
+									<title>シート.47</title>
+									<path d="M0 931.2 L11.14 931.2 L0 931.2 Z" class="st6"/>
+									<path d="M0 931.2 L11.14 931.2" class="st20"/>
+								</g>
 							</g>
 						</g>
-						<g id="group38-77" transform="translate(944.894,919.309) rotate(90)" v:mID="38" v:groupContext="group">
+						<g id="group48-92" transform="translate(945.642,920.057) rotate(90)" v:mID="48" v:groupContext="group">
 							<v:userDefs>
 								<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(17):26"/>
 							</v:userDefs>
 							<title>直線.24</title>
-							<g id="shape39-78" v:mID="39" v:groupContext="shape">
+							<g id="shape49-93" v:mID="49" v:groupContext="shape">
 								<title>シート.39</title>
-								<path d="M0 930.45 L11.14 930.45 L0 930.45 Z" class="st4"/>
+								<path d="M0 931.2 L11.14 931.2 L0 931.2 Z" class="st4"/>
 							</g>
-							<g id="shape40-80" v:mID="40" v:groupContext="shape">
+							<g id="group50-95" v:mID="50" v:groupContext="group">
 								<title>シート.40</title>
-								<path d="M0 930.45 L11.14 930.45 L0 930.45 Z" class="st5"/>
-								<path d="M0 930.45 L11.14 930.45" class="st19"/>
+								<g id="shape51-96" v:mID="51" v:groupContext="shape">
+									<title>シート.51</title>
+									<path d="M0 931.2 L11.14 931.2 L0 931.2 Z" class="st5"/>
+								</g>
+								<g id="shape52-98" v:mID="52" v:groupContext="shape">
+									<title>シート.52</title>
+									<path d="M0 931.2 L11.14 931.2 L0 931.2 Z" class="st6"/>
+									<path d="M0 931.2 L11.14 931.2" class="st20"/>
+								</g>
 							</g>
 						</g>
 					</g>
 				</g>
-				<g id="group41-83" transform="translate(305.468,0)" v:mID="41" v:groupContext="group">
+				<g id="group53-101" transform="translate(305.468,1.13687E-13)" v:mID="53" v:groupContext="group">
 					<title>シート.37</title>
-					<g id="shape42-84" v:mID="42" v:groupContext="shape">
+					<g id="shape54-102" v:mID="54" v:groupContext="shape">
 						<title>長方形.22</title>
 						<v:userDefs>
 							<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
 						</v:userDefs>
-						<rect x="0" y="919.08" width="28.8627" height="11.369" class="st18"/>
+						<rect x="0" y="919.828" width="28.8627" height="11.369" class="st19"/>
 					</g>
-					<g id="group43-86" transform="translate(7.2087,-0.0811514)" v:mID="43" v:groupContext="group">
+					<g id="group55-104" transform="translate(7.2077,-0.0811514)" v:mID="55" v:groupContext="group">
 						<title>シート.39</title>
-						<g id="group44-87" transform="translate(930.449,919.309) rotate(90)" v:mID="44" v:groupContext="group">
+						<g id="group56-105" transform="translate(931.197,920.057) rotate(90)" v:mID="56" v:groupContext="group">
 							<v:userDefs>
 								<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(17):26"/>
 							</v:userDefs>
 							<title>直線</title>
-							<g id="shape45-88" v:mID="45" v:groupContext="shape">
+							<g id="shape57-106" v:mID="57" v:groupContext="shape">
 								<title>シート.45</title>
-								<path d="M0 930.45 L11.14 930.45 L0 930.45 Z" class="st4"/>
+								<path d="M0 931.2 L11.14 931.2 L0 931.2 Z" class="st4"/>
 							</g>
-							<g id="shape46-90" v:mID="46" v:groupContext="shape">
+							<g id="group58-108" v:mID="58" v:groupContext="group">
 								<title>シート.46</title>
-								<path d="M0 930.45 L11.14 930.45 L0 930.45 Z" class="st5"/>
-								<path d="M0 930.45 L11.14 930.45" class="st19"/>
+								<g id="shape59-109" v:mID="59" v:groupContext="shape">
+									<title>シート.59</title>
+									<path d="M0 931.2 L11.14 931.2 L0 931.2 Z" class="st5"/>
+								</g>
+								<g id="shape60-111" v:mID="60" v:groupContext="shape">
+									<title>シート.60</title>
+									<path d="M0 931.2 L11.14 931.2 L0 931.2 Z" class="st6"/>
+									<path d="M0 931.2 L11.14 931.2" class="st20"/>
+								</g>
 							</g>
 						</g>
-						<g id="group47-93" transform="translate(944.894,919.309) rotate(90)" v:mID="47" v:groupContext="group">
+						<g id="group61-114" transform="translate(945.642,920.057) rotate(90)" v:mID="61" v:groupContext="group">
 							<v:userDefs>
 								<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(17):26"/>
 							</v:userDefs>
 							<title>直線.24</title>
-							<g id="shape48-94" v:mID="48" v:groupContext="shape">
+							<g id="shape62-115" v:mID="62" v:groupContext="shape">
 								<title>シート.48</title>
-								<path d="M0 930.45 L11.14 930.45 L0 930.45 Z" class="st4"/>
+								<path d="M0 931.2 L11.14 931.2 L0 931.2 Z" class="st4"/>
 							</g>
-							<g id="shape49-96" v:mID="49" v:groupContext="shape">
+							<g id="group63-117" v:mID="63" v:groupContext="group">
 								<title>シート.49</title>
-								<path d="M0 930.45 L11.14 930.45 L0 930.45 Z" class="st5"/>
-								<path d="M0 930.45 L11.14 930.45" class="st19"/>
+								<g id="shape64-118" v:mID="64" v:groupContext="shape">
+									<title>シート.64</title>
+									<path d="M0 931.2 L11.14 931.2 L0 931.2 Z" class="st5"/>
+								</g>
+								<g id="shape65-120" v:mID="65" v:groupContext="shape">
+									<title>シート.65</title>
+									<path d="M0 931.2 L11.14 931.2 L0 931.2 Z" class="st6"/>
+									<path d="M0 931.2 L11.14 931.2" class="st20"/>
+								</g>
 							</g>
 						</g>
 					</g>
 				</g>
 			</g>
-			<g id="group50-99" transform="translate(353.099,-151.55)" v:mID="50" v:groupContext="group">
+			<g id="group66-123" transform="translate(353.099,-151.55)" v:mID="66" v:groupContext="group">
 				<title>シート.55</title>
-				<g id="group51-100" transform="translate(0,-19.9673)" v:mID="51" v:groupContext="group">
+				<g id="group67-124" transform="translate(-2.19824E-14,-19.9658)" v:mID="67" v:groupContext="group">
 					<v:userDefs>
 						<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(17):26"/>
 					</v:userDefs>
 					<title>半円</title>
-					<g id="shape52-101" v:mID="52" v:groupContext="shape">
+					<g id="shape68-125" v:mID="68" v:groupContext="shape">
 						<title>シート.57</title>
-						<path d="M13.58 916.87 C6.08 916.87 0 922.95 0 930.45 L27.17 930.45 C27.17 922.95 21.08 916.87 13.58 916.87
-									 Z" class="st18"/>
+						<path d="M13.58 917.62 C6.08 917.62 0 923.7 0 931.2 L27.17 931.2 C27.17 923.7 21.08 917.62 13.58 917.62 Z"
+								class="st19"/>
 					</g>
 				</g>
-				<g id="group53-103" transform="translate(944.031,896.898) rotate(90)" v:mID="53" v:groupContext="group">
+				<g id="group69-127" transform="translate(944.778,897.647) rotate(90)" v:mID="69" v:groupContext="group">
 					<v:userDefs>
 						<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(17):26"/>
 					</v:userDefs>
 					<title>直線</title>
-					<g id="shape54-104" v:mID="54" v:groupContext="shape">
+					<g id="shape70-128" v:mID="70" v:groupContext="shape">
 						<title>シート.54</title>
-						<path d="M0 930.45 L7.52 930.45 L0 930.45 Z" class="st4"/>
+						<path d="M0 931.2 L7.52 931.2 L0 931.2 Z" class="st4"/>
 					</g>
-					<g id="shape55-106" v:mID="55" v:groupContext="shape">
+					<g id="group71-130" v:mID="71" v:groupContext="group">
 						<title>シート.55</title>
-						<path d="M0 930.45 L7.52 930.45 L0 930.45 Z" class="st5"/>
-						<path d="M0 930.45 L7.52 930.45" class="st20"/>
+						<g id="shape72-131" v:mID="72" v:groupContext="shape">
+							<title>シート.72</title>
+							<path d="M0 931.2 L7.52 931.2 L0 931.2 Z" class="st5"/>
+						</g>
+						<g id="shape73-133" v:mID="73" v:groupContext="shape">
+							<title>シート.73</title>
+							<path d="M0 931.2 L7.52 931.2 L0 931.2 Z" class="st6"/>
+							<path d="M0 931.2 L7.52 931.2" class="st21"/>
+						</g>
 					</g>
 				</g>
-				<g id="shape56-109" v:mID="56" v:groupContext="shape" transform="translate(8.4803,2.27374E-13)">
+				<g id="shape74-136" v:mID="74" v:groupContext="shape" transform="translate(8.4803,2.27374E-13)">
 					<title>長方形.50</title>
 					<v:userDefs>
 						<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
 					</v:userDefs>
-					<rect x="0" y="910.606" width="10.2047" height="19.8425" class="st18"/>
+					<rect x="0" y="911.355" width="10.2047" height="19.8425" class="st19"/>
 				</g>
-				<g id="group57-111" transform="translate(-254.33,23.8152) rotate(-16.4068)" v:mID="57" v:groupContext="group">
+				<g id="group75-138" transform="translate(-254.541,23.8471) rotate(-16.4068)" v:mID="75" v:groupContext="group">
 					<v:userDefs>
 						<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(17):26"/>
 					</v:userDefs>
 					<title>直線.51</title>
-					<g id="shape58-112" v:mID="58" v:groupContext="shape">
+					<g id="shape76-139" v:mID="76" v:groupContext="shape">
 						<title>シート.58</title>
-						<path d="M0 930.45 L10.64 930.45 L0 930.45 Z" class="st4"/>
+						<path d="M0 931.2 L10.64 931.2 L0 931.2 Z" class="st4"/>
 					</g>
-					<g id="shape59-114" v:mID="59" v:groupContext="shape">
+					<g id="group77-141" v:mID="77" v:groupContext="group">
 						<title>シート.59</title>
-						<path d="M0 930.45 L10.64 930.45 L0 930.45 Z" class="st5"/>
-						<path d="M0 930.45 L10.64 930.45" class="st19"/>
+						<g id="shape78-142" v:mID="78" v:groupContext="shape">
+							<title>シート.78</title>
+							<path d="M0 931.2 L10.64 931.2 L0 931.2 Z" class="st5"/>
+						</g>
+						<g id="shape79-144" v:mID="79" v:groupContext="shape">
+							<title>シート.79</title>
+							<path d="M0 931.2 L10.64 931.2 L0 931.2 Z" class="st6"/>
+							<path d="M0 931.2 L10.64 931.2" class="st20"/>
+						</g>
 					</g>
 				</g>
-				<g id="group60-117" transform="translate(-254.33,29.4845) rotate(-16.4068)" v:mID="60" v:groupContext="group">
+				<g id="group80-147" transform="translate(-254.541,29.5164) rotate(-16.4068)" v:mID="80" v:groupContext="group">
 					<v:userDefs>
 						<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(17):26"/>
 					</v:userDefs>
 					<title>直線.52</title>
-					<g id="shape61-118" v:mID="61" v:groupContext="shape">
+					<g id="shape81-148" v:mID="81" v:groupContext="shape">
 						<title>シート.61</title>
-						<path d="M0 930.45 L10.64 930.45 L0 930.45 Z" class="st4"/>
+						<path d="M0 931.2 L10.64 931.2 L0 931.2 Z" class="st4"/>
 					</g>
-					<g id="shape62-120" v:mID="62" v:groupContext="shape">
+					<g id="group82-150" v:mID="82" v:groupContext="group">
 						<title>シート.62</title>
-						<path d="M0 930.45 L10.64 930.45 L0 930.45 Z" class="st5"/>
-						<path d="M0 930.45 L10.64 930.45" class="st19"/>
+						<g id="shape83-151" v:mID="83" v:groupContext="shape">
+							<title>シート.83</title>
+							<path d="M0 931.2 L10.64 931.2 L0 931.2 Z" class="st5"/>
+						</g>
+						<g id="shape84-153" v:mID="84" v:groupContext="shape">
+							<title>シート.84</title>
+							<path d="M0 931.2 L10.64 931.2 L0 931.2 Z" class="st6"/>
+							<path d="M0 931.2 L10.64 931.2" class="st20"/>
+						</g>
 					</g>
 				</g>
-				<g id="group63-123" transform="translate(-254.33,35.1538) rotate(-16.4068)" v:mID="63" v:groupContext="group">
+				<g id="group85-156" transform="translate(-254.541,35.1857) rotate(-16.4068)" v:mID="85" v:groupContext="group">
 					<v:userDefs>
 						<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(17):26"/>
 					</v:userDefs>
 					<title>直線.53</title>
-					<g id="shape64-124" v:mID="64" v:groupContext="shape">
+					<g id="shape86-157" v:mID="86" v:groupContext="shape">
 						<title>シート.64</title>
-						<path d="M0 930.45 L10.64 930.45 L0 930.45 Z" class="st4"/>
+						<path d="M0 931.2 L10.64 931.2 L0 931.2 Z" class="st4"/>
 					</g>
-					<g id="shape65-126" v:mID="65" v:groupContext="shape">
+					<g id="group87-159" v:mID="87" v:groupContext="group">
 						<title>シート.65</title>
-						<path d="M0 930.45 L10.64 930.45 L0 930.45 Z" class="st5"/>
-						<path d="M0 930.45 L10.64 930.45" class="st19"/>
+						<g id="shape88-160" v:mID="88" v:groupContext="shape">
+							<title>シート.88</title>
+							<path d="M0 931.2 L10.64 931.2 L0 931.2 Z" class="st5"/>
+						</g>
+						<g id="shape89-162" v:mID="89" v:groupContext="shape">
+							<title>シート.89</title>
+							<path d="M0 931.2 L10.64 931.2 L0 931.2 Z" class="st6"/>
+							<path d="M0 931.2 L10.64 931.2" class="st20"/>
+						</g>
 					</g>
 				</g>
 			</g>
-			<g id="shape66-129" v:mID="66" v:groupContext="shape" transform="translate(70.542,-191.225)">
+			<g id="shape90-165" v:mID="90" v:groupContext="shape" transform="translate(70.542,-191.225)">
 				<title>シート.68</title>
 				<desc>❶</desc>
 				<v:userDefs/>
 				<v:textBlock v:margins="rect(3.99999,3.99999,3.99999,3.99999)" v:tabSpace="42.5196"/>
-				<v:textRect cx="22.4833" cy="920.449" width="44.97" height="20"/>
-				<rect x="0" y="910.449" width="44.968" height="20" class="st8"/>
-				<text x="13.45" y="925.85" class="st21" v:langID="1041"><v:paragraph v:horizAlign="1"/><v:tabList/>❶</text>			</g>
-			<g id="group67-132" transform="translate(740.813,1394.58) rotate(135)" v:mID="67" v:groupContext="group">
+				<v:textRect cx="22.4833" cy="921.197" width="44.97" height="20"/>
+				<rect x="0" y="911.197" width="44.968" height="20" class="st9"/>
+				<text x="13.45" y="926.6" class="st22" v:langID="1041"><v:paragraph v:horizAlign="1"/><v:tabList/>❶</text>			</g>
+			<g id="group91-168" transform="translate(741.341,1395.86) rotate(135)" v:mID="91" v:groupContext="group">
 				<v:userDefs>
 					<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(17):26"/>
 				</v:userDefs>
 				<title>直線.69</title>
-				<g id="shape68-133" v:mID="68" v:groupContext="shape">
+				<g id="shape92-169" v:mID="92" v:groupContext="shape">
 					<title>シート.68</title>
-					<path d="M0 930.45 L21.2 930.45 L0 930.45 Z" class="st4"/>
+					<path d="M0 931.2 L21.2 931.2 L0 931.2 Z" class="st4"/>
 				</g>
-				<g id="shape69-135" v:mID="69" v:groupContext="shape">
+				<g id="group93-171" v:mID="93" v:groupContext="group">
 					<title>シート.69</title>
-					<path d="M0 930.45 L21.2 930.45 L0 930.45 Z" class="st5"/>
-					<path d="M0 930.45 L21.2 930.45" class="st22"/>
+					<g id="shape94-172" v:mID="94" v:groupContext="shape">
+						<title>シート.94</title>
+						<path d="M0 931.2 L21.2 931.2 L0 931.2 Z" class="st5"/>
+					</g>
+					<g id="shape95-174" v:mID="95" v:groupContext="shape">
+						<title>シート.95</title>
+						<path d="M0 931.2 L21.2 931.2 L0 931.2 Z" class="st6"/>
+						<path d="M0 931.2 L21.2 931.2" class="st23"/>
+					</g>
 				</g>
 			</g>
-			<g id="shape70-138" v:mID="70" v:groupContext="shape" transform="translate(83.0144,-85.6841)">
+			<g id="shape96-177" v:mID="96" v:groupContext="shape" transform="translate(83.0144,-85.6841)">
 				<title>シート.70</title>
 				<desc>❷</desc>
 				<v:userDefs/>
 				<v:textBlock v:margins="rect(3.99999,3.99999,3.99999,3.99999)" v:tabSpace="42.5196"/>
-				<v:textRect cx="22.4833" cy="920.449" width="44.97" height="20"/>
-				<rect x="0" y="910.449" width="44.968" height="20" class="st8"/>
-				<text x="13.45" y="925.85" class="st21" v:langID="1041"><v:paragraph v:horizAlign="1"/><v:tabList/>❷</text>			</g>
-			<g id="shape71-141" v:mID="71" v:groupContext="shape" transform="translate(82.4239,-7.13491)">
+				<v:textRect cx="22.4833" cy="921.197" width="44.97" height="20"/>
+				<rect x="0" y="911.197" width="44.968" height="20" class="st9"/>
+				<text x="13.45" y="926.6" class="st22" v:langID="1041"><v:paragraph v:horizAlign="1"/><v:tabList/>❷</text>			</g>
+			<g id="shape97-180" v:mID="97" v:groupContext="shape" transform="translate(82.4239,-7.13491)">
 				<title>シート.71</title>
 				<desc>➌</desc>
 				<v:userDefs/>
 				<v:textBlock v:margins="rect(3.99999,3.99999,3.99999,3.99999)" v:tabSpace="42.5196"/>
-				<v:textRect cx="22.4833" cy="920.449" width="44.97" height="20"/>
-				<rect x="0" y="910.449" width="44.968" height="20" class="st8"/>
-				<text x="13.45" y="925.85" class="st21" v:langID="1041"><v:paragraph v:horizAlign="1"/><v:tabList/>➌</text>			</g>
-			<g id="group72-144" transform="translate(92.9019,1765.21) rotate(180)" v:mID="72" v:groupContext="group">
+				<v:textRect cx="22.4833" cy="921.197" width="44.97" height="20"/>
+				<rect x="0" y="911.197" width="44.968" height="20" class="st9"/>
+				<text x="13.45" y="926.6" class="st22" v:langID="1041"><v:paragraph v:horizAlign="1"/><v:tabList/>➌</text>			</g>
+			<g id="group98-183" transform="translate(92.9019,1766.71) rotate(180)" v:mID="98" v:groupContext="group">
 				<v:userDefs>
 					<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(17):26"/>
 				</v:userDefs>
 				<title>直線.72</title>
-				<g id="shape73-145" v:mID="73" v:groupContext="shape">
+				<g id="shape99-184" v:mID="99" v:groupContext="shape">
 					<title>シート.73</title>
-					<path d="M0 930.45 L20.75 930.45 L0 930.45 Z" class="st4"/>
+					<path d="M0 931.2 L20.75 931.2 L0 931.2 Z" class="st4"/>
 				</g>
-				<g id="shape74-147" v:mID="74" v:groupContext="shape">
+				<g id="group100-186" v:mID="100" v:groupContext="group">
 					<title>シート.74</title>
-					<path d="M0 930.45 L20.75 930.45 L0 930.45 Z" class="st5"/>
-					<path d="M0 930.45 L20.75 930.45" class="st22"/>
+					<g id="shape101-187" v:mID="101" v:groupContext="shape">
+						<title>シート.101</title>
+						<path d="M0 931.2 L20.75 931.2 L0 931.2 Z" class="st5"/>
+					</g>
+					<g id="shape102-189" v:mID="102" v:groupContext="shape">
+						<title>シート.102</title>
+						<path d="M0 931.2 L20.75 931.2 L0 931.2 Z" class="st6"/>
+						<path d="M0 931.2 L20.75 931.2" class="st23"/>
+					</g>
 				</g>
 			</g>
-			<g id="group75-150" transform="translate(92.2945,1843.76) rotate(180)" v:mID="75" v:groupContext="group">
+			<g id="group103-192" transform="translate(92.2945,1845.26) rotate(180)" v:mID="103" v:groupContext="group">
 				<v:userDefs>
 					<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(17):26"/>
 				</v:userDefs>
 				<title>直線.73</title>
-				<g id="shape76-151" v:mID="76" v:groupContext="shape">
+				<g id="shape104-193" v:mID="104" v:groupContext="shape">
 					<title>シート.76</title>
-					<path d="M0 930.45 L20.75 930.45 L0 930.45 Z" class="st4"/>
+					<path d="M0 931.2 L20.75 931.2 L0 931.2 Z" class="st4"/>
 				</g>
-				<g id="shape77-153" v:mID="77" v:groupContext="shape">
+				<g id="group105-195" v:mID="105" v:groupContext="group">
 					<title>シート.77</title>
-					<path d="M0 930.45 L20.75 930.45 L0 930.45 Z" class="st5"/>
-					<path d="M0 930.45 L20.75 930.45" class="st22"/>
+					<g id="shape106-196" v:mID="106" v:groupContext="shape">
+						<title>シート.106</title>
+						<path d="M0 931.2 L20.75 931.2 L0 931.2 Z" class="st5"/>
+					</g>
+					<g id="shape107-198" v:mID="107" v:groupContext="shape">
+						<title>シート.107</title>
+						<path d="M0 931.2 L20.75 931.2 L0 931.2 Z" class="st6"/>
+						<path d="M0 931.2 L20.75 931.2" class="st23"/>
+					</g>
 				</g>
 			</g>
-			<g id="shape78-156" v:mID="78" v:groupContext="shape" transform="translate(6.31495E-13,-212.048)">
+			<g id="shape108-201" v:mID="108" v:groupContext="shape" transform="translate(0,-212.048)">
 				<title>シート.74</title>
 				<desc>断面図A</desc>
 				<v:userDefs/>
 				<v:textBlock v:margins="rect(3.99999,3.99999,3.99999,3.99999)" v:tabSpace="42.5196"/>
-				<v:textRect cx="54.1972" cy="913.673" width="108.4" height="33.5508"/>
-				<rect x="0" y="896.898" width="108.396" height="33.5508" class="st8"/>
-				<text x="12.99" y="919.66" class="st23" v:langID="1041"><v:paragraph v:horizAlign="1"/><v:tabList/>断面図（<tspan
-							class="st24">A</tspan>）</text>			</g>
-			<g id="group79-160" v:mID="79" v:groupContext="group">
+				<v:textRect cx="112.984" cy="914.421" width="225.98" height="33.5508"/>
+				<rect x="0" y="897.646" width="225.971" height="33.5508" class="st9"/>
+				<text x="3.99" y="919.82" class="st24" v:langID="1041"><v:paragraph/><v:tabList/>Cross-sectional view (A)</text>			</g>
+			<g id="group109-204" v:mID="109" v:groupContext="group">
 				<title>シート.27</title>
 			</g>
-			<g id="group80-161" transform="translate(46.7491,-55.4823)" v:mID="80" v:groupContext="group">
+			<g id="group110-205" transform="translate(46.7491,-55.4828)" v:mID="110" v:groupContext="group">
 				<title>シート.83</title>
-				<g id="group81-162" transform="translate(9.61024,2.27374E-13)" v:mID="81" v:groupContext="group">
+				<g id="group111-206" transform="translate(9.61024,2.27374E-13)" v:mID="111" v:groupContext="group">
 					<title>シート.80</title>
-					<g id="shape82-163" v:mID="82" v:groupContext="shape">
+					<g id="shape112-207" v:mID="112" v:groupContext="shape">
 						<title>長方形.76</title>
 						<v:userDefs>
 							<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
 						</v:userDefs>
-						<rect x="0" y="910.606" width="10.2047" height="19.8425" class="st18"/>
+						<rect x="0" y="911.355" width="10.2047" height="19.8425" class="st19"/>
 					</g>
-					<g id="group83-165" transform="translate(-262.81,23.8152) rotate(-16.4068)" v:mID="83" v:groupContext="group">
+					<g id="group113-209" transform="translate(-263.021,23.8471) rotate(-16.4068)" v:mID="113"
+							v:groupContext="group">
 						<v:userDefs>
 							<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(17):26"/>
 						</v:userDefs>
 						<title>直線.77</title>
-						<g id="shape84-166" v:mID="84" v:groupContext="shape">
+						<g id="shape114-210" v:mID="114" v:groupContext="shape">
 							<title>シート.84</title>
-							<path d="M0 930.45 L10.64 930.45 L0 930.45 Z" class="st4"/>
+							<path d="M0 931.2 L10.64 931.2 L0 931.2 Z" class="st4"/>
 						</g>
-						<g id="shape85-168" v:mID="85" v:groupContext="shape">
+						<g id="group115-212" v:mID="115" v:groupContext="group">
 							<title>シート.85</title>
-							<path d="M0 930.45 L10.64 930.45 L0 930.45 Z" class="st5"/>
-							<path d="M0 930.45 L10.64 930.45" class="st19"/>
+							<g id="shape116-213" v:mID="116" v:groupContext="shape">
+								<title>シート.116</title>
+								<path d="M0 931.2 L10.64 931.2 L0 931.2 Z" class="st5"/>
+							</g>
+							<g id="shape117-215" v:mID="117" v:groupContext="shape">
+								<title>シート.117</title>
+								<path d="M0 931.2 L10.64 931.2 L0 931.2 Z" class="st6"/>
+								<path d="M0 931.2 L10.64 931.2" class="st20"/>
+							</g>
 						</g>
 					</g>
-					<g id="group86-171" transform="translate(-262.81,29.4845) rotate(-16.4068)" v:mID="86" v:groupContext="group">
+					<g id="group118-218" transform="translate(-263.021,29.5164) rotate(-16.4068)" v:mID="118"
+							v:groupContext="group">
 						<v:userDefs>
 							<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(17):26"/>
 						</v:userDefs>
 						<title>直線.78</title>
-						<g id="shape87-172" v:mID="87" v:groupContext="shape">
+						<g id="shape119-219" v:mID="119" v:groupContext="shape">
 							<title>シート.87</title>
-							<path d="M0 930.45 L10.64 930.45 L0 930.45 Z" class="st4"/>
+							<path d="M0 931.2 L10.64 931.2 L0 931.2 Z" class="st4"/>
 						</g>
-						<g id="shape88-174" v:mID="88" v:groupContext="shape">
+						<g id="group120-221" v:mID="120" v:groupContext="group">
 							<title>シート.88</title>
-							<path d="M0 930.45 L10.64 930.45 L0 930.45 Z" class="st5"/>
-							<path d="M0 930.45 L10.64 930.45" class="st19"/>
+							<g id="shape121-222" v:mID="121" v:groupContext="shape">
+								<title>シート.121</title>
+								<path d="M0 931.2 L10.64 931.2 L0 931.2 Z" class="st5"/>
+							</g>
+							<g id="shape122-224" v:mID="122" v:groupContext="shape">
+								<title>シート.122</title>
+								<path d="M0 931.2 L10.64 931.2 L0 931.2 Z" class="st6"/>
+								<path d="M0 931.2 L10.64 931.2" class="st20"/>
+							</g>
 						</g>
 					</g>
-					<g id="group89-177" transform="translate(-262.81,35.1538) rotate(-16.4068)" v:mID="89" v:groupContext="group">
+					<g id="group123-227" transform="translate(-263.021,35.1857) rotate(-16.4068)" v:mID="123"
+							v:groupContext="group">
 						<v:userDefs>
 							<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(17):26"/>
 						</v:userDefs>
 						<title>直線.79</title>
-						<g id="shape90-178" v:mID="90" v:groupContext="shape">
+						<g id="shape124-228" v:mID="124" v:groupContext="shape">
 							<title>シート.90</title>
-							<path d="M0 930.45 L10.64 930.45 L0 930.45 Z" class="st4"/>
+							<path d="M0 931.2 L10.64 931.2 L0 931.2 Z" class="st4"/>
 						</g>
-						<g id="shape91-180" v:mID="91" v:groupContext="shape">
+						<g id="group125-230" v:mID="125" v:groupContext="group">
 							<title>シート.91</title>
-							<path d="M0 930.45 L10.64 930.45 L0 930.45 Z" class="st5"/>
-							<path d="M0 930.45 L10.64 930.45" class="st19"/>
+							<g id="shape126-231" v:mID="126" v:groupContext="shape">
+								<title>シート.126</title>
+								<path d="M0 931.2 L10.64 931.2 L0 931.2 Z" class="st5"/>
+							</g>
+							<g id="shape127-233" v:mID="127" v:groupContext="shape">
+								<title>シート.127</title>
+								<path d="M0 931.2 L10.64 931.2 L0 931.2 Z" class="st6"/>
+								<path d="M0 931.2 L10.64 931.2" class="st20"/>
+							</g>
 						</g>
 					</g>
 				</g>
-				<g id="group92-183" transform="translate(5.19584E-14,-19.9349)" v:mID="92" v:groupContext="group">
+				<g id="group128-236" transform="translate(3.59712E-14,-19.9348)" v:mID="128" v:groupContext="group">
 					<title>シート.82</title>
-					<g id="shape93-184" v:mID="93" v:groupContext="shape">
+					<g id="shape129-237" v:mID="129" v:groupContext="shape">
 						<title>長方形.22</title>
 						<v:userDefs>
 							<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
 						</v:userDefs>
-						<rect x="0" y="890.217" width="28.929" height="40.2316" class="st18"/>
+						<rect x="0" y="890.966" width="28.929" height="40.2316" class="st19"/>
 					</g>
-					<g id="group94-186" transform="translate(7.22527,-0.285473)" v:mID="94" v:groupContext="group">
+					<g id="group130-239" transform="translate(7.22427,-0.285073)" v:mID="130" v:groupContext="group">
 						<title>シート.25</title>
-						<g id="group95-187" transform="translate(930.449,891.029) rotate(90)" v:mID="95" v:groupContext="group">
+						<g id="group131-240" transform="translate(931.197,891.777) rotate(90)" v:mID="131" v:groupContext="group">
 							<v:userDefs>
 								<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(17):26"/>
 							</v:userDefs>
 							<title>直線</title>
-							<g id="shape96-188" v:mID="96" v:groupContext="shape">
+							<g id="shape132-241" v:mID="132" v:groupContext="shape">
 								<title>シート.96</title>
-								<path d="M0 930.45 L39.42 930.45 L0 930.45 Z" class="st4"/>
+								<path d="M0 931.2 L39.42 931.2 L0 931.2 Z" class="st4"/>
 							</g>
-							<g id="shape97-190" v:mID="97" v:groupContext="shape">
+							<g id="group133-243" v:mID="133" v:groupContext="group">
 								<title>シート.97</title>
-								<path d="M0 930.45 L39.42 930.45 L0 930.45 Z" class="st5"/>
-								<path d="M0 930.45 L39.42 930.45" class="st19"/>
+								<g id="shape134-244" v:mID="134" v:groupContext="shape">
+									<title>シート.134</title>
+									<path d="M0 931.2 L39.42 931.2 L0 931.2 Z" class="st5"/>
+								</g>
+								<g id="shape135-246" v:mID="135" v:groupContext="shape">
+									<title>シート.135</title>
+									<path d="M0 931.2 L39.42 931.2 L0 931.2 Z" class="st6"/>
+									<path d="M0 931.2 L39.42 931.2" class="st20"/>
+								</g>
 							</g>
 						</g>
-						<g id="group98-193" transform="translate(944.927,891.029) rotate(90)" v:mID="98" v:groupContext="group">
+						<g id="group136-249" transform="translate(945.675,891.777) rotate(90)" v:mID="136" v:groupContext="group">
 							<v:userDefs>
 								<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(17):26"/>
 							</v:userDefs>
 							<title>直線.24</title>
-							<g id="shape99-194" v:mID="99" v:groupContext="shape">
+							<g id="shape137-250" v:mID="137" v:groupContext="shape">
 								<title>シート.99</title>
-								<path d="M0 930.45 L39.42 930.45 L0 930.45 Z" class="st4"/>
+								<path d="M0 931.2 L39.42 931.2 L0 931.2 Z" class="st4"/>
 							</g>
-							<g id="shape100-196" v:mID="100" v:groupContext="shape">
+							<g id="group138-252" v:mID="138" v:groupContext="group">
 								<title>シート.100</title>
-								<path d="M0 930.45 L39.42 930.45 L0 930.45 Z" class="st5"/>
-								<path d="M0 930.45 L39.42 930.45" class="st19"/>
+								<g id="shape139-253" v:mID="139" v:groupContext="shape">
+									<title>シート.139</title>
+									<path d="M0 931.2 L39.42 931.2 L0 931.2 Z" class="st5"/>
+								</g>
+								<g id="shape140-255" v:mID="140" v:groupContext="shape">
+									<title>シート.140</title>
+									<path d="M0 931.2 L39.42 931.2 L0 931.2 Z" class="st6"/>
+									<path d="M0 931.2 L39.42 931.2" class="st20"/>
+								</g>
 							</g>
 						</g>
 					</g>
 				</g>
 			</g>
-			<g id="group101-199" transform="translate(47.6309,-151.55)" v:mID="101" v:groupContext="group">
+			<g id="group141-258" transform="translate(47.6309,-151.55)" v:mID="141" v:groupContext="group">
 				<title>シート.84</title>
-				<g id="group102-200" transform="translate(0,-19.9673)" v:mID="102" v:groupContext="group">
+				<g id="group142-259" transform="translate(-2.19824E-14,-19.9658)" v:mID="142" v:groupContext="group">
 					<v:userDefs>
 						<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(17):26"/>
 					</v:userDefs>
 					<title>半円</title>
-					<g id="shape103-201" v:mID="103" v:groupContext="shape">
+					<g id="shape143-260" v:mID="143" v:groupContext="shape">
 						<title>シート.48</title>
-						<path d="M13.58 916.87 C6.08 916.87 0 922.95 0 930.45 L27.17 930.45 C27.17 922.95 21.08 916.87 13.58 916.87
-									 Z" class="st18"/>
+						<path d="M13.58 917.62 C6.08 917.62 0 923.7 0 931.2 L27.17 931.2 C27.17 923.7 21.08 917.62 13.58 917.62 Z"
+								class="st19"/>
 					</g>
 				</g>
-				<g id="group104-203" transform="translate(944.031,896.898) rotate(90)" v:mID="104" v:groupContext="group">
+				<g id="group144-262" transform="translate(944.778,897.647) rotate(90)" v:mID="144" v:groupContext="group">
 					<v:userDefs>
 						<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(17):26"/>
 					</v:userDefs>
 					<title>直線.49</title>
-					<g id="shape105-204" v:mID="105" v:groupContext="shape">
+					<g id="shape145-263" v:mID="145" v:groupContext="shape">
 						<title>シート.105</title>
-						<path d="M0 930.45 L7.52 930.45 L0 930.45 Z" class="st4"/>
+						<path d="M0 931.2 L7.52 931.2 L0 931.2 Z" class="st4"/>
 					</g>
-					<g id="shape106-206" v:mID="106" v:groupContext="shape">
+					<g id="group146-265" v:mID="146" v:groupContext="group">
 						<title>シート.106</title>
-						<path d="M0 930.45 L7.52 930.45 L0 930.45 Z" class="st5"/>
-						<path d="M0 930.45 L7.52 930.45" class="st20"/>
+						<g id="shape147-266" v:mID="147" v:groupContext="shape">
+							<title>シート.147</title>
+							<path d="M0 931.2 L7.52 931.2 L0 931.2 Z" class="st5"/>
+						</g>
+						<g id="shape148-268" v:mID="148" v:groupContext="shape">
+							<title>シート.148</title>
+							<path d="M0 931.2 L7.52 931.2 L0 931.2 Z" class="st6"/>
+							<path d="M0 931.2 L7.52 931.2" class="st21"/>
+						</g>
 					</g>
 				</g>
-				<g id="shape107-209" v:mID="107" v:groupContext="shape" transform="translate(8.4803,2.27374E-13)">
+				<g id="shape149-271" v:mID="149" v:groupContext="shape" transform="translate(8.4803,2.27374E-13)">
 					<title>長方形.50</title>
 					<v:userDefs>
 						<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
 					</v:userDefs>
-					<rect x="0" y="910.606" width="10.2047" height="19.8425" class="st18"/>
+					<rect x="0" y="911.355" width="10.2047" height="19.8425" class="st19"/>
 				</g>
-				<g id="group108-211" transform="translate(-254.33,23.8152) rotate(-16.4068)" v:mID="108" v:groupContext="group">
+				<g id="group150-273" transform="translate(-254.541,23.8471) rotate(-16.4068)" v:mID="150" v:groupContext="group">
 					<v:userDefs>
 						<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(17):26"/>
 					</v:userDefs>
 					<title>直線.51</title>
-					<g id="shape109-212" v:mID="109" v:groupContext="shape">
+					<g id="shape151-274" v:mID="151" v:groupContext="shape">
 						<title>シート.109</title>
-						<path d="M0 930.45 L10.64 930.45 L0 930.45 Z" class="st4"/>
+						<path d="M0 931.2 L10.64 931.2 L0 931.2 Z" class="st4"/>
 					</g>
-					<g id="shape110-214" v:mID="110" v:groupContext="shape">
+					<g id="group152-276" v:mID="152" v:groupContext="group">
 						<title>シート.110</title>
-						<path d="M0 930.45 L10.64 930.45 L0 930.45 Z" class="st5"/>
-						<path d="M0 930.45 L10.64 930.45" class="st19"/>
+						<g id="shape153-277" v:mID="153" v:groupContext="shape">
+							<title>シート.153</title>
+							<path d="M0 931.2 L10.64 931.2 L0 931.2 Z" class="st5"/>
+						</g>
+						<g id="shape154-279" v:mID="154" v:groupContext="shape">
+							<title>シート.154</title>
+							<path d="M0 931.2 L10.64 931.2 L0 931.2 Z" class="st6"/>
+							<path d="M0 931.2 L10.64 931.2" class="st20"/>
+						</g>
 					</g>
 				</g>
-				<g id="group111-217" transform="translate(-254.33,29.4845) rotate(-16.4068)" v:mID="111" v:groupContext="group">
+				<g id="group155-282" transform="translate(-254.541,29.5164) rotate(-16.4068)" v:mID="155" v:groupContext="group">
 					<v:userDefs>
 						<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(17):26"/>
 					</v:userDefs>
 					<title>直線.52</title>
-					<g id="shape112-218" v:mID="112" v:groupContext="shape">
+					<g id="shape156-283" v:mID="156" v:groupContext="shape">
 						<title>シート.112</title>
-						<path d="M0 930.45 L10.64 930.45 L0 930.45 Z" class="st4"/>
+						<path d="M0 931.2 L10.64 931.2 L0 931.2 Z" class="st4"/>
 					</g>
-					<g id="shape113-220" v:mID="113" v:groupContext="shape">
+					<g id="group157-285" v:mID="157" v:groupContext="group">
 						<title>シート.113</title>
-						<path d="M0 930.45 L10.64 930.45 L0 930.45 Z" class="st5"/>
-						<path d="M0 930.45 L10.64 930.45" class="st19"/>
+						<g id="shape158-286" v:mID="158" v:groupContext="shape">
+							<title>シート.158</title>
+							<path d="M0 931.2 L10.64 931.2 L0 931.2 Z" class="st5"/>
+						</g>
+						<g id="shape159-288" v:mID="159" v:groupContext="shape">
+							<title>シート.159</title>
+							<path d="M0 931.2 L10.64 931.2 L0 931.2 Z" class="st6"/>
+							<path d="M0 931.2 L10.64 931.2" class="st20"/>
+						</g>
 					</g>
 				</g>
-				<g id="group114-223" transform="translate(-254.33,35.1538) rotate(-16.4068)" v:mID="114" v:groupContext="group">
+				<g id="group160-291" transform="translate(-254.541,35.1857) rotate(-16.4068)" v:mID="160" v:groupContext="group">
 					<v:userDefs>
 						<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(17):26"/>
 					</v:userDefs>
 					<title>直線.53</title>
-					<g id="shape115-224" v:mID="115" v:groupContext="shape">
+					<g id="shape161-292" v:mID="161" v:groupContext="shape">
 						<title>シート.115</title>
-						<path d="M0 930.45 L10.64 930.45 L0 930.45 Z" class="st4"/>
+						<path d="M0 931.2 L10.64 931.2 L0 931.2 Z" class="st4"/>
 					</g>
-					<g id="shape116-226" v:mID="116" v:groupContext="shape">
+					<g id="group162-294" v:mID="162" v:groupContext="group">
 						<title>シート.116</title>
-						<path d="M0 930.45 L10.64 930.45 L0 930.45 Z" class="st5"/>
-						<path d="M0 930.45 L10.64 930.45" class="st19"/>
+						<g id="shape163-295" v:mID="163" v:groupContext="shape">
+							<title>シート.163</title>
+							<path d="M0 931.2 L10.64 931.2 L0 931.2 Z" class="st5"/>
+						</g>
+						<g id="shape164-297" v:mID="164" v:groupContext="shape">
+							<title>シート.164</title>
+							<path d="M0 931.2 L10.64 931.2 L0 931.2 Z" class="st6"/>
+							<path d="M0 931.2 L10.64 931.2" class="st20"/>
+						</g>
 					</g>
 				</g>
 			</g>
-			<g id="group117-229" transform="translate(352.217,-55.5835)" v:mID="117" v:groupContext="group">
+			<g id="group165-300" transform="translate(352.217,-55.584)" v:mID="165" v:groupContext="group">
 				<title>シート.93</title>
-				<g id="group118-230" transform="translate(9.36218,3.41061E-13)" v:mID="118" v:groupContext="group">
+				<g id="group166-301" transform="translate(9.36218,3.41061E-13)" v:mID="166" v:groupContext="group">
 					<title>シート.85</title>
-					<g id="shape119-231" v:mID="119" v:groupContext="shape">
+					<g id="shape167-302" v:mID="167" v:groupContext="shape">
 						<title>長方形.76</title>
 						<v:userDefs>
 							<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
 						</v:userDefs>
-						<rect x="0" y="910.606" width="10.2047" height="19.8425" class="st18"/>
+						<rect x="0" y="911.355" width="10.2047" height="19.8425" class="st19"/>
 					</g>
-					<g id="group120-233" transform="translate(-262.81,23.8152) rotate(-16.4068)" v:mID="120" v:groupContext="group">
+					<g id="group168-304" transform="translate(-263.021,23.8471) rotate(-16.4068)" v:mID="168"
+							v:groupContext="group">
 						<v:userDefs>
 							<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(17):26"/>
 						</v:userDefs>
 						<title>直線.77</title>
-						<g id="shape121-234" v:mID="121" v:groupContext="shape">
+						<g id="shape169-305" v:mID="169" v:groupContext="shape">
 							<title>シート.121</title>
-							<path d="M0 930.45 L10.64 930.45 L0 930.45 Z" class="st4"/>
+							<path d="M0 931.2 L10.64 931.2 L0 931.2 Z" class="st4"/>
 						</g>
-						<g id="shape122-236" v:mID="122" v:groupContext="shape">
+						<g id="group170-307" v:mID="170" v:groupContext="group">
 							<title>シート.122</title>
-							<path d="M0 930.45 L10.64 930.45 L0 930.45 Z" class="st5"/>
-							<path d="M0 930.45 L10.64 930.45" class="st19"/>
+							<g id="shape171-308" v:mID="171" v:groupContext="shape">
+								<title>シート.171</title>
+								<path d="M0 931.2 L10.64 931.2 L0 931.2 Z" class="st5"/>
+							</g>
+							<g id="shape172-310" v:mID="172" v:groupContext="shape">
+								<title>シート.172</title>
+								<path d="M0 931.2 L10.64 931.2 L0 931.2 Z" class="st6"/>
+								<path d="M0 931.2 L10.64 931.2" class="st20"/>
+							</g>
 						</g>
 					</g>
-					<g id="group123-239" transform="translate(-262.81,29.4845) rotate(-16.4068)" v:mID="123" v:groupContext="group">
+					<g id="group173-313" transform="translate(-263.021,29.5164) rotate(-16.4068)" v:mID="173"
+							v:groupContext="group">
 						<v:userDefs>
 							<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(17):26"/>
 						</v:userDefs>
 						<title>直線.78</title>
-						<g id="shape124-240" v:mID="124" v:groupContext="shape">
+						<g id="shape174-314" v:mID="174" v:groupContext="shape">
 							<title>シート.124</title>
-							<path d="M0 930.45 L10.64 930.45 L0 930.45 Z" class="st4"/>
+							<path d="M0 931.2 L10.64 931.2 L0 931.2 Z" class="st4"/>
 						</g>
-						<g id="shape125-242" v:mID="125" v:groupContext="shape">
+						<g id="group175-316" v:mID="175" v:groupContext="group">
 							<title>シート.125</title>
-							<path d="M0 930.45 L10.64 930.45 L0 930.45 Z" class="st5"/>
-							<path d="M0 930.45 L10.64 930.45" class="st19"/>
+							<g id="shape176-317" v:mID="176" v:groupContext="shape">
+								<title>シート.176</title>
+								<path d="M0 931.2 L10.64 931.2 L0 931.2 Z" class="st5"/>
+							</g>
+							<g id="shape177-319" v:mID="177" v:groupContext="shape">
+								<title>シート.177</title>
+								<path d="M0 931.2 L10.64 931.2 L0 931.2 Z" class="st6"/>
+								<path d="M0 931.2 L10.64 931.2" class="st20"/>
+							</g>
 						</g>
 					</g>
-					<g id="group126-245" transform="translate(-262.81,35.1538) rotate(-16.4068)" v:mID="126" v:groupContext="group">
+					<g id="group178-322" transform="translate(-263.021,35.1857) rotate(-16.4068)" v:mID="178"
+							v:groupContext="group">
 						<v:userDefs>
 							<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(17):26"/>
 						</v:userDefs>
 						<title>直線.79</title>
-						<g id="shape127-246" v:mID="127" v:groupContext="shape">
+						<g id="shape179-323" v:mID="179" v:groupContext="shape">
 							<title>シート.127</title>
-							<path d="M0 930.45 L10.64 930.45 L0 930.45 Z" class="st4"/>
+							<path d="M0 931.2 L10.64 931.2 L0 931.2 Z" class="st4"/>
 						</g>
-						<g id="shape128-248" v:mID="128" v:groupContext="shape">
+						<g id="group180-325" v:mID="180" v:groupContext="group">
 							<title>シート.128</title>
-							<path d="M0 930.45 L10.64 930.45 L0 930.45 Z" class="st5"/>
-							<path d="M0 930.45 L10.64 930.45" class="st19"/>
+							<g id="shape181-326" v:mID="181" v:groupContext="shape">
+								<title>シート.181</title>
+								<path d="M0 931.2 L10.64 931.2 L0 931.2 Z" class="st5"/>
+							</g>
+							<g id="shape182-328" v:mID="182" v:groupContext="shape">
+								<title>シート.182</title>
+								<path d="M0 931.2 L10.64 931.2 L0 931.2 Z" class="st6"/>
+								<path d="M0 931.2 L10.64 931.2" class="st20"/>
+							</g>
 						</g>
 					</g>
 				</g>
-				<g id="group129-251" transform="translate(5.19584E-14,-19.8336)" v:mID="129" v:groupContext="group">
+				<g id="group183-331" transform="translate(3.59712E-14,-19.8335)" v:mID="183" v:groupContext="group">
 					<title>シート.92</title>
-					<g id="shape130-252" v:mID="130" v:groupContext="shape">
+					<g id="shape184-332" v:mID="184" v:groupContext="shape">
 						<title>長方形.22</title>
 						<v:userDefs>
 							<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
 						</v:userDefs>
-						<rect x="0" y="890.217" width="28.929" height="40.2316" class="st18"/>
+						<rect x="0" y="890.966" width="28.929" height="40.2316" class="st19"/>
 					</g>
-					<g id="group131-254" transform="translate(7.22527,-0.285473)" v:mID="131" v:groupContext="group">
+					<g id="group185-334" transform="translate(7.22427,-0.285073)" v:mID="185" v:groupContext="group">
 						<title>シート.29</title>
-						<g id="group132-255" transform="translate(930.449,891.029) rotate(90)" v:mID="132" v:groupContext="group">
+						<g id="group186-335" transform="translate(931.197,891.777) rotate(90)" v:mID="186" v:groupContext="group">
 							<v:userDefs>
 								<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(17):26"/>
 							</v:userDefs>
 							<title>直線</title>
-							<g id="shape133-256" v:mID="133" v:groupContext="shape">
+							<g id="shape187-336" v:mID="187" v:groupContext="shape">
 								<title>シート.133</title>
-								<path d="M0 930.45 L39.42 930.45 L0 930.45 Z" class="st4"/>
+								<path d="M0 931.2 L39.42 931.2 L0 931.2 Z" class="st4"/>
 							</g>
-							<g id="shape134-258" v:mID="134" v:groupContext="shape">
+							<g id="group188-338" v:mID="188" v:groupContext="group">
 								<title>シート.134</title>
-								<path d="M0 930.45 L39.42 930.45 L0 930.45 Z" class="st5"/>
-								<path d="M0 930.45 L39.42 930.45" class="st19"/>
+								<g id="shape189-339" v:mID="189" v:groupContext="shape">
+									<title>シート.189</title>
+									<path d="M0 931.2 L39.42 931.2 L0 931.2 Z" class="st5"/>
+								</g>
+								<g id="shape190-341" v:mID="190" v:groupContext="shape">
+									<title>シート.190</title>
+									<path d="M0 931.2 L39.42 931.2 L0 931.2 Z" class="st6"/>
+									<path d="M0 931.2 L39.42 931.2" class="st20"/>
+								</g>
 							</g>
 						</g>
-						<g id="group135-261" transform="translate(944.927,891.029) rotate(90)" v:mID="135" v:groupContext="group">
+						<g id="group191-344" transform="translate(945.675,891.777) rotate(90)" v:mID="191" v:groupContext="group">
 							<v:userDefs>
 								<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(17):26"/>
 							</v:userDefs>
 							<title>直線.24</title>
-							<g id="shape136-262" v:mID="136" v:groupContext="shape">
+							<g id="shape192-345" v:mID="192" v:groupContext="shape">
 								<title>シート.136</title>
-								<path d="M0 930.45 L39.42 930.45 L0 930.45 Z" class="st4"/>
+								<path d="M0 931.2 L39.42 931.2 L0 931.2 Z" class="st4"/>
 							</g>
-							<g id="shape137-264" v:mID="137" v:groupContext="shape">
+							<g id="group193-347" v:mID="193" v:groupContext="group">
 								<title>シート.137</title>
-								<path d="M0 930.45 L39.42 930.45 L0 930.45 Z" class="st5"/>
-								<path d="M0 930.45 L39.42 930.45" class="st19"/>
+								<g id="shape194-348" v:mID="194" v:groupContext="shape">
+									<title>シート.194</title>
+									<path d="M0 931.2 L39.42 931.2 L0 931.2 Z" class="st5"/>
+								</g>
+								<g id="shape195-350" v:mID="195" v:groupContext="shape">
+									<title>シート.195</title>
+									<path d="M0 931.2 L39.42 931.2 L0 931.2 Z" class="st6"/>
+									<path d="M0 931.2 L39.42 931.2" class="st20"/>
+								</g>
 							</g>
 						</g>
 					</g>
 				</g>
 			</g>
 		</g>
-		<g id="group138-267" transform="translate(165.21,-0.501141)" v:mID="138" v:groupContext="group">
+		<g id="group196-353" transform="translate(165.209,-0.999999)" v:mID="196" v:groupContext="group">
 			<title>シート.139</title>
-			<g id="group139-268" transform="translate(34.2434,0)" v:mID="139" v:groupContext="group">
+			<g id="group197-354" transform="translate(34.2424,0)" v:mID="197" v:groupContext="group">
 				<title>シート.133</title>
-				<g id="group140-269" transform="translate(1289.86,783.149) rotate(90)" v:mID="140" v:groupContext="group">
+				<g id="group198-355" transform="translate(1290.61,783.897) rotate(90)" v:mID="198" v:groupContext="group">
 					<v:userDefs>
 						<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(17):26"/>
 					</v:userDefs>
 					<title>直線.129</title>
-					<g id="shape141-270" v:mID="141" v:groupContext="shape">
+					<g id="shape199-356" v:mID="199" v:groupContext="shape">
 						<title>シート.141</title>
-						<path d="M0 930.45 L147.3 930.45 L0 930.45 Z" class="st4"/>
+						<path d="M0 931.2 L147.3 931.2 L0 931.2 Z" class="st4"/>
 					</g>
-					<g id="shape142-272" v:mID="142" v:groupContext="shape">
+					<g id="group200-358" v:mID="200" v:groupContext="group">
 						<title>シート.142</title>
-						<path d="M0 930.45 L147.3 930.45 L0 930.45 Z" class="st5"/>
-						<path d="M0 930.45 L147.3 930.45" class="st13"/>
+						<g id="shape201-359" v:mID="201" v:groupContext="shape">
+							<title>シート.201</title>
+							<path d="M0 931.2 L147.3 931.2 L0 931.2 Z" class="st5"/>
+						</g>
+						<g id="shape202-361" v:mID="202" v:groupContext="shape">
+							<title>シート.202</title>
+							<path d="M0 931.2 L147.3 931.2 L0 931.2 Z" class="st6"/>
+							<path d="M0 931.2 L147.3 931.2" class="st14"/>
+						</g>
 					</g>
 				</g>
-				<g id="group143-275" transform="translate(930.449,783.065) rotate(90)" v:mID="143" v:groupContext="group">
+				<g id="group203-364" transform="translate(931.197,783.813) rotate(90)" v:mID="203" v:groupContext="group">
 					<v:userDefs>
 						<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(17):26"/>
 					</v:userDefs>
 					<title>直線.128</title>
-					<g id="shape144-276" v:mID="144" v:groupContext="shape">
+					<g id="shape204-365" v:mID="204" v:groupContext="shape">
 						<title>シート.144</title>
-						<path d="M0 930.45 L147.3 930.45 L0 930.45 Z" class="st4"/>
+						<path d="M0 931.2 L147.3 931.2 L0 931.2 Z" class="st4"/>
 					</g>
-					<g id="shape145-278" v:mID="145" v:groupContext="shape">
+					<g id="group205-367" v:mID="205" v:groupContext="group">
 						<title>シート.145</title>
-						<path d="M0 930.45 L147.3 930.45 L0 930.45 Z" class="st5"/>
-						<path d="M0 930.45 L147.3 930.45" class="st13"/>
+						<g id="shape206-368" v:mID="206" v:groupContext="shape">
+							<title>シート.206</title>
+							<path d="M0 931.2 L147.3 931.2 L0 931.2 Z" class="st5"/>
+						</g>
+						<g id="shape207-370" v:mID="207" v:groupContext="shape">
+							<title>シート.207</title>
+							<path d="M0 931.2 L147.3 931.2 L0 931.2 Z" class="st6"/>
+							<path d="M0 931.2 L147.3 931.2" class="st14"/>
+						</g>
 					</g>
 				</g>
 			</g>
-			<g id="shape146-281" v:mID="146" v:groupContext="shape" transform="translate(6.31495E-13,-160.399)">
+			<g id="shape208-373" v:mID="208" v:groupContext="shape" transform="translate(6.39488E-14,-160.399)">
 				<title>シート.75</title>
 				<desc>断面図B</desc>
 				<v:userDefs/>
 				<v:textBlock v:margins="rect(3.99999,3.99999,3.99999,3.99999)" v:tabSpace="42.5196"/>
-				<v:textRect cx="54.1972" cy="913.673" width="108.4" height="33.5508"/>
-				<rect x="0" y="896.898" width="108.396" height="33.5508" class="st8"/>
-				<text x="13.3" y="919.66" class="st23" v:langID="1041"><v:paragraph v:horizAlign="1"/><v:tabList/>断面図（<tspan
-							class="st24">B</tspan>）</text>			</g>
-			<g id="shape147-285" v:mID="147" v:groupContext="shape" transform="translate(2.23821E-13,-73.2672)">
+				<v:textRect cx="112.984" cy="914.421" width="225.98" height="33.5508"/>
+				<rect x="0" y="897.646" width="225.971" height="33.5508" class="st9"/>
+				<text x="3.99" y="919.82" class="st24" v:langID="1041"><v:paragraph/><v:tabList/>Cross-sectional view (B)</text>			</g>
+			<g id="shape209-376" v:mID="209" v:groupContext="shape" transform="translate(0,-73.267)">
 				<title>長方形.95</title>
 				<desc>Dev Board</desc>
 				<v:userDefs>
 					<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
 				</v:userDefs>
 				<v:textBlock v:margins="rect(3.99999,3.99999,3.99999,3.99999)" v:tabSpace="42.5196"/>
-				<v:textRect cx="213.947" cy="923.361" width="427.9" height="14.1732"/>
-				<rect x="0" y="916.276" width="427.896" height="14.1732" class="st14"/>
-				<text x="184.44" y="927.56" class="st15" v:langID="1041"><v:paragraph v:horizAlign="1"/><v:tabList/>Dev Board</text>			</g>
-			<g id="group148-288" transform="translate(20.6608,-97.8279)" v:mID="148" v:groupContext="group">
+				<v:textRect cx="213.947" cy="924.109" width="427.9" height="14.1732"/>
+				<rect x="0" y="917.024" width="427.896" height="14.1732" class="st15"/>
+				<text x="184.44" y="928.31" class="st16" v:langID="1041"><v:paragraph v:horizAlign="1"/><v:tabList/>Dev Board</text>			</g>
+			<g id="group210-379" transform="translate(20.6608,-97.8284)" v:mID="210" v:groupContext="group">
 				<title>シート.131</title>
-				<g id="group149-289" v:mID="149" v:groupContext="group">
+				<g id="group211-380" v:mID="211" v:groupContext="group">
 					<title>シート.96</title>
-					<g id="group150-290" transform="translate(-1.07914E-13,-19.9673)" v:mID="150" v:groupContext="group">
+					<g id="group212-381" transform="translate(-1.29896E-13,-19.9658)" v:mID="212" v:groupContext="group">
 						<v:userDefs>
 							<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(17):26"/>
 						</v:userDefs>
 						<title>半円</title>
-						<g id="shape151-291" v:mID="151" v:groupContext="shape">
+						<g id="shape213-382" v:mID="213" v:groupContext="shape">
 							<title>シート.98</title>
-							<path d="M13.58 916.87 C6.08 916.87 0 922.95 0 930.45 L27.17 930.45 C27.17 922.95 21.08 916.87 13.58
-										 916.87 Z" class="st18"/>
+							<path d="M13.58 917.62 C6.08 917.62 0 923.7 0 931.2 L27.17 931.2 C27.17 923.7 21.08 917.62 13.58 917.62
+										 Z" class="st19"/>
 						</g>
 					</g>
-					<g id="group152-293" transform="translate(944.031,896.898) rotate(90)" v:mID="152" v:groupContext="group">
+					<g id="group214-384" transform="translate(944.778,897.647) rotate(90)" v:mID="214" v:groupContext="group">
 						<v:userDefs>
 							<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(17):26"/>
 						</v:userDefs>
 						<title>直線.49</title>
-						<g id="shape153-294" v:mID="153" v:groupContext="shape">
+						<g id="shape215-385" v:mID="215" v:groupContext="shape">
 							<title>シート.153</title>
-							<path d="M0 930.45 L7.52 930.45 L0 930.45 Z" class="st4"/>
+							<path d="M0 931.2 L7.52 931.2 L0 931.2 Z" class="st4"/>
 						</g>
-						<g id="shape154-296" v:mID="154" v:groupContext="shape">
+						<g id="group216-387" v:mID="216" v:groupContext="group">
 							<title>シート.154</title>
-							<path d="M0 930.45 L7.52 930.45 L0 930.45 Z" class="st5"/>
-							<path d="M0 930.45 L7.52 930.45" class="st20"/>
+							<g id="shape217-388" v:mID="217" v:groupContext="shape">
+								<title>シート.217</title>
+								<path d="M0 931.2 L7.52 931.2 L0 931.2 Z" class="st5"/>
+							</g>
+							<g id="shape218-390" v:mID="218" v:groupContext="shape">
+								<title>シート.218</title>
+								<path d="M0 931.2 L7.52 931.2 L0 931.2 Z" class="st6"/>
+								<path d="M0 931.2 L7.52 931.2" class="st21"/>
+							</g>
 						</g>
 					</g>
-					<g id="shape155-299" v:mID="155" v:groupContext="shape" transform="translate(8.4803,0)">
+					<g id="shape219-393" v:mID="219" v:groupContext="shape" transform="translate(8.4803,0)">
 						<title>長方形.50</title>
 						<v:userDefs>
 							<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
 						</v:userDefs>
-						<rect x="0" y="910.606" width="10.2047" height="19.8425" class="st18"/>
+						<rect x="0" y="911.355" width="10.2047" height="19.8425" class="st19"/>
 					</g>
-					<g id="group156-301" transform="translate(-254.33,23.8152) rotate(-16.4068)" v:mID="156" v:groupContext="group">
+					<g id="group220-395" transform="translate(-254.541,23.8471) rotate(-16.4068)" v:mID="220"
+							v:groupContext="group">
 						<v:userDefs>
 							<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(17):26"/>
 						</v:userDefs>
 						<title>直線.51</title>
-						<g id="shape157-302" v:mID="157" v:groupContext="shape">
+						<g id="shape221-396" v:mID="221" v:groupContext="shape">
 							<title>シート.157</title>
-							<path d="M0 930.45 L10.64 930.45 L0 930.45 Z" class="st4"/>
+							<path d="M0 931.2 L10.64 931.2 L0 931.2 Z" class="st4"/>
 						</g>
-						<g id="shape158-304" v:mID="158" v:groupContext="shape">
+						<g id="group222-398" v:mID="222" v:groupContext="group">
 							<title>シート.158</title>
-							<path d="M0 930.45 L10.64 930.45 L0 930.45 Z" class="st5"/>
-							<path d="M0 930.45 L10.64 930.45" class="st19"/>
+							<g id="shape223-399" v:mID="223" v:groupContext="shape">
+								<title>シート.223</title>
+								<path d="M0 931.2 L10.64 931.2 L0 931.2 Z" class="st5"/>
+							</g>
+							<g id="shape224-401" v:mID="224" v:groupContext="shape">
+								<title>シート.224</title>
+								<path d="M0 931.2 L10.64 931.2 L0 931.2 Z" class="st6"/>
+								<path d="M0 931.2 L10.64 931.2" class="st20"/>
+							</g>
 						</g>
 					</g>
-					<g id="group159-307" transform="translate(-254.33,29.4845) rotate(-16.4068)" v:mID="159" v:groupContext="group">
+					<g id="group225-404" transform="translate(-254.541,29.5164) rotate(-16.4068)" v:mID="225"
+							v:groupContext="group">
 						<v:userDefs>
 							<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(17):26"/>
 						</v:userDefs>
 						<title>直線.52</title>
-						<g id="shape160-308" v:mID="160" v:groupContext="shape">
+						<g id="shape226-405" v:mID="226" v:groupContext="shape">
 							<title>シート.160</title>
-							<path d="M0 930.45 L10.64 930.45 L0 930.45 Z" class="st4"/>
+							<path d="M0 931.2 L10.64 931.2 L0 931.2 Z" class="st4"/>
 						</g>
-						<g id="shape161-310" v:mID="161" v:groupContext="shape">
+						<g id="group227-407" v:mID="227" v:groupContext="group">
 							<title>シート.161</title>
-							<path d="M0 930.45 L10.64 930.45 L0 930.45 Z" class="st5"/>
-							<path d="M0 930.45 L10.64 930.45" class="st19"/>
+							<g id="shape228-408" v:mID="228" v:groupContext="shape">
+								<title>シート.228</title>
+								<path d="M0 931.2 L10.64 931.2 L0 931.2 Z" class="st5"/>
+							</g>
+							<g id="shape229-410" v:mID="229" v:groupContext="shape">
+								<title>シート.229</title>
+								<path d="M0 931.2 L10.64 931.2 L0 931.2 Z" class="st6"/>
+								<path d="M0 931.2 L10.64 931.2" class="st20"/>
+							</g>
 						</g>
 					</g>
-					<g id="group162-313" transform="translate(-254.33,35.1538) rotate(-16.4068)" v:mID="162" v:groupContext="group">
+					<g id="group230-413" transform="translate(-254.541,35.1857) rotate(-16.4068)" v:mID="230"
+							v:groupContext="group">
 						<v:userDefs>
 							<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(17):26"/>
 						</v:userDefs>
 						<title>直線.53</title>
-						<g id="shape163-314" v:mID="163" v:groupContext="shape">
+						<g id="shape231-414" v:mID="231" v:groupContext="shape">
 							<title>シート.163</title>
-							<path d="M0 930.45 L10.64 930.45 L0 930.45 Z" class="st4"/>
+							<path d="M0 931.2 L10.64 931.2 L0 931.2 Z" class="st4"/>
 						</g>
-						<g id="shape164-316" v:mID="164" v:groupContext="shape">
+						<g id="group232-416" v:mID="232" v:groupContext="group">
 							<title>シート.164</title>
-							<path d="M0 930.45 L10.64 930.45 L0 930.45 Z" class="st5"/>
-							<path d="M0 930.45 L10.64 930.45" class="st19"/>
+							<g id="shape233-417" v:mID="233" v:groupContext="shape">
+								<title>シート.233</title>
+								<path d="M0 931.2 L10.64 931.2 L0 931.2 Z" class="st5"/>
+							</g>
+							<g id="shape234-419" v:mID="234" v:groupContext="shape">
+								<title>シート.234</title>
+								<path d="M0 931.2 L10.64 931.2 L0 931.2 Z" class="st6"/>
+								<path d="M0 931.2 L10.64 931.2" class="st20"/>
+							</g>
 						</g>
 					</g>
 				</g>
-				<g id="group165-319" transform="translate(359.408,-3.41061E-13)" v:mID="165" v:groupContext="group">
+				<g id="group235-422" transform="translate(359.408,-6.82121E-13)" v:mID="235" v:groupContext="group">
 					<title>シート.115</title>
-					<g id="group166-320" transform="translate(-1.07914E-13,-19.9673)" v:mID="166" v:groupContext="group">
+					<g id="group236-423" transform="translate(-1.29896E-13,-19.9658)" v:mID="236" v:groupContext="group">
 						<v:userDefs>
 							<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(17):26"/>
 						</v:userDefs>
 						<title>半円</title>
-						<g id="shape167-321" v:mID="167" v:groupContext="shape">
+						<g id="shape237-424" v:mID="237" v:groupContext="shape">
 							<title>シート.117</title>
-							<path d="M13.58 916.87 C6.08 916.87 0 922.95 0 930.45 L27.17 930.45 C27.17 922.95 21.08 916.87 13.58
-										 916.87 Z" class="st18"/>
+							<path d="M13.58 917.62 C6.08 917.62 0 923.7 0 931.2 L27.17 931.2 C27.17 923.7 21.08 917.62 13.58 917.62
+										 Z" class="st19"/>
 						</g>
 					</g>
-					<g id="group168-323" transform="translate(944.031,896.898) rotate(90)" v:mID="168" v:groupContext="group">
+					<g id="group238-426" transform="translate(944.778,897.647) rotate(90)" v:mID="238" v:groupContext="group">
 						<v:userDefs>
 							<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(17):26"/>
 						</v:userDefs>
 						<title>直線.49</title>
-						<g id="shape169-324" v:mID="169" v:groupContext="shape">
+						<g id="shape239-427" v:mID="239" v:groupContext="shape">
 							<title>シート.169</title>
-							<path d="M0 930.45 L7.52 930.45 L0 930.45 Z" class="st4"/>
+							<path d="M0 931.2 L7.52 931.2 L0 931.2 Z" class="st4"/>
 						</g>
-						<g id="shape170-326" v:mID="170" v:groupContext="shape">
+						<g id="group240-429" v:mID="240" v:groupContext="group">
 							<title>シート.170</title>
-							<path d="M0 930.45 L7.52 930.45 L0 930.45 Z" class="st5"/>
-							<path d="M0 930.45 L7.52 930.45" class="st20"/>
+							<g id="shape241-430" v:mID="241" v:groupContext="shape">
+								<title>シート.241</title>
+								<path d="M0 931.2 L7.52 931.2 L0 931.2 Z" class="st5"/>
+							</g>
+							<g id="shape242-432" v:mID="242" v:groupContext="shape">
+								<title>シート.242</title>
+								<path d="M0 931.2 L7.52 931.2 L0 931.2 Z" class="st6"/>
+								<path d="M0 931.2 L7.52 931.2" class="st21"/>
+							</g>
 						</g>
 					</g>
-					<g id="shape171-329" v:mID="171" v:groupContext="shape" transform="translate(8.4803,0)">
+					<g id="shape243-435" v:mID="243" v:groupContext="shape" transform="translate(8.4803,0)">
 						<title>長方形.50</title>
 						<v:userDefs>
 							<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
 						</v:userDefs>
-						<rect x="0" y="910.606" width="10.2047" height="19.8425" class="st18"/>
+						<rect x="0" y="911.355" width="10.2047" height="19.8425" class="st19"/>
 					</g>
-					<g id="group172-331" transform="translate(-254.33,23.8152) rotate(-16.4068)" v:mID="172" v:groupContext="group">
+					<g id="group244-437" transform="translate(-254.541,23.8471) rotate(-16.4068)" v:mID="244"
+							v:groupContext="group">
 						<v:userDefs>
 							<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(17):26"/>
 						</v:userDefs>
 						<title>直線.51</title>
-						<g id="shape173-332" v:mID="173" v:groupContext="shape">
+						<g id="shape245-438" v:mID="245" v:groupContext="shape">
 							<title>シート.173</title>
-							<path d="M0 930.45 L10.64 930.45 L0 930.45 Z" class="st4"/>
+							<path d="M0 931.2 L10.64 931.2 L0 931.2 Z" class="st4"/>
 						</g>
-						<g id="shape174-334" v:mID="174" v:groupContext="shape">
+						<g id="group246-440" v:mID="246" v:groupContext="group">
 							<title>シート.174</title>
-							<path d="M0 930.45 L10.64 930.45 L0 930.45 Z" class="st5"/>
-							<path d="M0 930.45 L10.64 930.45" class="st19"/>
+							<g id="shape247-441" v:mID="247" v:groupContext="shape">
+								<title>シート.247</title>
+								<path d="M0 931.2 L10.64 931.2 L0 931.2 Z" class="st5"/>
+							</g>
+							<g id="shape248-443" v:mID="248" v:groupContext="shape">
+								<title>シート.248</title>
+								<path d="M0 931.2 L10.64 931.2 L0 931.2 Z" class="st6"/>
+								<path d="M0 931.2 L10.64 931.2" class="st20"/>
+							</g>
 						</g>
 					</g>
-					<g id="group175-337" transform="translate(-254.33,29.4845) rotate(-16.4068)" v:mID="175" v:groupContext="group">
+					<g id="group249-446" transform="translate(-254.541,29.5164) rotate(-16.4068)" v:mID="249"
+							v:groupContext="group">
 						<v:userDefs>
 							<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(17):26"/>
 						</v:userDefs>
 						<title>直線.52</title>
-						<g id="shape176-338" v:mID="176" v:groupContext="shape">
+						<g id="shape250-447" v:mID="250" v:groupContext="shape">
 							<title>シート.176</title>
-							<path d="M0 930.45 L10.64 930.45 L0 930.45 Z" class="st4"/>
+							<path d="M0 931.2 L10.64 931.2 L0 931.2 Z" class="st4"/>
 						</g>
-						<g id="shape177-340" v:mID="177" v:groupContext="shape">
+						<g id="group251-449" v:mID="251" v:groupContext="group">
 							<title>シート.177</title>
-							<path d="M0 930.45 L10.64 930.45 L0 930.45 Z" class="st5"/>
-							<path d="M0 930.45 L10.64 930.45" class="st19"/>
+							<g id="shape252-450" v:mID="252" v:groupContext="shape">
+								<title>シート.252</title>
+								<path d="M0 931.2 L10.64 931.2 L0 931.2 Z" class="st5"/>
+							</g>
+							<g id="shape253-452" v:mID="253" v:groupContext="shape">
+								<title>シート.253</title>
+								<path d="M0 931.2 L10.64 931.2 L0 931.2 Z" class="st6"/>
+								<path d="M0 931.2 L10.64 931.2" class="st20"/>
+							</g>
 						</g>
 					</g>
-					<g id="group178-343" transform="translate(-254.33,35.1538) rotate(-16.4068)" v:mID="178" v:groupContext="group">
+					<g id="group254-455" transform="translate(-254.541,35.1857) rotate(-16.4068)" v:mID="254"
+							v:groupContext="group">
 						<v:userDefs>
 							<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(17):26"/>
 						</v:userDefs>
 						<title>直線.53</title>
-						<g id="shape179-344" v:mID="179" v:groupContext="shape">
+						<g id="shape255-456" v:mID="255" v:groupContext="shape">
 							<title>シート.179</title>
-							<path d="M0 930.45 L10.64 930.45 L0 930.45 Z" class="st4"/>
+							<path d="M0 931.2 L10.64 931.2 L0 931.2 Z" class="st4"/>
 						</g>
-						<g id="shape180-346" v:mID="180" v:groupContext="shape">
+						<g id="group256-458" v:mID="256" v:groupContext="group">
 							<title>シート.180</title>
-							<path d="M0 930.45 L10.64 930.45 L0 930.45 Z" class="st5"/>
-							<path d="M0 930.45 L10.64 930.45" class="st19"/>
+							<g id="shape257-459" v:mID="257" v:groupContext="shape">
+								<title>シート.257</title>
+								<path d="M0 931.2 L10.64 931.2 L0 931.2 Z" class="st5"/>
+							</g>
+							<g id="shape258-461" v:mID="258" v:groupContext="shape">
+								<title>シート.258</title>
+								<path d="M0 931.2 L10.64 931.2 L0 931.2 Z" class="st6"/>
+								<path d="M0 931.2 L10.64 931.2" class="st20"/>
+							</g>
 						</g>
 					</g>
 				</g>
 			</g>
-			<g id="group181-349" transform="translate(19.779,-22.6506)" v:mID="181" v:groupContext="group">
+			<g id="group259-464" transform="translate(19.779,-22.651)" v:mID="259" v:groupContext="group">
 				<title>シート.132</title>
-				<g id="group182-350" v:mID="182" v:groupContext="group">
+				<g id="group260-465" v:mID="260" v:groupContext="group">
 					<title>シート.110</title>
-					<g id="shape183-351" v:mID="183" v:groupContext="shape">
+					<g id="shape261-466" v:mID="261" v:groupContext="shape">
 						<title>長方形.22</title>
 						<v:userDefs>
 							<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
 						</v:userDefs>
-						<rect x="0" y="890.217" width="28.929" height="40.2316" class="st18"/>
+						<rect x="0" y="890.966" width="28.929" height="40.2316" class="st19"/>
 					</g>
-					<g id="group184-353" transform="translate(7.22527,-0.285473)" v:mID="184" v:groupContext="group">
+					<g id="group262-468" transform="translate(7.22427,-0.285073)" v:mID="262" v:groupContext="group">
 						<title>シート.112</title>
-						<g id="group185-354" transform="translate(930.449,891.029) rotate(90)" v:mID="185" v:groupContext="group">
+						<g id="group263-469" transform="translate(931.197,891.777) rotate(90)" v:mID="263" v:groupContext="group">
 							<v:userDefs>
 								<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(17):26"/>
 							</v:userDefs>
 							<title>直線</title>
-							<g id="shape186-355" v:mID="186" v:groupContext="shape">
+							<g id="shape264-470" v:mID="264" v:groupContext="shape">
 								<title>シート.186</title>
-								<path d="M0 930.45 L39.42 930.45 L0 930.45 Z" class="st4"/>
+								<path d="M0 931.2 L39.42 931.2 L0 931.2 Z" class="st4"/>
 							</g>
-							<g id="shape187-357" v:mID="187" v:groupContext="shape">
+							<g id="group265-472" v:mID="265" v:groupContext="group">
 								<title>シート.187</title>
-								<path d="M0 930.45 L39.42 930.45 L0 930.45 Z" class="st5"/>
-								<path d="M0 930.45 L39.42 930.45" class="st19"/>
+								<g id="shape266-473" v:mID="266" v:groupContext="shape">
+									<title>シート.266</title>
+									<path d="M0 931.2 L39.42 931.2 L0 931.2 Z" class="st5"/>
+								</g>
+								<g id="shape267-475" v:mID="267" v:groupContext="shape">
+									<title>シート.267</title>
+									<path d="M0 931.2 L39.42 931.2 L0 931.2 Z" class="st6"/>
+									<path d="M0 931.2 L39.42 931.2" class="st20"/>
+								</g>
 							</g>
 						</g>
-						<g id="group188-360" transform="translate(944.927,891.029) rotate(90)" v:mID="188" v:groupContext="group">
+						<g id="group268-478" transform="translate(945.675,891.777) rotate(90)" v:mID="268" v:groupContext="group">
 							<v:userDefs>
 								<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(17):26"/>
 							</v:userDefs>
 							<title>直線.24</title>
-							<g id="shape189-361" v:mID="189" v:groupContext="shape">
+							<g id="shape269-479" v:mID="269" v:groupContext="shape">
 								<title>シート.189</title>
-								<path d="M0 930.45 L39.42 930.45 L0 930.45 Z" class="st4"/>
+								<path d="M0 931.2 L39.42 931.2 L0 931.2 Z" class="st4"/>
 							</g>
-							<g id="shape190-363" v:mID="190" v:groupContext="shape">
+							<g id="group270-481" v:mID="270" v:groupContext="group">
 								<title>シート.190</title>
-								<path d="M0 930.45 L39.42 930.45 L0 930.45 Z" class="st5"/>
-								<path d="M0 930.45 L39.42 930.45" class="st19"/>
+								<g id="shape271-482" v:mID="271" v:groupContext="shape">
+									<title>シート.271</title>
+									<path d="M0 931.2 L39.42 931.2 L0 931.2 Z" class="st5"/>
+								</g>
+								<g id="shape272-484" v:mID="272" v:groupContext="shape">
+									<title>シート.272</title>
+									<path d="M0 931.2 L39.42 931.2 L0 931.2 Z" class="st6"/>
+									<path d="M0 931.2 L39.42 931.2" class="st20"/>
+								</g>
 							</g>
 						</g>
 					</g>
 				</g>
-				<g id="group191-366" transform="translate(359.408,4.54747E-13)" v:mID="191" v:groupContext="group">
+				<g id="group273-487" transform="translate(359.408,-2.27374E-13)" v:mID="273" v:groupContext="group">
 					<title>シート.123</title>
-					<g id="shape192-367" v:mID="192" v:groupContext="shape">
+					<g id="shape274-488" v:mID="274" v:groupContext="shape">
 						<title>長方形.22</title>
 						<v:userDefs>
 							<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
 						</v:userDefs>
-						<rect x="0" y="890.217" width="28.929" height="40.2316" class="st18"/>
+						<rect x="0" y="890.966" width="28.929" height="40.2316" class="st19"/>
 					</g>
-					<g id="group193-369" transform="translate(7.22527,-0.285473)" v:mID="193" v:groupContext="group">
+					<g id="group275-490" transform="translate(7.22427,-0.285073)" v:mID="275" v:groupContext="group">
 						<title>シート.125</title>
-						<g id="group194-370" transform="translate(930.449,891.029) rotate(90)" v:mID="194" v:groupContext="group">
+						<g id="group276-491" transform="translate(931.197,891.777) rotate(90)" v:mID="276" v:groupContext="group">
 							<v:userDefs>
 								<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(17):26"/>
 							</v:userDefs>
 							<title>直線</title>
-							<g id="shape195-371" v:mID="195" v:groupContext="shape">
+							<g id="shape277-492" v:mID="277" v:groupContext="shape">
 								<title>シート.195</title>
-								<path d="M0 930.45 L39.42 930.45 L0 930.45 Z" class="st4"/>
+								<path d="M0 931.2 L39.42 931.2 L0 931.2 Z" class="st4"/>
 							</g>
-							<g id="shape196-373" v:mID="196" v:groupContext="shape">
+							<g id="group278-494" v:mID="278" v:groupContext="group">
 								<title>シート.196</title>
-								<path d="M0 930.45 L39.42 930.45 L0 930.45 Z" class="st5"/>
-								<path d="M0 930.45 L39.42 930.45" class="st19"/>
+								<g id="shape279-495" v:mID="279" v:groupContext="shape">
+									<title>シート.279</title>
+									<path d="M0 931.2 L39.42 931.2 L0 931.2 Z" class="st5"/>
+								</g>
+								<g id="shape280-497" v:mID="280" v:groupContext="shape">
+									<title>シート.280</title>
+									<path d="M0 931.2 L39.42 931.2 L0 931.2 Z" class="st6"/>
+									<path d="M0 931.2 L39.42 931.2" class="st20"/>
+								</g>
 							</g>
 						</g>
-						<g id="group197-376" transform="translate(944.927,891.029) rotate(90)" v:mID="197" v:groupContext="group">
+						<g id="group281-500" transform="translate(945.675,891.777) rotate(90)" v:mID="281" v:groupContext="group">
 							<v:userDefs>
 								<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(17):26"/>
 							</v:userDefs>
 							<title>直線.24</title>
-							<g id="shape198-377" v:mID="198" v:groupContext="shape">
+							<g id="shape282-501" v:mID="282" v:groupContext="shape">
 								<title>シート.198</title>
-								<path d="M0 930.45 L39.42 930.45 L0 930.45 Z" class="st4"/>
+								<path d="M0 931.2 L39.42 931.2 L0 931.2 Z" class="st4"/>
 							</g>
-							<g id="shape199-379" v:mID="199" v:groupContext="shape">
+							<g id="group283-503" v:mID="283" v:groupContext="group">
 								<title>シート.199</title>
-								<path d="M0 930.45 L39.42 930.45 L0 930.45 Z" class="st5"/>
-								<path d="M0 930.45 L39.42 930.45" class="st19"/>
+								<g id="shape284-504" v:mID="284" v:groupContext="shape">
+									<title>シート.284</title>
+									<path d="M0 931.2 L39.42 931.2 L0 931.2 Z" class="st5"/>
+								</g>
+								<g id="shape285-506" v:mID="285" v:groupContext="shape">
+									<title>シート.285</title>
+									<path d="M0 931.2 L39.42 931.2 L0 931.2 Z" class="st6"/>
+									<path d="M0 931.2 L39.42 931.2" class="st20"/>
+								</g>
 							</g>
 						</g>
 					</g>
 				</g>
 			</g>
-			<g id="shape200-382" v:mID="200" v:groupContext="shape" transform="translate(44.2557,-136.89)">
+			<g id="shape286-509" v:mID="286" v:groupContext="shape" transform="translate(44.2557,-136.89)">
 				<title>シート.134</title>
 				<desc>❶</desc>
 				<v:userDefs/>
 				<v:textBlock v:margins="rect(3.99999,3.99999,3.99999,3.99999)" v:tabSpace="42.5196"/>
-				<v:textRect cx="22.4833" cy="920.449" width="44.97" height="20"/>
-				<rect x="0" y="910.449" width="44.968" height="20" class="st8"/>
-				<text x="13.45" y="925.85" class="st21" v:langID="1041"><v:paragraph v:horizAlign="1"/><v:tabList/>❶</text>			</g>
-			<g id="group201-385" transform="translate(714.526,1448.92) rotate(135)" v:mID="201" v:groupContext="group">
+				<v:textRect cx="22.4833" cy="921.197" width="44.97" height="20"/>
+				<rect x="0" y="911.197" width="44.968" height="20" class="st9"/>
+				<text x="13.45" y="926.6" class="st22" v:langID="1041"><v:paragraph v:horizAlign="1"/><v:tabList/>❶</text>			</g>
+			<g id="group287-512" transform="translate(715.054,1450.2) rotate(135)" v:mID="287" v:groupContext="group">
 				<v:userDefs>
 					<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(17):26"/>
 				</v:userDefs>
 				<title>直線.135</title>
-				<g id="shape202-386" v:mID="202" v:groupContext="shape">
+				<g id="shape288-513" v:mID="288" v:groupContext="shape">
 					<title>シート.202</title>
-					<path d="M0 930.45 L21.2 930.45 L0 930.45 Z" class="st4"/>
+					<path d="M0 931.2 L21.2 931.2 L0 931.2 Z" class="st4"/>
 				</g>
-				<g id="shape203-388" v:mID="203" v:groupContext="shape">
+				<g id="group289-515" v:mID="289" v:groupContext="group">
 					<title>シート.203</title>
-					<path d="M0 930.45 L21.2 930.45 L0 930.45 Z" class="st5"/>
-					<path d="M0 930.45 L21.2 930.45" class="st22"/>
+					<g id="shape290-516" v:mID="290" v:groupContext="shape">
+						<title>シート.290</title>
+						<path d="M0 931.2 L21.2 931.2 L0 931.2 Z" class="st5"/>
+					</g>
+					<g id="shape291-518" v:mID="291" v:groupContext="shape">
+						<title>シート.291</title>
+						<path d="M0 931.2 L21.2 931.2 L0 931.2 Z" class="st6"/>
+						<path d="M0 931.2 L21.2 931.2" class="st23"/>
+					</g>
 				</g>
 			</g>
-			<g id="shape204-391" v:mID="204" v:groupContext="shape" transform="translate(56.3469,-32.1654)">
+			<g id="shape292-521" v:mID="292" v:groupContext="shape" transform="translate(56.3469,-32.1654)">
 				<title>シート.136</title>
 				<desc>❹</desc>
 				<v:userDefs/>
 				<v:textBlock v:margins="rect(3.99999,3.99999,3.99999,3.99999)" v:tabSpace="42.5196"/>
-				<v:textRect cx="22.4833" cy="920.449" width="44.97" height="20"/>
-				<rect x="0" y="910.449" width="44.968" height="20" class="st8"/>
-				<text x="13.45" y="925.85" class="st21" v:langID="1041"><v:paragraph v:horizAlign="1"/><v:tabList/>❹</text>			</g>
-			<g id="group205-394" transform="translate(66.2174,1818.74) rotate(180)" v:mID="205" v:groupContext="group">
+				<v:textRect cx="22.4833" cy="921.197" width="44.97" height="20"/>
+				<rect x="0" y="911.197" width="44.968" height="20" class="st9"/>
+				<text x="13.45" y="926.6" class="st22" v:langID="1041"><v:paragraph v:horizAlign="1"/><v:tabList/>❹</text>			</g>
+			<g id="group293-524" transform="translate(66.2174,1820.24) rotate(180)" v:mID="293" v:groupContext="group">
 				<v:userDefs>
 					<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(17):26"/>
 				</v:userDefs>
 				<title>直線.137</title>
-				<g id="shape206-395" v:mID="206" v:groupContext="shape">
+				<g id="shape294-525" v:mID="294" v:groupContext="shape">
 					<title>シート.206</title>
-					<path d="M0 930.45 L20.75 930.45 L0 930.45 Z" class="st4"/>
+					<path d="M0 931.2 L20.75 931.2 L0 931.2 Z" class="st4"/>
 				</g>
-				<g id="shape207-397" v:mID="207" v:groupContext="shape">
+				<g id="group295-527" v:mID="295" v:groupContext="group">
 					<title>シート.207</title>
-					<path d="M0 930.45 L20.75 930.45 L0 930.45 Z" class="st5"/>
-					<path d="M0 930.45 L20.75 930.45" class="st22"/>
+					<g id="shape296-528" v:mID="296" v:groupContext="shape">
+						<title>シート.296</title>
+						<path d="M0 931.2 L20.75 931.2 L0 931.2 Z" class="st5"/>
+					</g>
+					<g id="shape297-530" v:mID="297" v:groupContext="shape">
+						<title>シート.297</title>
+						<path d="M0 931.2 L20.75 931.2 L0 931.2 Z" class="st6"/>
+						<path d="M0 931.2 L20.75 931.2" class="st23"/>
+					</g>
 				</g>
 			</g>
 		</g>
-		<g id="shape208-400" v:mID="208" v:groupContext="shape" transform="translate(235.275,1044.38) rotate(180)">
+		<g id="shape298-533" v:mID="298" v:groupContext="shape" transform="translate(235.274,1045.38) rotate(180)">
 			<title>片側の 2 つの角を切り取った四角形</title>
 			<v:userDefs>
 				<v:ud v:nameU="CTypeTopLeftSnip" v:prompt="" v:val="VT0(1):5"/>
@@ -4571,29 +4896,36 @@
 				<v:ud v:nameU="BotRightOffset" v:prompt="" v:val="VT0(0):24"/>
 				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
 			</v:userDefs>
-			<path d="M0 930.45 L79.37 930.45 L79.37 918.39 L71.43 910.45 L7.94 910.45 L0 918.39 L0 930.45 Z" class="st25"/>
+			<path d="M0 931.2 L79.37 931.2 L79.37 919.14 L71.43 911.2 L7.94 911.2 L0 919.14 L0 931.2 Z" class="st25"/>
 		</g>
-		<g id="shape209-402" v:mID="209" v:groupContext="shape" transform="translate(0.250659,-769.595)">
+		<g id="shape299-535" v:mID="299" v:groupContext="shape" transform="translate(0.249999,-770.094)">
 			<title>シート.141</title>
 			<desc>CON1</desc>
 			<v:userDefs/>
 			<v:textBlock v:margins="rect(3.99999,3.99999,3.99999,3.99999)" v:tabSpace="42.5196"/>
-			<v:textRect cx="22.4833" cy="917.653" width="44.97" height="25.5905"/>
-			<rect x="0" y="904.858" width="44.968" height="25.5905" class="st8"/>
-			<text x="10.75" y="919.4" class="st26" v:langID="1041"><v:paragraph v:spLine="-0.7" v:horizAlign="1"/><v:tabList/>CON1</text>		</g>
-		<g id="group210-405" transform="translate(331.882,1040.37) rotate(170.185)" v:mID="210" v:groupContext="group">
+			<v:textRect cx="22.4833" cy="918.402" width="44.97" height="25.5905"/>
+			<rect x="0" y="905.607" width="44.968" height="25.5905" class="st9"/>
+			<text x="10.75" y="920.15" class="st26" v:langID="1041"><v:paragraph v:spLine="-0.7" v:horizAlign="1"/><v:tabList/>CON1</text>		</g>
+		<g id="group300-538" transform="translate(332.009,1041.36) rotate(170.185)" v:mID="300" v:groupContext="group">
 			<v:userDefs>
 				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(17):26"/>
 			</v:userDefs>
 			<title>直線.84</title>
-			<g id="shape211-406" v:mID="211" v:groupContext="shape">
+			<g id="shape301-539" v:mID="301" v:groupContext="shape">
 				<title>シート.211</title>
-				<path d="M0 930.45 L135.32 930.45 L0 930.45 Z" class="st4"/>
+				<path d="M0 931.2 L135.32 931.2 L0 931.2 Z" class="st4"/>
 			</g>
-			<g id="shape212-408" v:mID="212" v:groupContext="shape">
+			<g id="group302-541" v:mID="302" v:groupContext="group">
 				<title>シート.212</title>
-				<path d="M0 930.45 L135.32 930.45 L0 930.45 Z" class="st5"/>
-				<path d="M0 930.45 L135.32 930.45" class="st22"/>
+				<g id="shape303-542" v:mID="303" v:groupContext="shape">
+					<title>シート.303</title>
+					<path d="M0 931.2 L135.32 931.2 L0 931.2 Z" class="st5"/>
+				</g>
+				<g id="shape304-544" v:mID="304" v:groupContext="shape">
+					<title>シート.304</title>
+					<path d="M0 931.2 L135.32 931.2 L0 931.2 Z" class="st6"/>
+					<path d="M0 931.2 L135.32 931.2" class="st23"/>
+				</g>
 			</g>
 		</g>
 	</g>
