@@ -1,0 +1,40 @@
+= Precautions
+
+== Safety Precautions
+
+To ensure the safe use of this product, please pay particular attention to the following points:
+
+* Before use, be sure to read the product manual and related materials. Use the product correctly and safely in accordance with the usage instructions.
+* Avoid using this product in environments with excessive water, moisture, dust, oil fumes, or in the presence of corrosive gases, flammable gases and other dangerous gases. Doing so may cause fires, malfunctions, electric shocks, or other hazards.
+* This product may become hot due to heat generation, especially during periods of prolonged and continuous use. Depending on the ambient temperature and user handling, this can cause burns. Exercise caution when handling the unit during prolonged and continuous operation, and until it has cooled down after powering off.
+* The SC-OBC Module A1 Development Board uses general-purpose consumer electronic components. Do not use it in applications where extremely high reliability and safety are required for function and precision, such as in aerospace, aviation, medical, nuclear, transportation, traffic, or in safety devices where human life, accidents, or significant property damage could be involved.
+* If smoke, fire, or abnormal heat generation occurs, turn off the power immediately.
+
+== Handling Precautions
+
+Observe the following precautions when handling this product:
+
+* Avoid applying excessive force to connectors to prevent damage.
+* Do not insert or remove connectors into interfaces other than hot-swappable ones (USB, SC Bus) while power is supplied to this product or its peripheral circuits.
+* Be mindful of static electricity when opening the product packaging.
+* Avoid using the product in environments with continuous vibration (e.g., in vehicles) or impact, as this may shorten its lifespan and increase the likelihood of failure.
+* Using the product under conditions exceeding its specified range may cause failure.
+
+== Product Storage
+
+* The recommended temperature and humidity conditions for storage are as follows:
++
+[width="50%",cols="1,1",options="header",]
+|===
+|Recommended Temperature and Humidity Environment |5 to 30°C/60%RH or less
+|===
+* When storing products in inventory, avoid environments with high temperatures, high humidity, excessive dust, potential water exposure, direct sunlight, or locations where toxic gases (especially corrosive gases) may be present.
+* Store in locations with minimal temperature fluctuations. Sudden temperature changes during storage can cause condensation, leading to oxidation or corrosion of metal parts that can potentially affect solderability.
+* When storing this product, avoid using vinyl bags or plastic containers that easily accumulate static electricity. Use storage containers treated with an antistatic coating.
+* Handle with care: Direct contact with gold-plated parts using bare hands may accelerate deterioration.
+
+== Export
+
+* When exporting our products, the exporter is responsible for complying with the export-related laws and regulations of Japan and all relevant foreign countries, and for completing all necessary procedures.
+* Our products may not be exported, sold, or otherwise provided to nations, organizations, corporations, or individuals subject to sanctions or trade embargoes imposed by Japan or other relevant countries.
+* Our products and related technologies may not be used for military purposes, such as the development of weapons of mass destruction, or for any equipment prohibited from manufacture, use, sale, or procurement under domestic or international laws and regulations.

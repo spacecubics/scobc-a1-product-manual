@@ -3,6 +3,7 @@ title: SC-OBC Module A1 (en)
 version: "latest"
 start_page: index.adoc
 nav:
+  - modules/common/nav.adoc
   - modules/ROOT/nav.adoc
   - modules/dev-board/nav.adoc
   - modules/software/nav.adoc

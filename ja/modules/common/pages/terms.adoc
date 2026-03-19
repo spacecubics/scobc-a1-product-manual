@@ -1,0 +1,24 @@
+= 用語の定義
+
+本書の中で使用する用語の定義は以下の通りです。
+
+[width="100%",cols="1,4",options="header",]
+|===
+|用語 |説明
+|OBC |SC-OBC Module A1 を示す。
+|TRCH |Timing, Reset, Config & Health Controller の略。OBCでは PIC16LF877 を採用している。
+|FPGA |Field Programmable Gate Array の略。OBCではAMD（旧 Xilinx）製 Artix-7 を採用している。
+|Dev Board |SC-OBC Module A1 Development Board を示す。
+|Universal Area |Dev Board上に2.54mmピッチで配置している、未接続のスルーホール群のエリアを示す。
+|UIO1 |OBCのFPGAにおける User IO Group 1 を示す。
+|UIO2 |OBCのFPGAにおける User IO Group 2 を示す。
+|UIO3 |OBCのFPGAにおける User IO Group 3 を示す。
+|UIO4 |OBCのFPGAにおける User IO Group 4 を示す。
+|VIN_A |OBCの冗長化された電源入力の片側（A系統）を示す。
+|VIN_B |OBCの冗長化された電源入力の片側（B系統）を示す。
+|VDD_3V3_SYS |OBCから出力される電圧を示す。VIN_AおよびVIN_Bへ入力した+5Vから生成された+3.3Vが統合された電圧で、OBCのTRCHなどで使用されている。詳しくはOBCの電源回路の構成を参照。
+|VDD_3V3_IO |OBCから出力される電圧を示す。VDD_3V3_SYSが更にOBCの回路を経由した後の電圧で、OBCのFPGAなどに使用されている。詳しくはOBCの電源回路の構成を参照。
+|VDD_3V3_DCDC |Dev Board上に設けられている降圧DC/DCコンバータ回路（IC13）の出力（+3.3V）を示す。
+|VDD_UIO1 |UIO1が属するFPGA Bankへの電源を示す。
+|VDD_UIO2 |UIO2が属するFPGA Bankへの電源を示す。
+|===
