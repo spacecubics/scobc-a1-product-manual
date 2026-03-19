@@ -173,7 +173,7 @@ Connect MPLAB PICKit4 to the following pins on the OBC Module.
 
 | 1: MCLR | 51
 | 2: VDD | 32
-| 3: Ground | 6, 15, 24, 29, 33, 48, 52, 57, 66, 75
+| 3: GND | 6, 15, 24, 29, 33, 48, 52, 57, 66, 75
 | 4: PGD | 49
 | 5: PGC | 50
 | 6: N.C. | unconnected
