@@ -4,12 +4,11 @@
 
 * xref:attachment$SC-EVB-A1001_Schematic_Rev1.pdf[SC-EVB-A1001_Schematic_Rev1.pdf]
 
-=== Revision History
+=== Schematic Revision History
 [width="100%",cols="1,2,1,4",options="header",]
 |===
-|Date |Board No. |Rev. |Description
-|2025/6/16 |SC-MPN-0054A |1.0 |Initial Release
-|2025/9/24 |SC-MPN-0054B |1.0 |Initial Release
+|Date |Part No. |Rev. |Description
+|2025/9/24 |SC-EVB-A1001 |1 |Initial Release
 |===
 
 == Component Layout Diagram
