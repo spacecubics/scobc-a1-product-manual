@@ -1,7 +1,6 @@
 .Development Board
 * xref:intro.adoc[]
 * xref:precautions.adoc[]
-* xref:terms.adoc[]
 * xref:overview.adoc[]
 * xref:before-power-on.adoc[]
 * xref:electrical-specs.adoc[]
