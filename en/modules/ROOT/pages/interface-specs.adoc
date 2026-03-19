@@ -17,7 +17,7 @@ Refer to the Board Layout Diagram for connector locations.
 | 3 | VIN_A | Power | - | power supply (VIN_A)
 | 4 | ULPI_DP | Inout | - | SC Bus D + signal
 | 5 | ULPI_DM | Inout | - | SC Bus D - signal
-| 6 | GND | Power | - | power supply (GND)
+| 6 | GND | Power | - | Ground
 | 7 | UIO1_00 | Inout | VDD_UIO1 | User IO1 Bit 0 signal is connected to FPGA pin IO_L13P_T2_MRCC_34 (pin: R3).
 | 8 | UIO1_01 | Inout | VDD_UIO1 | User IO1 Bit 1 signal is connected to FPGA pin IO_L13N_T2_MRCC_34 (pin: P3).
 | 9 | UIO1_02 | Inout | VDD_UIO1 | User IO1 Bit 2 signal is connected to FPGA pin IO_L14P_T2_SRCC_34 (pin: P4).
@@ -26,7 +26,7 @@ Refer to the Board Layout Diagram for connector locations.
 | 12 | UIO1_05 | Inout | VDD_UIO1 | User IO1 Bit 5 signal is connected to FPGA pin IO_L11N_T1_SRCC_34 (pin: L2).
 | 13 | UIO1_06 | Inout | VDD_UIO1 | User IO1 Bit 6 signal is connected to FPGA pin IO_L10P_T1_34 (pin: H2).
 | 14 | UIO1_07 | Inout | VDD_UIO1 | User IO1 Bit 7 signal is connected to FPGA pin IO_L10N_T1_34 (pin: H1).
-| 15 | GND | Power | - | power supply (GND)
+| 15 | GND | Power | - | Ground
 | 16 | UIO1_08 | Inout | VDD_UIO1 | User IO1 Bit 8 signal is connected to FPGA pin IO_L7P_T1_34 (pin: K1).
 | 17 | UIO1_09 | Inout | VDD_UIO1 | User IO1 Bit 9 signal is connected to FPGA pin IO_L7N_T1_34 (pin: J1).
 | 18 | UIO1_10 | Inout | VDD_UIO1 | User IO1 Bit 10 signal is connected to FPGA pin IO_L9P_T1_DQS_34 (pin: N1).
@@ -35,12 +35,12 @@ Refer to the Board Layout Diagram for connector locations.
 | 21 | UIO1_13 | Inout | VDD_UIO1 | User IO1 Bit 13 signal is connected to FPGA pin IO_L18N_T2_34 (pin: U1).
 | 22 | UIO1_14 | Inout | VDD_UIO1 | User IO1 Bit 14 signal is connected to FPGA pin IO_L1P_T0_34 (pin: K3).
 | 23 | UIO1_15 | Inout | VDD_UIO1 | User IO1 Bit 15 signal is connected to FPGA pin IO_L1N_T0_34 (pin: J3).
-| 24 | GND | Power | - | power supply (GND)
+| 24 | GND | Power | - | Ground
 | 25 | UIO3_00 | Inout | VDD_3V3_SYS / VDD_3V3_IOfootnote:hwopt[The power domain varies based on the hardware configuration. See <<hwopt,Hardware Options and IO Connections>>.] | Power domains differ depending on hardware options. See “Hardware options and IO connections” [fuzzy:*Hardware options and IO connections]. User IO3 Bit 0 signal is connected to RD4/PSP4 of the PIC16LF877. This can be reassigned to FPGA pin IO_L23P_T3_12 (pin: Y15) via hardware configuration options.
 | 26 | UIO3_01 | Inout | VDD_3V3_SYS / VDD_3V3_IOfootnote:hwopt[] | User IO3 Bit 1 signal is connected to RD5/PSP5 of the PIC16LF877. This can be reassigned to FPGA pin IO_L23N_T3_12 (pin: AA15) via hardware configuration options.
 | 27 | UIO3_02 | Inout | VDD_3V3_SYS / VDD_3V3_IOfootnote:hwopt[] | User IO3 Bit 2 signal is connected to RD6/PSP6 of the PIC16LF877. This can be reassigned to FPGA pin IO_L24P_T3_12 (pin: W14) via hardware configuration options.
 | 28 | UIO4_00 | Input | VDD_3V3_IO| User IO4 Bit 0 signal is connected to FPGA pin IO_L22P_T3_12 (pin: AB16).
-| 29 | GND | Power | - | power supply (GND)
+| 29 | GND | Power | - | Ground
 | 30 | TRCH_UART_TX | Output | VDD_3V3_SYS / VDD_3V3_IOfootnote:hwopt[] | TRCH UART TX signal is connected to RC6/TX/CK of the PIC16LF877. This can be reassigned to FPGA pin IO_L24N_T3_12 (pin: W15) via hardware configuration options.
 |====
 
@@ -50,7 +50,7 @@ Refer to the Board Layout Diagram for connector locations.
 
 | 31 | TRCH_UART_RX | Input | VDD_3V3_SYS / VDD_3V3_IOfootnote:hwopt[] | TRCH UART RX signal is connected to RC7/RX/DT of the PIC16LF877. Using hardware options, it can be reassigned to FPGA IO_L1N_T0_12 (pin: AE26).
 | 32 | VDD_3V3_SYS | Power | - | power supply (VDD_3V3_SYS) output
-| 33 | GND| Power | - | power supply (GND)
+| 33 | GND| Power | - | Ground
 | 34 | I2C_EXT_SCL | Output | VDD_3V3_SYS | I2C SCL signal connects the PIC16LF877 RD2 PSP2 pin to the FPGA IO_L9P_T1_DQS_12 pin at AE22. It is pulled up with a 4.7 kΩ resistor.
 | 35 | I2C_EXT_SDA | Inout | VDD_3V3_SYS | I2C SDA signal connects the PIC16LF877 RD3 PSP3 pin to the FPGA IO_L9N_T1_DQS_12 pin at AF22. It is pulled up with a 4.7 kΩ resistor.
 | 36 | WDOG_OUT | Output | VDD_3V3_SYS / VDD_3V3_IOfootnote:hwopt[] | Watchdog output signal is connected to RE0/AN5/RD of the PIC16LF877. It can be switched to FPGA IO_L16N_T2_12 (pin: AF18) via hardware options.
@@ -65,16 +65,16 @@ Refer to the Board Layout Diagram for connector locations.
 | 45 | UIO4_03 | Inout | VDD_3V3_IO | User IO4 Bit 3 / CM3 TDI signal is connected to FPGA IO_L16N_T2_13 (pin: Y20).
 | 46 | UIO4_02 | Inout | VDD_3V3_IO | User IO4 Bit 2 / CM3 TMS and SWDIO signals are connected to FPGA IO_L14N_T2_SRCC_13 (pin: Y21).
 | 47 | UIO4_01 | Inout | VDD_3V3_IO | User IO4 Bit 1 / CM3 TCK and SWCLK signals are connected to FPGA IO_L14P_T2_SRCC_13 (pin: W21).
-| 48 | GND| Power | - | power supply (GND)
+| 48 | GND| Power | - | Ground
 | 49 | ICSP_PGD | Inout | VDD_3V3_SYS | PIC PGD signal is connected to RB7 / PGD of PIC16LF877.
 | 50 | ICSP_PGC | Inout | VDD_3V3_SYS | PIC PGC signal is connected to RB6 / PGC of PIC16LF877.
 | 51 | ICSP_MCLR_B | Input | VDD_3V3_SYS | PIC MCLR_B signal is connected to MCLR / VPP of PIC16LF877.
-| 52 | GND| Power | - | power supply (GND)
+| 52 | GND| Power | - | Ground
 | 53 | FPGA_TCK | Input | VDD_3V3_IO | FPGA JTAG TCK signal is connected to TCK_0 (pin: H12) of FPGA.
 | 54 | FPGA_TDO | Output | VDD_3V3_IO | FPGA JTAG TDO signal is connected to TDO_0 (pin: J10) of FPGA.
 | 55 | FPGA_TDI | Input | VDD_3V3_IO | FPGA JTAG TDI signal is connected to TDI_0 (pin: H10) of FPGA.
 | 56 | FPGA_TMS | Input | VDD_3V3_IO | FPGA JTAG TMS signal is connected to TMS_0 (pin: H11) of FPGA.
-| 57 | GND| Power| -| power supply (GND)
+| 57 | GND| Power| -| Ground
 | 58 | UIO2_15 | Inout | VDD_UIO2 | User IO2 Bit 15 signal is connected to FPGA IO_L16N_T2_35 (pin: A4).
 | 59 | UIO2_14 | Inout | VDD_UIO2 | User IO2 Bit 14 signal is connected to FPGA IO_L16P_T2_35 (pin: B4).
 | 60 | UIO2_13 | Inout | VDD_UIO2 | User IO2 Bit 13 signal is connected to FPGA IO_L20N_T3_35 (pin: A2).
@@ -83,7 +83,7 @@ Refer to the Board Layout Diagram for connector locations.
 | 63 | UIO2_10 | Inout | VDD_UIO2 | User IO2 Bit 10 signal is connected to FPGA IO_L24P_T3_35 (pin: G2).
 | 64 | UIO2_09 | Inout | VDD_UIO2 | User IO2 Bit 9 signal is connected to FPGA IO_L23N_T3_35 (pin: D1).
 | 65 | UIO2_08 | Inout | VDD_UIO2 | User IO2 Bit 8 signal is connected to FPGA IO_L23P_T3_35 (pin: E1).
-| 66 | GND| Power | - | power supply (GND)
+| 66 | GND| Power | - | Ground
 | 67 | UIO2_07 | Inout | VDD_UIO2 | User IO2 Bit 7 signal is connected to FPGA IO_L21N_T3_DQS_35 (pin: B1).
 | 68 | UIO2_06 | Inout | VDD_UIO2 | User IO2 Bit 6 signal is connected to FPGA IO_L21P_T3_DQS_35 (pin: C1).
 | 69 | UIO2_05 | Inout | VDD_UIO2 | User IO2 Bit 5 signal is connected to FPGA IO_L14N_T2_SRCC_35 (pin: C4).
@@ -98,7 +98,7 @@ Refer to the Board Layout Diagram for connector locations.
 | 72 | UIO2_02 | Inout | VDD_UIO2 | User IO2 Bit 2 signal is connected to FPGA pin IO_L11P_T1_SRCC_35 (pin: G4).
 | 73 | UIO2_01 | Inout | VDD_UIO2 | User IO2 Bit 1 signal is connected to FPGA pin IO_L13N_T2_MRCC_35 (pin: D5).
 | 74 | UIO2_00 | Inout | VDD_UIO2 | User IO2 Bit 0 signal is connected to FPGA pin IO_L13P_T2_MRCC_35 (pin: E5).
-| 75 | GND | Power | - | power supply (GND)
+| 75 | GND | Power | - | Ground
 | 76 | CANL | Inout | - | SC OBC CAN L signal
 | 77 | CANH | Inout | - | SC OBC CAN H signal
 | 78 | VIN_B | Power | - | power supply (VIN_B)
