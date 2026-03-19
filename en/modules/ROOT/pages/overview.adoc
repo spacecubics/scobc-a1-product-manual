@@ -22,7 +22,7 @@
 | | - operation frequency: 4 MHz
 | FPGA Source Clock | 24 MHz
 | On Chip SRAM | 32 kByte of FPGA BlockRAM
-| On Borad SRAM | 4 MByte Asynchronous Static RAM (CY7C1061GE)
+| On Board SRAM | 4 MByte Asynchronous Static RAM (CY7C1061GE)
 | | - ECC Memory Protection
 | | - Memory Scrubbing
 | Configuration Flash Memory | 32 MByte/Redundancy (NOR Flash: S25FL256L)
