@@ -9,7 +9,7 @@ Current and Voltage Monitorの監視ノードは以下の通りです。
 
 [width="80%",options="header"]
 |====
-| Current/Voltage Monitor No.| Slave Address| Channel| Node
+| Current/Voltage Monitor No.| Target Address| Channel| Node
 
 | 1| 0x40| 1| VDD_1V0
 | | | 2| VDD_1V8
@@ -25,13 +25,13 @@ Current and Voltage Monitorのアクセス方法は INA3221-Q1のデータシー
 OBC Moduleには、OBCの温度状態をモニタするため 3つの温度センサーを搭載しています。
 温度センサー ICには、TEXAS INSTRUMENTSの TMQ175-Q1が採用されており、I2C Interfaceによって TRCHと FPGAからデータを読み出す事ができます。
 
-温度センサーの搭載位置と Slave Addressは以下の通りです。
+温度センサーの搭載位置と Target Addressは以下の通りです。
 
 image::scobc-a1:ROOT:temperature_sensor_layout.png[scaledwidth=100%]
 
 [width="80%",options="header"]
 |====
-| IC No.| Slave Address
+| IC No.| Target Address
 
 | IC16| 0x4C
 | IC17| 0x4D
