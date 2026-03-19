@@ -2,7 +2,7 @@
 
 == 回路図
 
-* xref:scobc-a1:dev-board:attachment$SC-MPN-0056B_Dev_Board_Schematic_Rev1.pdf[SC-MPN-0056B_Dev_Board_Schematic_Rev1.pdf]
+* xref:scobc-a1:dev-board:attachment$SC-EVB-A1001_Schematic_Rev1.pdf[SC-EVB-A1001_Schematic_Rev1.pdf]
 
 === Revision History
 [width="100%",cols="1,2,1,4",options="header",]
