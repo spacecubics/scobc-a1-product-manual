@@ -42,12 +42,6 @@ Refer to the Board Layout Diagram for connector locations.
 | 28 | UIO4_00 | Input | VDD_3V3_IO| User IO4 Bit 0 signal is connected to FPGA pin IO_L22P_T3_12 (pin: AB16).
 | 29 | GND | Power | - | Ground
 | 30 | TRCH_UART_TX | Output | VDD_3V3_SYS / VDD_3V3_IOfootnote:hwopt[] | TRCH UART TX signal is connected to RC6/TX/CK of the PIC16LF877. This can be reassigned to FPGA pin IO_L24N_T3_12 (pin: W15) via hardware configuration options.
-|====
-
-[width="80%",options="header"]
-|====
-| Pin Number | Pin Name | I/O Type | Power Domain | Description
-
 | 31 | TRCH_UART_RX | Input | VDD_3V3_SYS / VDD_3V3_IOfootnote:hwopt[] | TRCH UART RX signal is connected to RC7/RX/DT of the PIC16LF877. Using hardware options, it can be reassigned to FPGA IO_L1N_T0_12 (pin: AE26).
 | 32 | VDD_3V3_SYS | Power | - | power supply (VDD_3V3_SYS) output
 | 33 | GND| Power | - | Ground
@@ -58,6 +52,12 @@ Refer to the Board Layout Diagram for connector locations.
 | 38 | VDD_3V3_IO | Power | - | power supply (VDD_3V3_IO) output
 | 39 | VDD_UIO1 | Power | - | power supply (VDD_UIO1)
 | 40 | VDD_UIO1 | Power | - | power supply (VDD_UIO1)
+|====
+
+[width="80%",options="header"]
+|====
+| Pin Number | Pin Name | I/O Type | Power Domain | Description
+
 | 41 | VDD_UIO2 | Power | - | power supply (VDD_UIO2)
 | 42 | VDD_UIO2 | Power | - | power supply (VDD_UIO2)
 | 43 | UIO4_05 | Inout | VDD_3V3_IO | User IO4 Bit 5 / CM3 NTRST signal is connected to FPGA IO_0_13 (pin: U24).
@@ -88,12 +88,6 @@ Refer to the Board Layout Diagram for connector locations.
 | 68 | UIO2_06 | Inout | VDD_UIO2 | User IO2 Bit 6 signal is connected to FPGA IO_L21P_T3_DQS_35 (pin: C1).
 | 69 | UIO2_05 | Inout | VDD_UIO2 | User IO2 Bit 5 signal is connected to FPGA IO_L14N_T2_SRCC_35 (pin: C4).
 | 70 | UIO2_04 | Inout | VDD_UIO2 | User IO2 Bit 4 signal is connected to FPGA IO_L14P_T2_SRCC_35 (pin: D4).
-|====
-
-[width="80%",options="header"]
-|====
-| Pin Number | Pin Name | I/O Type | Power Domain | Description
-
 | 71 | UIO2_03 | Inout | VDD_UIO2 | User IO2 Bit 3 signal is connected to FPGA pin IO_L11N_T1_SRCC_35 (pin: F4).
 | 72 | UIO2_02 | Inout | VDD_UIO2 | User IO2 Bit 2 signal is connected to FPGA pin IO_L11P_T1_SRCC_35 (pin: G4).
 | 73 | UIO2_01 | Inout | VDD_UIO2 | User IO2 Bit 1 signal is connected to FPGA pin IO_L13N_T2_MRCC_35 (pin: D5).
