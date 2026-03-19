@@ -1,4 +1,5 @@
 = インタフェース仕様
+
 Dev Boardにおける各インタフェースの場所と仕様を以下に示します。
 
 image::scobc-a1:dev-board:Interface_Layout.svg[Interface_Layout.svg]
