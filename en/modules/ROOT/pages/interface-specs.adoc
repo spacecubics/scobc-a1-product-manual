@@ -163,13 +163,13 @@ Please note that the signal power domain varies depending on whether it is conne
 === Debugger Connection
 
 ==== MPLAB PICkit4
-TRCH software can be programmed using Microchip’s MPLAB and the PICKit4 debugger/programmer.
+TRCH software can be programmed using Microchip’s MPLAB and the PICkit4 debugger/programmer.
 
-Connect MPLAB PICKit4 to the following pins on the OBC Module.
+Connect MPLAB PICkit4 to the following pins on the OBC Module.
 
 [width="80%",options="header"]
 |====
-| MPLAB PICKit4 | OBC Module CON1 Pin No.
+| MPLAB PICkit4 | OBC Module CON1 Pin No.
 
 | 1: MCLR | 51
 | 2: VDD | 32
