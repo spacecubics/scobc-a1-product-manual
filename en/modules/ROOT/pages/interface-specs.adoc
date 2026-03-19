@@ -26,7 +26,7 @@ Refer to the Board Layout Diagram for connector locations.
 | 12 | UIO1_05 | Inout | VDD_UIO1 | User IO1 Bit 5 signal is connected to FPGA pin IO_L11N_T1_SRCC_34 (pin: L2).
 | 13 | UIO1_06 | Inout | VDD_UIO1 | User IO1 Bit 6 signal is connected to FPGA pin IO_L10P_T1_34 (pin: H2).
 | 14 | UIO1_07 | Inout | VDD_UIO1 | User IO1 Bit 7 signal is connected to FPGA pin IO_L10N_T1_34 (pin: H1).
-| 15 | GND | Power | - | 電源(GND)
+| 15 | GND | Power | - | power supply (GND)
 | 16 | UIO1_08 | Inout | VDD_UIO1 | User IO1 Bit 8 signal is connected to FPGA pin IO_L7P_T1_34 (pin: K1).
 | 17 | UIO1_09 | Inout | VDD_UIO1 | User IO1 Bit 9 signal is connected to FPGA pin IO_L7N_T1_34 (pin: J1).
 | 18 | UIO1_10 | Inout | VDD_UIO1 | User IO1 Bit 10 signal is connected to FPGA pin IO_L9P_T1_DQS_34 (pin: N1).
