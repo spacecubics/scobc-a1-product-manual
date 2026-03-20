@@ -1,9 +1,9 @@
 .Introduction
+* xref:introduction.adoc[]
 * xref:precautions.adoc[]
 * xref:terms.adoc[]
 
 .Product Overview
-* xref:introduction.adoc[]
 * xref:overview.adoc[]
 * xref:electrical-specs.adoc[]
 * xref:interface-specs.adoc[]
