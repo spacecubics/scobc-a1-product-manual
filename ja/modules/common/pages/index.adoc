@@ -1,5 +1,0 @@
-:sectnums:
-
-= SC-OBC Module A1 Manual
-
-include::precautions.adoc[leveloffset=+1]

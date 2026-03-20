@@ -1,3 +1,7 @@
+.Introduction
+* xref:precautions.adoc[]
+* xref:terms.adoc[]
+
 .Product Overview
 * xref:introduction.adoc[]
 * xref:overview.adoc[]

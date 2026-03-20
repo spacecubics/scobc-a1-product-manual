@@ -1,3 +1,0 @@
-.Introduction
-* xref:precautions.adoc[]
-* xref:terms.adoc[]
