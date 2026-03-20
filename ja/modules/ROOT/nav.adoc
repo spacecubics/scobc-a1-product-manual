@@ -1,11 +1,11 @@
-.Introduction
+.Product Overview
 * xref:introduction.adoc[]
 * xref:precautions.adoc[]
 * xref:terms.adoc[]
 * xref:block-diagram.adoc[]
 * xref:key-specs.adoc[]
 
-.Product Overview
+.OBC Module
 * xref:electrical-specs.adoc[]
 * xref:interface-specs.adoc[]
 * xref:obs-specs.adoc[]
