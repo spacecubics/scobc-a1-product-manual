@@ -1,0 +1,13 @@
+= Block Diagram
+
+The SC-OBC Module A1 is composed of two boards—an OBC module and an IO board—providing high flexibility by leveraging the capabilities of the FPGA.
+
+The OBC Module provides versatile functionality that remains consistent regardless of interface changes in systems using the SC-OBC Module A1.
+The IO Board, on the other hand, handles functions that directly impact system configuration—such as transceiver ICs and protocol converter ICs—ensuring compliance with the electrical requirements of the interface.
+
+Users of the SC-OBC Module A1 can accommodate new satellites by redesigning the IO Board, allowing flexibility even when the satellite system changes.
+Although satellite systems may differ, systems sharing the same OBC Module can still reuse much of their software assets.
+
+The OBC Module and IO Board are connected via an 80-pin board-to-board connector.
+
+image::scobc-a1:ROOT:BlockDiagram.png[scaledwidth=100%]

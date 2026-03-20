@@ -1,0 +1,13 @@
+= ブロック図
+
+SC-OBC Module A1は、FPGAを採用することによる高い柔軟性を維持するために、OBC Moduleと IO Boardの 2枚の基板で構成されます。
+
+OBC Moduleには、SC-OBC Module A1を採用するシステムのインターフェース構成が変わっても影響しない再利用性の高い機能が実装されています。
+一方、IO Boardにはインターフェースの電気的特性を満たすために必要な Transceiver ICや プロトコルコンバータ ICなど、システム構成に影響を受ける機能を実装します。
+
+SC-OBC Module A1を使うユーザーは、衛星のシステムが変更になっても IO Boardを再設計する事で、新しい衛星に適合させる事ができます。
+衛星のシステムが異なっても、同じ OBC Moduleを採用するシステムでは多くのソフトウェア資産を流用する事ができます。
+
+OBC Moduleと IO Boardは 80ピンの Board to Boardコネクタで接続します。
+
+image::scobc-a1:ROOT:BlockDiagram.png[scaledwidth=100%]
