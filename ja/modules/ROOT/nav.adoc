@@ -7,6 +7,7 @@
 
 .OBC Module
 * xref:electrical-specs.adoc[]
+* xref:power-circuit.adoc[]
 * xref:interface-specs.adoc[]
 * xref:obs-specs.adoc[]
 * xref:board-status-circuit.adoc[]
