@@ -36,6 +36,7 @@ image::CON1_Insertion.svg[CON1_Insertion.svg]
 Similarly, when removing the connector, do so perpendicular to the board. +
 For the OBC connection interface (CON1), refer to the interface specifications described later.
 
+[id="dev-board-connections"]
 == Connections
 The following shows how to connect the Dev Board and peripheral devices.
 
