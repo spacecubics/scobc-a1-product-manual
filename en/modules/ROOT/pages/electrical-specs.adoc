@@ -1,9 +1,9 @@
 = Electrical Specifications
 
 == Absolute Maximum Ratings
-[width="80%",options="header"]
+[cols="3,^3,^2,^2,^1,3",options="header"]
 |====
-| Item | Symbol | Minimum | Maximum | Unit | Conditions / Notes
+| Item | Symbol | Min | Max | Units | Conditions / Notes
 
 | Power supply voltage | VIN_A, VIN_B | -0.3 | 10.0 | V |
 | FPGA I/O bank power supply voltage | VDD_UIO1, VDD_UIO2 | -0.5 | 3.6 | V |
@@ -21,9 +21,9 @@ Exceeding absolute maximum ratings can cause permanent damage to the device.
 Please operate with a sufficient safety margin below the specified values.
 
 == Recommended Operating Conditions
-[width="80%",options="header"]
+[cols="3,^3,^2,^2,^2,^1,3",options="header"]
 |====
-| Item | Symbol | Minimum | Standard | Maximum | Unit | Conditions / Notes
+| Item | Symbol | Min | Typ | Max | Units | Conditions / Notes
 
 | Power supply voltage | VIN_A, VIN_B | 4.5 | 5.0 | 5.5 | V |
 | FPGA I/O bank supply voltage | VDD_UIO1, VDD_UIO2 | 1.14 | | 3.465 | V | Power should be switched on and off simultaneously with VDD_3V3_IO, or only when VDD_3V3_IO is supplying 3.3V.
@@ -31,9 +31,9 @@ Please operate with a sufficient safety margin below the specified values.
 |====
 
 == Electrical Properties
-[width="80%",options="header"]
+[cols="3,^3,^2,^2,^2,^1,3",options="header"]
 |====
-| Item | Symbol | Minimum | Standard | Maximum | Unit | Conditions / Notes
+| Item | Symbol | Min | Typ | Max | Units | Conditions / Notes
 
 | Over-voltage protection (OVP) threshold voltage | Vovp_th | | 6.0 | | V |
 | Under-voltage lockout (UVLO) threshold voltage | Vuvlo_th_h | | 4.1 | | V | When VIN_A and/or VIN_B rise
